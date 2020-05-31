@@ -2,12 +2,14 @@
 # Example file for HelloWorld
 #
 
-# defines the main method
+
+# defines the main function
 def main():
-    # prints a string
-    print("Hello World!")
+    # prints out the string
+    print("hello world!")
 
 
-# select and execute the main method and execute it
+# checks if the function is the main function, otherwise it does not execute it
 if __name__ == "__main__":
+    # calls the function
     main()
