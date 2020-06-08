@@ -4,5 +4,8 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "python.dataScience.jupyterServerURI": "local",
+    "python.pythonPath": "C:\\Users\\badjj\\miniconda3\\envs\\myenv\\python.exe"
+  }
 }
