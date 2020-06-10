@@ -6,10 +6,11 @@ import pandas as pd
 # for the absolute path
 import os
 
-time_cols = ["tpep_dropoff_datetime", "tpep_pickup_datetime"]
-
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 my_file = os.path.join(THIS_FOLDER, "taxi.csv.bz2")
+
+
+time_cols = ["tpep_dropoff_datetime", "tpep_pickup_datetime"]
 
 
 def load_df(file_name):
