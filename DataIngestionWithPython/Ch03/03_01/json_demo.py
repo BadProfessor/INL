@@ -2,19 +2,26 @@
 import json
 from datetime import datetime
 
-data = b'''
+# encoder and decoder to transfer it to json and back
+
+# import os
+
+# THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+# # os.path.join(THIS_FOLDER, "test")
+
+data = b"""
 {
   "from": "Wile. E. Coyote",
   "to": "ACME",
   "amount": 103.7,
   "time": "2019-08-07T12:28:39.781551"
 }
-'''
+"""
 
 
 def fix_time(pair):
     key, value = pair
-    if key != 'time':
+    if key != "time":
         return pair
 
     return (key, datetime.fromisoformat(value))

@@ -5,25 +5,32 @@ from pathlib import Path
 from random import random
 from time import sleep
 
+# first run this file and then event_client.py
+
+import os
+
+THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+# os.path.join(THIS_FOLDER, "test")
+
 from pynats import NATSClient
 
 here = Path(__file__).absolute().parent
-csv_file = here / 'taxi.csv.bz2'
+csv_file = here / os.path.join(THIS_FOLDER, "taxi.csv.bz2")
 
 
 conversions = [
-    ('VendorID', 'vendor', int),
-    ('tpep_pickup_datetime', 'pickup', str),
-    ('tpep_dropoff_datetime', 'dropoff', str),
-    ('passenger_count', 'passengers', int),
-    ('trip_distance', 'distance', float),
-    ('tip_amount', 'tip', float),
-    ('total_amount', 'amount', float),
+    ("VendorID", "vendor", int),
+    ("tpep_pickup_datetime", "pickup", str),
+    ("tpep_dropoff_datetime", "dropoff", str),
+    ("passenger_count", "passengers", int),
+    ("trip_distance", "distance", float),
+    ("tip_amount", "tip", float),
+    ("total_amount", "amount", float),
 ]
 
 
 def iter_rides():
-    with bz2.open(csv_file, 'rt') as fp:
+    with bz2.open(csv_file, "rt") as fp:
         for row in csv.DictReader(fp):
             record = {}
             for src, dest, conv in conversions:
@@ -31,9 +38,9 @@ def iter_rides():
             yield record
 
 
-client = NATSClient('nats://localhost:4222')
+client = NATSClient("nats://localhost:4222")
 client.connect()
 for ride in iter_rides():
     sleep(random())
     payload = json.dumps(ride)
-    client.publish('rides', payload=payload)
+    client.publish("rides", payload=payload)

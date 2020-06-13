@@ -1,7 +1,14 @@
 """Calculate average ride duration, from file with JSON object per line"""
 
+# imports json and datetime moduels
+# this gets the average time duration
 import json
 from datetime import datetime, timedelta
+
+import os
+
+THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+# os.path.join(THIS_FOLDER, "test")
 
 
 def parse_time(ts):
@@ -15,7 +22,7 @@ def parse_time(ts):
 
 def fix_pair(pair):
     key, value = pair
-    if key not in ('pickup', 'dropoff'):
+    if key not in ("pickup", "dropoff"):
         return pair
     return key, parse_time(value)
 
@@ -25,11 +32,11 @@ def pairs_hook(pairs):
 
 
 durations = []
-with open('taxi.jl') as fp:
+with open(os.path.join(THIS_FOLDER, "taxi.jl")) as fp:
     for line in fp:
         obj = json.loads(line, object_pairs_hook=pairs_hook)
-        duration = obj['dropoff'] - obj['pickup']
+        duration = obj["dropoff"] - obj["pickup"]
         durations.append(duration)
 
 avg_duration = sum(durations, timedelta()) / len(durations)
-print(f'average ride duration: {avg_duration}')
+print(f"average ride duration: {avg_duration}")

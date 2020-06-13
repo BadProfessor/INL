@@ -5,26 +5,33 @@ import json
 from collections import namedtuple
 from datetime import datetime
 
-Column = namedtuple('Column', 'src dest convert')
+# conversion from CSV to JSON, in this case we're making a .jl file
+
+import os
+
+THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+# os.path.join(THIS_FOLDER, "test")
+
+Column = namedtuple("Column", "src dest convert")
 
 
 def parse_timestamp(text):
-    return datetime.strptime(text, '%Y-%m-%d %H:%M:%S')
+    return datetime.strptime(text, "%Y-%m-%d %H:%M:%S")
 
 
 columns = [
-    Column('VendorID', 'vendor_id', int),
-    Column('passenger_count', 'num_passengers', int),
-    Column('tip_amount', 'tip', float),
-    Column('total_amount', 'price', float),
-    Column('tpep_dropoff_datetime', 'dropoff_time', parse_timestamp),
-    Column('tpep_pickup_datetime', 'pickup_time', parse_timestamp),
-    Column('trip_distance', 'distance', float),
+    Column("VendorID", "vendor_id", int),
+    Column("passenger_count", "num_passengers", int),
+    Column("tip_amount", "tip", float),
+    Column("total_amount", "price", float),
+    Column("tpep_dropoff_datetime", "dropoff_time", parse_timestamp),
+    Column("tpep_pickup_datetime", "pickup_time", parse_timestamp),
+    Column("trip_distance", "distance", float),
 ]
 
 
 def iter_records(file_name):
-    with bz2.open(file_name, 'rt') as fp:
+    with bz2.open(file_name, "rt") as fp:
         reader = csv.DictReader(fp)
         for csv_record in reader:
             record = {}
@@ -40,7 +47,7 @@ def encode_time(obj):
     return obj.isoformat()
 
 
-with open('taxi.jl', 'w') as out:
-    for record in iter_records('taxi.csv.bz2'):
+with open(os.path.join(THIS_FOLDER, "taxi.jl"), "w") as out:
+    for record in iter_records(os.path.join(THIS_FOLDER, "taxi.csv.bz2")):
         data = json.dumps(record, default=encode_time)
-        out.write(f'{data}\n')
+        out.write(f"{data}\n")

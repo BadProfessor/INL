@@ -1,6 +1,8 @@
 """NATS client accepint JSON messages on 'rides" topic"""
 import json
 
+# to be ran after spammer.py
+
 from pynats import NATSClient
 
 
@@ -9,7 +11,7 @@ def handler(message):
     print(payload)  # TODO: store/calculate/train ...
 
 
-client = NATSClient('nats://localhost:4222')
+client = NATSClient("nats://localhost:4222")
 client.connect()
-client.subscribe('rides', callback=handler)
+client.subscribe("rides", callback=handler)
 client.wait(count=10)  # Read 10 messages
