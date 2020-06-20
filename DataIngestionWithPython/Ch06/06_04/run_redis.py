@@ -4,18 +4,23 @@ from pathlib import Path
 from subprocess import PIPE, Popen
 from time import monotonic, sleep
 
+# redis was imported into Anaconda, but it is not reading it. I would have to debug the code or setup
 from redis import Redis, RedisError
 
 here = Path(__file__).absolute().parent
-data_file = here / 'commerce.jl'
+data_file = here / "commerce.jl"
 
 port = 6379
 
 cmd = [
-    'docker', 'run',
-    '--rm', '-p', f'{port}:{port}',
-    '--name', 'redis-demo',
-    'redis:alpine',
+    "docker",
+    "run",
+    "--rm",
+    "-p",
+    f"{port}:{port}",
+    "--name",
+    "redis-demo",
+    "redis:alpine",
 ]
 
 proc = Popen(cmd, stdout=PIPE)
@@ -33,9 +38,9 @@ while monotonic() - start < 60:
         sleep(0.1)
 
 if not up:
-    raise SystemExit('error: redis not up')
+    raise SystemExit("error: redis not up")
 
-print('populating database...')
+print("populating database...")
 with open(data_file) as fp:
     for line in fp:
         obj = json.loads(line)
@@ -43,9 +48,9 @@ with open(data_file) as fp:
         conn.set(key, line[:-1])
 
 
-print(f'redis ready on port {port}, hit CTRL-C to quit')
+print(f"redis ready on port {port}, hit CTRL-C to quit")
 try:
     proc.wait()
 except KeyboardInterrupt:
     pass
-print('\nkthxbai ☺')
+print("\nkthxbai ☺")
