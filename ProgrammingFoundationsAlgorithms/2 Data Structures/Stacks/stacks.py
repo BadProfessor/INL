@@ -1,6 +1,6 @@
 # try out the Python stack functions
 
-# create a new empty stack
+# create a new empty stack fpr an empty list
 stack = []
 
 # push items onto the stack
