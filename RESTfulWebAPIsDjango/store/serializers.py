@@ -11,23 +11,26 @@ class CartItemSerializer(serializers.ModelSerializer):
         fields = ("product", "quantity")
 
 
+# product serializer for the model
 class ProductSerializer(serializers.ModelSerializer):
     is_on_sale = serializers.BooleanField(read_only=True)
     current_price = serializers.FloatField(read_only=True)
     description = serializers.CharField(min_length=2, max_length=200)
     cart_items = serializers.SerializerMethodField()
-    # price = serializers.FloatField(min_value=1.00, max_value=100000)
     price = serializers.DecimalField(
         min_value=1.00, max_value=100000, max_digits=None, decimal_places=2,
     )
+    # sale start field
     sale_start = serializers.DateTimeField(
         required=False,
+        # date formats
         input_formats=["%I:%M %p %d %B %Y"],
         format=None,
         allow_null=True,
         help_text='Accepted format is "12:01 PM 16 April 2019"',
         style={"input_type": "text", "placeholder": "12:01 AM 28 July 2019"},
     )
+    # sale end field
     sale_end = serializers.DateTimeField(
         required=False,
         input_formats=["%I:%M %p %d %B %Y"],
@@ -36,7 +39,9 @@ class ProductSerializer(serializers.ModelSerializer):
         help_text='Accepted format is "12:01 PM 16 April 2019"',
         style={"input_type": "text", "placeholder": "12:01 AM 28 July 2019"},
     )
+    # photo fields
     photo = serializers.ImageField(default=None)
+    # warranty field
     warranty = serializers.FileField(write_only=True, default=None)
 
     class Meta:
@@ -72,6 +77,7 @@ class ProductSerializer(serializers.ModelSerializer):
         return Product.objects.create(**validated_data)
 
 
+# composite field serializer for product stats
 class ProductStatSerializer(serializers.Serializer):
     stats = serializers.DictField(
         child=serializers.ListField(child=serializers.IntegerField(),)

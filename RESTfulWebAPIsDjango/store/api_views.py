@@ -40,6 +40,7 @@ class ProductList(ListAPIView):
         return queryset
 
 
+# create view and method
 class ProductCreate(CreateAPIView):
     serializer_class = ProductSerializer
 
@@ -53,6 +54,7 @@ class ProductCreate(CreateAPIView):
         return super().create(request, *args, **kwargs)
 
 
+# destroy view
 class ProductRetrieveUpdateDestroy(RetrieveUpdateDestroyAPIView):
     queryset = Product.objects.all()
     lookup_field = "id"
@@ -67,6 +69,7 @@ class ProductRetrieveUpdateDestroy(RetrieveUpdateDestroyAPIView):
             cache.delete("product_data_{}".format(product_id))
         return response
 
+    # update method
     def update(self, request, *args, **kwargs):
         response = super().update(request, *args, **kwargs)
         if response.status_code == 200:
@@ -84,6 +87,7 @@ class ProductRetrieveUpdateDestroy(RetrieveUpdateDestroyAPIView):
         return response
 
 
+# view for the stats
 class ProductStats(GenericAPIView):
     lookup_field = "id"
     serializer_class = ProductStatSerializer
