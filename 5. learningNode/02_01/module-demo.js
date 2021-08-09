@@ -1,3 +1,3 @@
-var myModule = require('./my-module.js');
+let myModule = require('./my-module.js');
 
 console.log(myModule.myText);

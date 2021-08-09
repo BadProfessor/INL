@@ -1,5 +1,5 @@
-var fs = require('fs')
+var fs = require('fs');
 
 fs.readdir('c:/', (err, data) => {
-    console.log(data)
-})
+  console.log(data);
+});
