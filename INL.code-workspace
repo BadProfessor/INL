@@ -5,6 +5,7 @@
     }
   ],
   "settings": {
-    "python.pythonPath": "C:\\Python\\python.exe"
+    "python.pythonPath": "C:\\Python\\python.exe",
+    "git.ignoreLimitWarning": true
   }
 }

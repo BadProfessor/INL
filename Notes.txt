@@ -1,0 +1,80 @@
+JS
+'use strict';
+
+# hot refresh
+# .env
+FAST_REFRESH=false
+
+NODE
+npm i
+npm run dev
+npm run build
+npm run start
+npm run debug
+
+MONGDODB
+mongod --version                // Version
+sudo apt install -y mongodb     // Install MongoDB
+sudo systemctl status mongodb   // Status
+sudo systemctl start mongodb    // Start
+sudo systemctl restart mongodb  // Restart
+sudo systemctl stop mongodb     // Stop
+sudo systemctl disable mongodb  // Disable automatic start
+sudo systemctl enable mongodb   // Enable automatic restart
+
+GIT
+git config --global user.name "user"                            //cli to associate a username with git
+git config --global user.email "email"                          //cli to associate a email with git
+git config --list                                               //check settings
+git init                                                        //initialize git
+git add -A                                                      //start adding
+git status                                                      //check the status
+git commit -m "Message"                                         //commit changes with a message
+git checkout -f                                                 //uncommit last changes
+ls -al ~/.ssh                                                   //check for any ssh keys
+ssh-keygen -t rsa                                               //generate rsa key pair - press three times enter
+cat ~/.ssh/id_rsa.pub                                           //press to check again the key
+git remote add origin git@github.com:BadProfessor/BlockFuzz.git //push the origin to GitHub
+git remote -v                                                   //list the origin
+git push -u origin master                                       //push to the master branch
+git checkout -b <branch name>                                   //create new branch
+git checkout <branch name>                                      //switch to a branch
+git merge   <branch name>                                       //merge the branches
+git branch -d <branch name>                                     //delete branch
+
+PYTHON
+#Install Python VS extension
+#Install (copy/paste) the .venv environment
+#Install Folder
+#Install modules
+
+#python modules
+pip install --upgrade pip
+pip install django
+pip install djangorestframework
+pip install django-filter
+pip install markdown
+pip install Pillow
+
+#python formating
+pip install pylint
+pip install black
+
+#python commands
+.venv\Scripts\activate          #activate the environment
+python manage.py migrate        #apply migrations
+python .\manage.py shell        #activate the shell
+python .\manage.py runserver    #run the server
+
+Flat UI Colors
+Bootstrap
+FontAwesome
+==============================================================
+Deploying Azure Active Directory
+Introduction to AWS for Non-Engineers: 1 Cloud Concepts
+Learning Node.js
+
+AWS
+Azure (Azure AD B2C)
+JavaScript (MongoDB, Express.js, React.js, Node.js)
+==============================================================
