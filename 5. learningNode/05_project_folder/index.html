@@ -24,7 +24,7 @@
       integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="/socket.io/socket.io.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -46,6 +46,7 @@
       <div id="messages"></div>
     </div>
     <script>
+      let socket = io();
       $(() => {
         $('#send').click(() => {
           let message = {
