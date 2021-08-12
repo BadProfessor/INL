@@ -70,9 +70,9 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Deploying Azure Active Directory - choose next the certificate path
-Introduction to AWS for Non-Engineers: Core Services
-Learning Node.js
+Deploying Azure Active Directory
+Introduction to AWS for Non-Engineers: 3 Core Services
+Learning Node.js - Types of data frameworks
 
 AWS
 Azure (Azure AD B2C)
