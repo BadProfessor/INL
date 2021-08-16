@@ -70,8 +70,8 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Deploying Azure Active Directory: Change course
-Introduction to AWS for Non-Engineers: 3 Core Services
+Learning Azure Management Tools
+Introduction to AWS for Non-Engineers: 4 Billing and Pricing
 Learning Node.js - Types of data frameworks
 
 AWS

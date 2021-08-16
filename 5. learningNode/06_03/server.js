@@ -1,39 +1,48 @@
-var express = require('express')
-var bodyParser = require('body-parser')
-var app = express()
-var http = require('http').Server(app)
-var io = require('socket.io')(http)
-var mongoose = require('mongoose')
+let express = require('express');
+let bodyParser = require('body-parser');
+let app = express();
+let http = require('http').Server(app);
+let io = require('socket.io')(http);
+const { MongoClient } = require('mongodb');
 
-app.use(express.static(__dirname))
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: false }))
+require('dotenv').config();
 
-var dbUrl = 'mongodb://user:user@ds155424.mlab.com:55424/learning-node'
+app.use(express.static(__dirname));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
-var messages = [
-    { name: 'Tim', message: 'Hi' },
-    { name: 'Jane', message: 'Hello' }
-]
+const uri = process.env.MONGO;
+
+let messages = [
+  { name: 'Tim', message: 'Hi' },
+  { name: 'Jane', message: 'Hello' },
+];
 
 app.get('/messages', (req, res) => {
-    res.send(messages)
-})
+  res.send(messages);
+});
 
 app.post('/messages', (req, res) => {
-    messages.push(req.body)
-    io.emit('message', req.body)
-    res.sendStatus(200)
-})
+  messages.push(req.body);
+  io.emit('message', req.body);
+  res.sendStatus(200);
+});
 
 io.on('connection', (socket) => {
-    console.log('a user connected')
-})
+  console.log('user connected');
+});
 
-mongoose.connect(dbUrl, { useMongoClient: true }, (err) => {
-    console.log('mongo db connection', err)
-})
+const client = new MongoClient(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+client.connect((err) => {
+  const collection = client.db('test').collection('devices');
+  // perform actions on the collection object
+  console.log('DB connected', err);
+  client.close();
+});
 
-var server = http.listen(3000, () => {
-    console.log('server is listening on port', server.address().port)
-})
+let server = http.listen(3000, () => {
+  console.log('server is listening on port', server.address().port);
+});
