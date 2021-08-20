@@ -70,7 +70,7 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Learning Azure Management Tools
+Learning Azure Network Security
 Introduction to AWS for Non-Engineers: 4 Billing and Pricing
 Learning Node.js - Types of data frameworks
 
