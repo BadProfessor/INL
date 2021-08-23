@@ -72,7 +72,7 @@ FontAwesome
 ==============================================================
 Learning Azure Network Security
 Exam Tips: AWS Certified Solutions Architect - Associate (SAA-C02)
-Learning Node.js - Types of data frameworks
+Learning Node.js - Nested callbacks
 
 AWS
 Azure (Azure AD B2C)
