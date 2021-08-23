@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "demo.js",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {},
   "scripts": {
