@@ -71,7 +71,7 @@ Bootstrap
 FontAwesome
 ==============================================================
 Learning Azure Network Security
-Introduction to AWS for Non-Engineers: 4 Billing and Pricing
+Exam Tips: AWS Certified Solutions Architect - Associate (SAA-C02)
 Learning Node.js - Types of data frameworks
 
 AWS
