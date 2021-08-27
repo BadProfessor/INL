@@ -1,7 +1,7 @@
 const questions = [
-  "What is your name?",
-  "What would you rather be doing?",
-  "What is your preferred programming language?"
+  'What is your name?',
+  'What would you rather be doing?',
+  'What is your preferred programming language?',
 ];
 
 const ask = (i = 0) => {
@@ -12,7 +12,7 @@ const ask = (i = 0) => {
 ask();
 
 const answers = [];
-process.stdin.on("data", data => {
+process.stdin.on('data', (data) => {
   answers.push(data.toString().trim());
 
   if (answers.length < questions.length) {
@@ -22,7 +22,7 @@ process.stdin.on("data", data => {
   }
 });
 
-process.on("exit", () => {
+process.on('exit', () => {
   const [name, activity, lang] = answers;
   console.log(`
   
