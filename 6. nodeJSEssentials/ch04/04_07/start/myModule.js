@@ -8,5 +8,5 @@ const getCount = () => count;
 module.exports = {
   inc,
   dec,
-  getCount
+  getCount,
 };
