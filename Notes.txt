@@ -71,7 +71,7 @@ Bootstrap
 FontAwesome
 ==============================================================
 Learning Azure Network Security
-Learning Node.js - Custom events with the EventEmitter
+Learning npm the Node Package Manager - Installing Node/npm on Mac
 
 AWS
 Azure (Azure AD B2C)
