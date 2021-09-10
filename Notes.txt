@@ -60,7 +60,7 @@ pip install Pillow
 pip install pylint
 pip install black
 
-#python commands
+#python commands 
 .venv\Scripts\activate          #activate the environment
 python manage.py migrate        #apply migrations
 python .\manage.py shell        #activate the shell
@@ -70,8 +70,8 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Learning Azure Network Security
-JavaScript: Best Practices for Code Formatting
+Learning Azure Network Security - Chapter 1
+JavaScript: Best Practices for Code Formatting - Chapter 1
 
 AWS
 Azure (Azure AD B2C)
