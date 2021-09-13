@@ -7,5 +7,12 @@
 //Edit .eslintrc.js to enforce each of the items above
 
 //App setup
-const departments = ['produce', 'dairy', 'meat', 'bakery', 'beverages', 'packaged'];
+const departments = [
+  'produce',
+  'dairy',
+  'meat',
+  'bakery',
+  'beverages',
+  'packaged',
+];
 console.log(departments);

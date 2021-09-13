@@ -71,7 +71,7 @@ Bootstrap
 FontAwesome
 ==============================================================
 Exam Prep: Microsoft Azure Fundamentals (AZ-900)
-JavaScript: Best Practices for Code Formatting - Chapter 2
+JavaScript: Best Practices for Code Formatting - Chapter 3
 
 AWS
 Azure (Azure AD B2C)

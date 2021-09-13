@@ -1,9 +1,9 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   rules: {
     strict: ['error', 'global'],
-    'multiline-comment-style': ['error', 'bare-block'],
+    'multiline-comment-style': ['error', 'star-block'],
   },
 };

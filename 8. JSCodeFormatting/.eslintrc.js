@@ -4,6 +4,7 @@ module.exports = {
   },
   rules: {
     strict: ['error', 'global'],
-    'multiline-comment-style': ['error', 'bare-block'],
+    'multiline-comment-style': ['error', 'starred-block'],
+    'spaced-comment': ['error', 'always'],
   },
 };
