@@ -70,8 +70,8 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Exam Prep: Microsoft Azure Fundamentals (AZ-900)
-JavaScript: Best Practices for Code Formatting - Chapter 3
+Exam Prep: Microsoft Azure Fundamentals (AZ-900) - Chapter 4
+JavaScript: Best Practices for Code Formatting - Chapter 4
 
 AWS
 Azure (Azure AD B2C)

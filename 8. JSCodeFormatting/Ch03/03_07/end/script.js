@@ -12,7 +12,7 @@ const departments = [
 let cart = {};
 
 departments.forEach((dept) => {
-  return cart[dept] = '';
+  return (cart[dept] = '');
 });
 
 console.log(cart);

@@ -1,12 +1,19 @@
-'use strict'
+'use strict';
 
 // App setup
-const departments = ['produce', 'dairy', 'meat', 'bakery', 'beverages', 'packaged']
-let cart = {}
+const departments = [
+  'produce',
+  'dairy',
+  'meat',
+  'bakery',
+  'beverages',
+  'packaged',
+];
+let cart = {};
 
 departments.forEach((dept) => {
-  return
+  return;
   cart[dept] = '';
-})
+});
 
-console.log(cart)
+console.log(cart);

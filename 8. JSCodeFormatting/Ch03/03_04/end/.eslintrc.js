@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   rules: {
     strict: ['error', 'global'],
@@ -10,7 +10,7 @@ module.exports = {
     'semi-spacing': 'error',
     'no-extra-semi': 'error',
     'no-unexpected-multiline': 'error',
-    'max-len': ['error', { 'code': 80 }],
+    'max-len': ['error', { code: 80 }],
     'comma-style': ['error', 'last'],
   },
 };
