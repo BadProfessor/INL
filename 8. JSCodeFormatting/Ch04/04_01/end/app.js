@@ -6,14 +6,14 @@ const userPrefs = {
   lon: -87.629799,
 };
 
-const region = ((city) => {
+const region = (city) => {
   if (city === 'Buenos Aires') {
-    return 'South America'; 
+    return 'South America';
   } else if (city === 'Los Angeles') {
     return 'North America';
   } else {
     return 'lookup';
   }
-});
+};
 
 console.log(region(userPrefs.city));

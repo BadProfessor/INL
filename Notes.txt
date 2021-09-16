@@ -70,10 +70,19 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ==============================================================
-Exam Prep: Microsoft Azure Fundamentals (AZ-900) - Chapter 4
-JavaScript: Best Practices for Code Formatting - Chapter 4
+Microsoft Certified: Azure Fundamentals - AZ-900
+https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
+Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!
+https://www.youtube.com/watch?v=NKEFWyqJ5XA - 00:00
+==============================================================
+JavaScript: Best Practices for Data - Chapter 1
+Azure Administration Essential Training - Chapter 1
+==============================================================
+Need to do B2C custom policy development? Today we go from zero to ready and build a b2c dev envi...
+https://www.youtube.com/watch?v=C5hb7IuOQ6A - 1:00:00
+==============================================================
 
-AWS
+AWS (Lambda)
 Azure (Azure AD B2C)
 JavaScript (MongoDB, Express.js, React.js, Node.js)
 ==============================================================

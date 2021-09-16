@@ -1,6 +1,7 @@
+/* eslint-disable strict */
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   rules: {
     strict: ['error', 'global'],
@@ -10,7 +11,7 @@ module.exports = {
     'semi-spacing': 'error',
     'no-extra-semi': 'error',
     'no-unexpected-multiline': 'error',
-    'max-len': ['error', { 'code': 80 }],
+    'max-len': ['error', { code: 80 }],
     'comma-style': ['error', 'last'],
     'comma-dangle': ['error', 'always-multiline'],
     indent: ['error', 2],
@@ -20,11 +21,12 @@ module.exports = {
     'keyword-spacing': 'error',
     'arrow-spacing': 'error',
     'space-before-function-paren': [
-      'error', {
-        'anonymous': 'always', 
-        'named': 'never', 
-        'asyncArrow': 'always'
-      }
+      'error',
+      {
+        anonymous: 'always',
+        named: 'never',
+        asyncArrow: 'always',
+      },
     ],
     'newline-per-chained-call': 'error',
     'space-in-parens': ['error', 'never'],
