@@ -71,11 +71,12 @@ Bootstrap
 FontAwesome
 ==============================================================
 Microsoft Certified: Azure Fundamentals - AZ-900
+Azure Fundamentals part 2: Describe core Azure services
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
 Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!
 https://www.youtube.com/watch?v=NKEFWyqJ5XA - 00:00
 ==============================================================
-JavaScript: Best Practices for Data - Chapter 1
+JavaScript: Best Practices for Data - Chapter 2
 Azure Administration Essential Training - Chapter 1
 ==============================================================
 Need to do B2C custom policy development? Today we go from zero to ready and build a b2c dev envi...
