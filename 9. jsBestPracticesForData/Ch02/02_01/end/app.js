@@ -6,17 +6,17 @@ let efRatio = 8.83;
 const input = 52;
 
 const square = (value) => {
-  return (value * value);
+  return value * value;
 };
 const double = (value) => {
-  return (value * 2);
+  return value * 2;
 };
 const triple = (value) => {
-  return (value * 3);
+  return value * 3;
 };
 
 // assignment instead of comparison:
-if (abRatio === 0.1) { 
+if (abRatio === 0.1) {
   console.log(input * abRatio);
 }
 
