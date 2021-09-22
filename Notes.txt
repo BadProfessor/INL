@@ -76,11 +76,10 @@ https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
 Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!
 https://www.youtube.com/watch?v=NKEFWyqJ5XA - 00:00
 ==============================================================
-JavaScript: Best Practices for Data - Chapter 2
+JavaScript: Best Practices for Data - Chapter 3
 Azure Administration Essential Training - Chapter 1
 ==============================================================
-Need to do B2C custom policy development? Today we go from zero to ready and build a b2c dev envi...
-https://www.youtube.com/watch?v=C5hb7IuOQ6A - 1:38:30
+425Show B2C
 ==============================================================
 
 AWS (Lambda)

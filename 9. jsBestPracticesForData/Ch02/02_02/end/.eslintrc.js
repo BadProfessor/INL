@@ -5,7 +5,7 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'strict': ['error', 'global'],
+    strict: ['error', 'global'],
     'no-var': 'error',
     'prefer-const': 'error',
     'one-var': ['error', 'never'],
