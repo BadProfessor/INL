@@ -5,13 +5,13 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'strict': ['error', 'global'],
+    strict: ['error', 'global'],
     'no-var': 'error',
     'prefer-const': 'error',
     'one-var': ['error', 'never'],
-    'camelcase': 'error',
+    camelcase: 'error',
     'no-unused-vars': 'error',
     'no-multi-assign': 'error',
-    'quotes': ['error', 'single'],
+    quotes: ['error', 'single'],
   },
 };

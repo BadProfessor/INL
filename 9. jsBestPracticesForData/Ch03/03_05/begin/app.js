@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const user = 'yourname';
 let firstChoice;
@@ -16,7 +16,7 @@ const selections = new Object();
 
 const choose = () => choices[Math.floor(Math.random() * choices.length)];
 
-firstChoice = secondChoice = thirdChoice = "";
+firstChoice = secondChoice = thirdChoice = '';
 
 firstChoice = choose();
 secondChoice = choose();
@@ -24,8 +24,7 @@ thirdChoice = choose();
 while (secondChoice === firstChoice) {
   secondChoice = choose();
 }
-while ((thirdChoice === firstChoice) ||
-       (thirdChoice === secondChoice)) {
+while (thirdChoice === firstChoice || thirdChoice === secondChoice) {
   thirdChoice = choose();
 }
 
@@ -35,5 +34,5 @@ selections['second-choice'] = secondChoice;
 selections['third-choice'] = thirdChoice;
 
 for (const key of Object.keys(selections)) {
-    console.log(`${key}: ${selections[key]}`);
+  console.log(`${key}: ${selections[key]}`);
 }

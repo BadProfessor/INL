@@ -13,7 +13,7 @@ netTotal = 0;
 subTotal = cart.reduce(reducer);
 console.log(`Cart total: ${subTotal}`);
 
-shipping = (subTotal > 50) ? 0 : 5.99;
+shipping = subTotal > 50 ? 0 : 5.99;
 console.log(`Shipping: ${shipping}`);
 
 netTotal = subTotal + shipping;

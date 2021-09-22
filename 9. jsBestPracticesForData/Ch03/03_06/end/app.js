@@ -10,7 +10,7 @@ const choices = [
   'take a short walk',
   'catch up on news',
   'chat with a friend',
-  'listen to music'
+  'listen to music',
 ];
 
 const choose = () => choices[Math.floor(Math.random() * choices.length)];
@@ -21,8 +21,7 @@ thirdChoice = choose();
 while (secondChoice === firstChoice) {
   secondChoice = choose();
 }
-while ((thirdChoice === firstChoice) ||
-       (thirdChoice === secondChoice)) {
+while (thirdChoice === firstChoice || thirdChoice === secondChoice) {
   thirdChoice = choose();
 }
 
@@ -34,5 +33,5 @@ const selections = {
 };
 
 for (const key of Object.keys(selections)) {
-    console.log(`${key}: ${selections[key]}`);
+  console.log(`${key}: ${selections[key]}`);
 }

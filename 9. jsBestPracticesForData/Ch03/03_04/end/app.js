@@ -7,5 +7,5 @@ const sessions = {
 };
 
 for (const key of Object.keys(sessions)) {
-    console.log(`${key}: ${sessions[key]}`);
+  console.log(`${key}: ${sessions[key]}`);
 }
