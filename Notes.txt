@@ -74,8 +74,17 @@ JavaScript: Best Practices for Data - Chapter 5
 ======================================================
 Microsoft Certified: Azure Fundamentals - AZ-900
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
+Azure Fundamentals part 3: Describe core solutions and management tools on Azure
 ======================================================
 425Show B2C
+A visit from the Graph Team and then some more B2C custom policies
+ 47:00
+https://www.youtube.com/watch?v=JWKgR7SZSsI
+
+
+
+
+======================================================
 ======================================================
 LinkedIn: Azure Administration Essential Training - Chapter 1
 ======================================================
