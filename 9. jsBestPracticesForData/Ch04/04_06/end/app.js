@@ -6,13 +6,13 @@ const data = {
   alert: 'false',
 };
 
-const cToF = (c) => ((c * 1.8) + 32);
+const cToF = (c) => c * 1.8 + 32;
 
 // cast data.tempC to a number
 const tempF = cToF(Number(data.tempC));
-const alert = (data.alert === 'true') ? true : false;
+const alert = data.alert === 'true' ? true : false;
 
 console.log(`Celsius: ${data.tempC}`);
 // cast tempF to a string
 console.log(`Fahrenheit: ${String(tempF)}`);
-console.log(`Alert? ${(alert) ? 'yes' : 'no'}`);
+console.log(`Alert? ${alert ? 'yes' : 'no'}`);

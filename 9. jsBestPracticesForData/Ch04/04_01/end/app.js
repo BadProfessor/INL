@@ -6,15 +6,15 @@ formData.forEach((el) => {
   console.log(`\n${el}:`);
   console.table({
     // 'new String()': {
-    //   result: `${new String(el)}`, 
+    //   result: `${new String(el)}`,
     //   'data type': `${typeof new String(el)}`,
     // },
-    // toString: { 
-    //   result: `${el.toString()}`, 
+    // toString: {
+    //   result: `${el.toString()}`,
     //   'data type': `${typeof el.toString()}`,
     // },
     'String()': {
-      result: `${String(el)}`, 
+      result: `${String(el)}`,
       'data type': `${typeof String(el)}`,
     },
   });

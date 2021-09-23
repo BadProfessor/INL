@@ -70,14 +70,14 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-425Show B2C
-======================================================
-JavaScript: Best Practices for Data - Chapter 3
+JavaScript: Best Practices for Data - Chapter 5
 ======================================================
 Microsoft Certified: Azure Fundamentals - AZ-900
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
 ======================================================
-Azure Administration Essential Training - Chapter 1
+425Show B2C
+======================================================
+LinkedIn: Azure Administration Essential Training - Chapter 1
 ======================================================
 Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!
 https://www.youtube.com/watch?v=NKEFWyqJ5XA - 00:00
