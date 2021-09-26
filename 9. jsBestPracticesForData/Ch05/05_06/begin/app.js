@@ -22,4 +22,9 @@ if (0 < cart.items) {
   console.log('Your cart appears to be empty!');
 }
 
-cart.contact = cart.items > 0 ? cart.items > 2 && cart.subTotal * 0.1 < 12 ? false : true : false;
+cart.contact =
+  cart.items > 0
+    ? cart.items > 2 && cart.subTotal * 0.1 < 12
+      ? false
+      : true
+    : false;

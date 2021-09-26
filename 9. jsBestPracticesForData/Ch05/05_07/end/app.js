@@ -9,7 +9,7 @@ const cart = {
 };
 
 if (cart.items > 0) {
-  if ((cart.items > 2) && ((cart.subTotal * 0.1) < 12)) {
+  if (cart.items > 2 && cart.subTotal * 0.1 < 12) {
     cart.shipping = 0;
     console.log('Your shipping is free');
   } else if (!cart.specialShip) {
@@ -22,5 +22,5 @@ if (cart.items > 0) {
   console.log('Your cart appears to be empty!');
 }
 
-const shipException = ((cart.items > 2) && ((cart.subTotal * 0.1) < 12)); 
-cart.contact = ((cart.items > 0) && shipException);
+const shipException = cart.items > 2 && cart.subTotal * 0.1 < 12;
+cart.contact = cart.items > 0 && shipException;

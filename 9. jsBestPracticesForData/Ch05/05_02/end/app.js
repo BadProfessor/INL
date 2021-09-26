@@ -15,7 +15,7 @@ if (data.alert === '1') {
   alert = 'hurricane';
 } else if (data.alert === '4') {
   alert = 'heat advisory';
-} 
+}
 
 if (alert) {
   console.log(`Alert: ${alert}`);

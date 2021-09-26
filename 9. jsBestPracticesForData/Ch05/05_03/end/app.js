@@ -22,5 +22,5 @@ if (data.alert > 0) {
     console.log('Hurricane');
   } else if (data.alert === 4) {
     console.log('Heat advisory');
-  }   
+  }
 }
