@@ -1,0 +1,38 @@
+{
+  "name": "tdd-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test npx mocha \"src/**/*.test.js\" --recursive --require @babel/register --file src/mocha-setup.js",
+    "test:watch": "NODE_ENV=test npx mocha \"src/**/*.test.js\" --recursive --require @babel/register --file src/mocha-setup.js --watch",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
+  },
+  "nyc": {
+    "exclude": [
+      "src/**/*.test.js",
+      "src/mocha-setup.js",
+      "src/test-helpers.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "chai": "^4.2.0",
+    "chai-exclude": "^2.0.2",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "regenerator-runtime": "^0.13.3",
+    "sinon": "^7.4.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.2"
+  }
+}
