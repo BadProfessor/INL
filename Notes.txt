@@ -70,11 +70,11 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-JavaScript: Test-Driven Development (ES6) - Chapter 3
+JavaScript: Test-Driven Development (ES6) - Chapter 4
 ======================================================
 Microsoft Certified: Azure Fundamentals - AZ-900
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
-Azure Fundamentals part 4: Describe general security and network security features
+Azure Fundamentals part 5: Describe identity, governance, privacy, and compliance features
 ======================================================
 425Show B2C
 A visit from the Graph Team and then some more B2C custom policies
