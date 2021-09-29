@@ -76,10 +76,10 @@ Microsoft Certified: Azure Fundamentals - AZ-900
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
 Azure Fundamentals part 5: Describe identity, governance, privacy, and compliance features
 ======================================================
-425Show B2C
-A visit from the Graph Team and then some more B2C custom policies
-1:08:30
-https://www.youtube.com/watch?v=JWKgR7SZSsI
+425Show
+Securing Vue.js apps and Azure Function APIs with Azure AD B2C
+00:00
+Securing Vue.js apps and Azure Function APIs with Azure AD B2C
 
 
 
