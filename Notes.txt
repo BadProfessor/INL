@@ -77,9 +77,9 @@ https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
 Azure Fundamentals part 5: Describe identity, governance, privacy, and compliance features
 ======================================================
 425Show
-Securing Vue.js apps and Azure Function APIs with Azure AD B2C
+Build a Teams-like up with JavaScript and Azure AD B2C
 00:00
-Securing Vue.js apps and Azure Function APIs with Azure AD B2C
+https://www.youtube.com/watch?v=sL9GNUt4H5w
 
 
 
