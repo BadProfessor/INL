@@ -11,7 +11,7 @@ Azure Fundamentals part 5: Describe identity, governance, privacy, and complianc
 425Show
 Azure AD App Registration updates and B2C Custom Domains
 https://www.youtube.com/watch?v=d50sao4vfkg
-00:00
+15:00
 
 ======================================================
 Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!
