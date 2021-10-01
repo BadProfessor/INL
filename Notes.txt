@@ -2,7 +2,7 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-JavaScript: Test-Driven Development (ES6) - Chapter 5
+JavaScript: Test-Driven Development (ES6) - Chapter 6
 ======================================================
 Microsoft Certified: Azure Fundamentals - AZ-900
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
