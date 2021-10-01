@@ -6,13 +6,15 @@ JavaScript: Test-Driven Development (ES6) - Chapter 6
 ======================================================
 Microsoft Certified: Azure Fundamentals - AZ-900
 https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
-Azure Fundamentals part 5: Describe identity, governance, privacy, and compliance features
+Azure Fundamentals part 6: Describe Azure cost management and service level
 ======================================================
 425Show
 Azure AD App Registration updates and B2C Custom Domains
 https://www.youtube.com/watch?v=d50sao4vfkg
-15:00
+29:30
 
+
+======================================================
 ======================================================
 Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!
 https://www.youtube.com/watch?v=NKEFWyqJ5XA - 00:00
