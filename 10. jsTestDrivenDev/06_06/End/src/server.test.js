@@ -5,48 +5,45 @@ import db from './db';
 import { app } from './server';
 
 describe('GET /users/:username', () => {
-    it('sends the correct response when a user with the username is found', async () => {
-        const fakeData = {
-            id: '123',
-            username: 'abc',
-            email: 'abc@gmail.com',
-        };
+  it('sends the correct response when a user with the username is found', async () => {
+    const fakeData = {
+      id: '123',
+      username: 'abc',
+      email: 'abc@gmail.com',
+    };
 
-        const stub = sinon
-            .stub(db, 'getUserByUsername')
-            .resolves(fakeData);
+    const stub = sinon.stub(db, 'getUserByUsername').resolves(fakeData);
 
-        await request(app).get('/users/abc')
-            .expect(200)
-            .expect('Content-Type', /json/)
-            .expect(fakeData);
+    await request(app)
+      .get('/users/abc')
+      .expect(200)
+      .expect('Content-Type', /json/)
+      .expect(fakeData);
 
-        expect(stub.getCall(0).args[0]).to.equal('abc');
+    expect(stub.getCall(0).args[0]).to.equal('abc');
 
-        stub.restore();
-    });
+    stub.restore();
+  });
 
-    it('sends the correct response when there is an error', async () => {
-        const fakeError = { message: 'Something went wrong!' };
-        
-        const stub = sinon.stub(db, 'getUserByUsername')
-            .throws(fakeError);
+  it('sends the correct response when there is an error', async () => {
+    const fakeError = { message: 'Something went wrong!' };
 
-        await request(app).get('/users/abc')
-            .expect(500)
-            .expect('Content-Type', /json/)
-            .expect(fakeError);
+    const stub = sinon.stub(db, 'getUserByUsername').throws(fakeError);
 
-        stub.restore();
-    });
+    await request(app)
+      .get('/users/abc')
+      .expect(500)
+      .expect('Content-Type', /json/)
+      .expect(fakeError);
 
-    it('returns the appropriate response when the user is not found', async () => {
-        const stub = sinon.stub(db, 'getUserByUsername')
-            .resolves(null);
+    stub.restore();
+  });
 
-        await request(app).get('/users/def')
-            .expect(404);
+  it('returns the appropriate response when the user is not found', async () => {
+    const stub = sinon.stub(db, 'getUserByUsername').resolves(null);
 
-        stub.restore();
-    });
+    await request(app).get('/users/def').expect(404);
+
+    stub.restore();
+  });
 });

@@ -1,47 +1,56 @@
 import { expect } from 'chai';
 import { getUserByUsername } from './db';
-import { getDatabaseData, setDatabaseData, resetDatabase } from './test-helpers';
+import {
+  getDatabaseData,
+  setDatabaseData,
+  resetDatabase,
+} from './test-helpers';
 
 describe('getUserByUsername', () => {
-    afterEach('reset the database', async () => {
-        await resetDatabase();
-    });
+  afterEach('reset the database', async () => {
+    await resetDatabase();
+  });
 
-    it('get the correct user from the database given a username', async () => {
-        const fakeData = [{
-            id: '123',
-            username: 'abc',
-            email: 'abc@gmail.com',
-        }, {
-            id: '124',
-            username: 'wrong',
-            email: 'wrong@wrong.com',
-        }];
+  it('get the correct user from the database given a username', async () => {
+    const fakeData = [
+      {
+        id: '123',
+        username: 'abc',
+        email: 'abc@gmail.com',
+      },
+      {
+        id: '124',
+        username: 'wrong',
+        email: 'wrong@wrong.com',
+      },
+    ];
 
-        await setDatabaseData('users', fakeData);
+    await setDatabaseData('users', fakeData);
 
-        const actual = await getUserByUsername('abc');
-        const finalDBState = await getDatabaseData('users');
+    const actual = await getUserByUsername('abc');
+    const finalDBState = await getDatabaseData('users');
 
-        const expected = {
-            id: '123',
-            username: 'abc',
-            email: 'abc@gmail.com',
-        };
+    const expected = {
+      id: '123',
+      username: 'abc',
+      email: 'abc@gmail.com',
+    };
 
-        expect(actual).excludingEvery('_id').to.deep.equal(expected);
-        expect(finalDBState).excludingEvery('_id').to.deep.equal(fakeData);
-    });
+    expect(actual).excludingEvery('_id').to.deep.equal(expected);
+    expect(finalDBState).excludingEvery('_id').to.deep.equal(fakeData);
+  });
 
-    it('returns null when the user is not found', async () => {
-        await setDatabaseData('users', [{
-            id: '999',
-            username: 'XYZ',
-            email: 'nobody@gmail.com',
-        }]);
+  it('returns null when the user is not found', async () => {
+    await setDatabaseData('users', [
+      {
+        id: '999',
+        username: 'XYZ',
+        email: 'nobody@gmail.com',
+      },
+    ]);
 
-        const actual = await getUserByUsername('def');
+    const actual = await getUserByUsername('def');
 
-        expect(actual).to.be.null;
-    });
+    expect(actual).to.be.null;
+  });
 });
