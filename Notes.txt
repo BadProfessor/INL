@@ -4,11 +4,10 @@ FontAwesome
 ======================================================
 End-to-End JavaScript Testing with Cypress.io - Chapter 1
 ======================================================
-======================================================
 Microsoft Azure Fundamentals Certification Course (AZ-900)
 https://www.youtube.com/watch?v=NKEFWyqJ5XA - 05:00
 ======================================================
 Azure AD B2C Docs
-
+======================================================
 Microsoft Azure
 JavaScript (MongoDB, Express.js, React.js, Node.js)
