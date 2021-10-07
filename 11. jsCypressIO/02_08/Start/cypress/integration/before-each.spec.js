@@ -1,35 +1,26 @@
 describe('Text box with max characters', () => {
-    beforeEach(() => {
-        cy.visit('/example-3');
+  beforeEach(() => {
+    cy.visit('/example-3');
 
-        cy.get('[data-cy="last-name-chars-left-count"]')
-            .as('charsLeftSpan');
-        cy.get('[data-cy="input-last-name"]')
-            .as('charInput');
-    });
-    
-    it('displays the appropriate remaining characters count', () => {
-        cy.get('@charsLeftSpan')
-            .invoke('text')
-            .should('equal', '15');
+    cy.get('[data-cy="last-name-chars-left-count"]').as('charsLeftSpan');
+    cy.get('[data-cy="input-last-name"]').as('charInput');
+  });
 
-        cy.get('@charInput').type('hello');
+  it('displays the appropriate remaining characters count', () => {
+    cy.get('@charsLeftSpan').invoke('text').should('equal', '15');
 
-        cy.get('@charsLeftSpan')
-            .invoke('text')
-            .should('equal', '10');
+    cy.get('@charInput').type('hello');
 
-        cy.get('@charInput').type(' my friend');
+    cy.get('@charsLeftSpan').invoke('text').should('equal', '10');
 
-        cy.get('@charsLeftSpan')
-            .invoke('text')
-            .should('equal', '0');
-    });
+    cy.get('@charInput').type(' my friend');
 
-    it('prevents the user from typing more characters once max is exceeded', () => {
-        cy.get('@charInput').type('abcdefghijklmnopqrstuvwxyz');
+    cy.get('@charsLeftSpan').invoke('text').should('equal', '0');
+  });
 
-        cy.get('@charInput')
-            .should('have.attr', 'value', 'abcdefghijklmno');
-    });
+  it('prevents the user from typing more characters once max is exceeded', () => {
+    cy.get('@charInput').type('abcdefghijklmnopqrstuvwxyz');
+
+    cy.get('@charInput').should('have.attr', 'value', 'abcdefghijklmno');
+  });
 });
