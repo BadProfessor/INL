@@ -2,10 +2,10 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-End-to-End JavaScript Testing with Cypress.io - Chapter 2
+End-to-End JavaScript Testing with Cypress.io - Chapter 4
 ======================================================
 Microsoft Azure Fundamentals Certification Course (AZ-900)
-https://www.youtube.com/watch?v=NKEFWyqJ5XA - 1:19:00
+https://www.youtube.com/watch?v=NKEFWyqJ5XA - 1:30:00
 ======================================================
 Azure AD B2C Docs
 ======================================================
