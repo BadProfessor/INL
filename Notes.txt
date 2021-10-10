@@ -2,7 +2,7 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-JavaScript: Security Essentials - Chapter 1
+JavaScript: Security Essentials - Chapter 2
 ======================================================
 Microsoft Azure Fundamentals Certification Course (AZ-900)
 https://www.youtube.com/watch?v=NKEFWyqJ5XA - 2:00:00
