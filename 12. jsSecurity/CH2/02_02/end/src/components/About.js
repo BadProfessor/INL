@@ -6,6 +6,6 @@ const About = (props) => {
       <h1>About</h1>
     </div>
   );
-}
+};
 
-export default About; 
+export default About;

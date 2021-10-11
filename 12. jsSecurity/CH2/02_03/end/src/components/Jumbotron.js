@@ -7,6 +7,6 @@ const Jumbotron = (props) => {
       <p className="lead">Kickin' it old school.</p>
     </div>
   );
-}
+};
 
-export default Jumbotron; 
+export default Jumbotron;

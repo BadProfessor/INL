@@ -10,36 +10,38 @@ import data from '../data/data.json';
 import './App.css';
 
 const createMarkup = () => {
-  return {__html: 'I am so dangerous you can feel it!'}
-}
+  return { __html: 'I am so dangerous you can feel it!' };
+};
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state ={
-      name: "Manny Henri",
-      jumbotronTitle: "List of courses",
+    this.state = {
+      name: 'Manny Henri',
+      jumbotronTitle: 'List of courses',
       feeds: [],
-    }
+    };
   }
 
   componentWillMount() {
     this.setState({
       feeds: data,
-    })
+    });
   }
   render() {
     return (
       <Router>
         <div className="container">
           <Navigation />
-          <Jumbotron title={this.state.jumbotronTitle}/>
+          <Jumbotron title={this.state.jumbotronTitle} />
           <Switch>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/about" component={About}/>
-            <Route exact path="/" render={(props) => (
-              <Feed feeds={this.state.feeds} />
-            )} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/about" component={About} />
+            <Route
+              exact
+              path="/"
+              render={(props) => <Feed feeds={this.state.feeds} />}
+            />
           </Switch>
           <div className="footer">
             <p>&copy; {this.state.name} Inc.</p>
@@ -47,7 +49,7 @@ class App extends Component {
           </div>
         </div>
       </Router>
-    )
+    );
   }
 }
 
