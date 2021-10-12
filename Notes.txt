@@ -2,12 +2,12 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-JavaScript: Security Essentials - Chapter 3
+JavaScript: Security Essentials - Chapter 4
 ======================================================
-Microsoft Azure Fundamentals Certification Course (AZ-900)
-https://www.youtube.com/watch?v=NKEFWyqJ5XA - 2:30:00
+AZ-900 practice exams
 ======================================================
-Technical and feature overview of Azure Active Directory B2C
+Quickstart: Set up sign in for an ASP.NET application using Azure Active Directory B2C
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/quickstart-web-app-dotnet
 ======================================================
 Microsoft Azure
 JavaScript (MongoDB, Express.js, React.js, Node.js)
