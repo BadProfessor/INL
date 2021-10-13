@@ -2,7 +2,7 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-JavaScript: Security Essentials - Chapter 4
+JavaScript: Security Essentials - Chapter 5
 ======================================================
 AZ-900 practice exams
 ======================================================
