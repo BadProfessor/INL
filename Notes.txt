@@ -2,7 +2,7 @@ Flat UI Colors
 Bootstrap
 FontAwesome
 ======================================================
-Ethical Hacking with JavaScript - Chapter 1
+Ethical Hacking with JavaScript - Chapter 2
 ======================================================
 AZ-900 practice exams
 ======================================================
