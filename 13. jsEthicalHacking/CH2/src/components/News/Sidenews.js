@@ -15,16 +15,17 @@ class Sidenews extends Component {
   componentDidMount() {
     const url = `https://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=3c5c8f726f4f4d87a352e63017c68eb0`;
 
-    axios.get(url)
+    axios
+      .get(url)
       .then((response) => {
         this.setState({
-          sidenews: response.data.articles
-        })
+          sidenews: response.data.articles,
+        });
       })
       .catch((error) => {
         this.setState({
-          error: true
-        })
+          error: true,
+        });
       });
   }
 
@@ -34,16 +35,12 @@ class Sidenews extends Component {
         <SingleSide key={item.url} item={item} />
       ));
     } else {
-      return <Error />
+      return <Error />;
     }
   }
 
   render() {
-    return (
-      <div>
-        {this.renderItems()}
-      </div>
-    );
+    return <div>{this.renderItems()}</div>;
   }
 }
 
