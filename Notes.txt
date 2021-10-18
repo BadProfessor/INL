@@ -1,6 +1,3 @@
-Flat UI Colors
-Bootstrap
-FontAwesome
 ======================================================
 Ethical Hacking with JavaScript - Chapter 2
 ======================================================
