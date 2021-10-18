@@ -1,0 +1,10 @@
+======================================================
+Ethical Hacking with JavaScript - Chapter 2
+======================================================
+AZ-900 practice exams
+======================================================
+Quickstart: Set up sign in for a single-page app using Azure Active Directory B2C
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/quickstart-single-page-app
+======================================================
+Microsoft Azure
+JavaScript (MongoDB, Express.js, React.js, Node.js)
