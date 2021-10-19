@@ -1,9 +1,9 @@
-Ethical Hacking with JavaScript - Chapter 2
+JavaScript: Async
 ======================================================
-AZ-900 practice exams
+Whizlabs: AZ-900 practice exams
 ======================================================
-Quickstart: Set up sign in for a single-page app using Azure Active Directory B2C
-https://docs.microsoft.com/en-us/azure/active-directory-b2c/quickstart-single-page-app
+Tutorial: Create an Azure Active Directory B2C tenant
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
 ======================================================
 Microsoft Azure
 JavaScript (MongoDB, Express.js, React.js, Node.js)
