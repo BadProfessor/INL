@@ -1,4 +1,4 @@
-JavaScript: Async
+JavaScript: Async - Chapter 2
 ======================================================
 Whizlabs: AZ-900 practice exams
 ======================================================
