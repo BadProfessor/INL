@@ -1,4 +1,4 @@
-JavaScript: Async - Chapter 2
+JavaScript: Async - Chapter 3
 ======================================================
 Whizlabs: Microsoft Azure Exam AZ-900 Certification practice tests
 Practice Test 5
