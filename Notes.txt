@@ -1,7 +1,7 @@
 JavaScript: Patterns Chapter 2
 ======================================================
 Whizlabs: Microsoft Azure Exam AZ-900 Certification practice tests
-Test 9
+Test 12
 ======================================================
 Tutorial: Create an Azure Active Directory B2C tenant
 https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
