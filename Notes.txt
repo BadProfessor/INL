@@ -1,7 +1,7 @@
-JavaScript: Async - Chapter 3
+JavaScript: Patterns Chapter 2
 ======================================================
 Whizlabs: Microsoft Azure Exam AZ-900 Certification practice tests
-Test 4
+Test 9
 ======================================================
 Tutorial: Create an Azure Active Directory B2C tenant
 https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
