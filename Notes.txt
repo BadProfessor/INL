@@ -1,10 +1,22 @@
-JavaScript: Patterns Chapter 4
+ESLint: Integrating with Your Workflow
 ======================================================
 Whizlabs: Microsoft Azure Exam AZ-900 Certification practice tests
-Labs
+Lab 2
 ======================================================
-Tutorial: Create an Azure Active Directory B2C tenant
-https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
+1. LinkedIn Learning
+2. LMS Practice Labs
+2. Jira B2C Docs
+3. Microsoft B2C Docs
+4. Create B2C React App
+======================================================
+Developer Stream:
+AZ-900
+AZ-104
+AZ-204
+AZ-500
+AZ-303
+AZ-304
+AZ-400
 ======================================================
 Microsoft Azure
 JavaScript (MongoDB, Express.js, React.js, Node.js)
