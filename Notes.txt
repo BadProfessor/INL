@@ -1,6 +1,7 @@
-ESLint: Integrating with Your Workflow
+ESLint: Integrating with Your Workflow - Chapter 1
 ======================================================
 Whizlabs: Microsoft Azure Exam AZ-900 Certification practice tests
+Practice Test 2
 Lab 2
 ======================================================
 1. LinkedIn Learning
