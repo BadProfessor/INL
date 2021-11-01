@@ -6,6 +6,6 @@ let double = (num) => {
   console.log(result);
 };
 
-let days=double( 365 );
-let heading=`Two years contain ${ days } days`;
+let days = double(365);
+let heading = `Two years contain ${days} days`;
 console.log(heading);

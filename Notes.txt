@@ -1,4 +1,4 @@
-ESLint: Integrating with Your Workflow - Chapter 1
+ESLint: Checking for Syntax and Logic Errors
 ======================================================
 Whizlabs: Microsoft Azure Exam AZ-900 Certification practice tests
 Practice Test 2
