@@ -4,8 +4,6 @@ Whizlabs: Microsoft Azure Exam AZ-900 Certification
 Lab 3
 Practice Test 3
 ======================================================
-C:\Repositories\azureB2Ctesting\ms-identity-javascript-react-tutorial\1-Authentication\2-sign-in-b2c\SPA>
-======================================================
 1. LinkedIn Learning    -
 2. LMS Practice Labs    -
 3. LMS Practice Tests   -
