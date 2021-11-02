@@ -21,7 +21,7 @@ module.exports = {
     'no-console': [
       'error',
       {
-        'allow': ['error'],
+        allow: ['error'],
       },
     ],
     'no-sparse-arrays': 'error',

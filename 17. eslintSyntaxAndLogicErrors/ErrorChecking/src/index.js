@@ -7,10 +7,9 @@
 //   return (x * y);
 // }
 
-const multiply = function(x, y) {
-  return (x * y);
+const multiply = function (x, y) {
+  return x * y;
 };
-
 
 /************************
  * Loops & Conditionals *
@@ -33,20 +32,18 @@ if (grade === 'a') {
   // do something
 }
 
-
 /*******************
  * Unfinished Code *
  *******************/
 const check = (token) => {
   if (!!token) {
     return token;
-//  } else if (isNaN(token)) {
+    //  } else if (isNaN(token)) {
   } else {
-//    debugger;
+    //    debugger;
     console.error('Invalid token value');
   }
 };
-
 
 /*******************
  * Accurate Values *
@@ -55,7 +52,6 @@ const scores = [53, 72, 81, 12];
 
 const firstName = 'Sasha';
 const greeting = `Hey ${firstName}!`;
-
 
 /*****************
  * General Logic *
