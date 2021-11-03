@@ -13,10 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'func-names': [
-      'error',
-      'as-needed',
-    ],
+    'func-names': ['error', 'as-needed'],
     'no-self-compare': 'error',
   },
 };

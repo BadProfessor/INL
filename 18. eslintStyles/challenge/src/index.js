@@ -13,12 +13,6 @@ if (counter < 10) {
 }
 
 // Errors for 'array-bracket-newline' rule:
-const grades = [ 
-  'a', 
-  'b', 
-  'c', 
-  'd', 
-  'f', 
-];
+const grades = ['a', 'b', 'c', 'd', 'f'];
 // No errors for 'array-bracket-newline' rule:
-const scores = [ 23, 52, ];
+const scores = [23, 52];

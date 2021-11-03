@@ -14,17 +14,14 @@ module.exports = {
   },
   rules: {
     'no-unused-vars': 'off',
-    'comma-dangle': [
-      'error',
-      'always',
-    ],
+    'comma-dangle': ['error', 'always'],
     'array-bracket-newline': 'error',
-    'yoda': 'error',
+    yoda: 'error',
     'array-bracket-newline': [
       'error',
       {
-        'multiline': true,
-        'minItems': 3,
+        multiline: true,
+        minItems: 3,
       },
     ],
   },
