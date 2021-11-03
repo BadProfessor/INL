@@ -4,7 +4,7 @@ Whizlabs: Microsoft Azure Exam AZ-900 Certification
 Lab 4
 Practice Test 4
 ======================================================
-1. LinkedIn Learning    +
+1. LinkedIn Learning    -
 2. LMS Practice Labs    -
 3. LMS Practice Tests   -
 4. Jira B2C Docs        -
