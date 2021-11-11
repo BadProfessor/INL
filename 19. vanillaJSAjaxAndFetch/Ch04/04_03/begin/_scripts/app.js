@@ -1,14 +1,16 @@
 'use strict';
 
 //const smartyUrl = 'https://us-street.api.smartystreets.com/street-address?auth-id=19785289899902913&candidates=10&street=86%20Frontage%20Road&city=Belmont&state=MA';
-const smartyUrl = 'https://us-street.api.smartystreets.com/street-address?auth-id=19785289899902913&candidates=10';
+const smartyUrl =
+  'https://us-street.api.smartystreets.com/street-address?auth-id=19785289899902913&candidates=10';
 const smartyInit = {
   headers: {
     'Content-Type': 'application/json',
     Host: 'us-street.api.smartystreets.com',
   },
 };
-const parksUrl = 'https://developer.nps.gov/api/v1/parks?stateCode=ca&api_key=7NPUhkm1jtqX7Muj86oafxkn0XLycFvDN8jwjWE1';
+const parksUrl =
+  'https://developer.nps.gov/api/v1/parks?stateCode=ca&api_key=7NPUhkm1jtqX7Muj86oafxkn0XLycFvDN8jwjWE1';
 const addressField = document.querySelector('#address');
 const cityField = document.querySelector('#city');
 const stateField = document.querySelector('#state');
@@ -19,28 +21,29 @@ const parkSection = document.querySelector('#specials');
 const parkName = document.querySelector('#specials h2 a');
 const parkDesc = document.querySelector('#specials p');
 
-const smartyUpdateUISuccess = function(parsedData) {
-//  const parsedData = JSON.parse(data);
-//  console.log(parsedData);
+const smartyUpdateUISuccess = function (parsedData) {
+  //  const parsedData = JSON.parse(data);
+  //  console.log(parsedData);
   const zip = parsedData[0].components.zipcode;
   const plus4 = parsedData[0].components.plus4_code;
-//  console.log(zip + '-' + plus4);
+  //  console.log(zip + '-' + plus4);
   zipField.value = zip + '-' + plus4;
 };
-const parkUpdateUISuccess = function(parsedData) {
+const parkUpdateUISuccess = function (parsedData) {
   //const parsedData = JSON.parse(data);
   console.log(parsedData);
   const number = Math.floor(Math.random() * parsedData.data.length);
   parkName.textContent = parsedData.data[number].fullName;
   parkName.href = parsedData.data[number].url;
   parkDesc.textContent = parsedData.data[number].description;
-  parkThumb.src = 'https://www.nps.gov/common/commonspot/templates/assetsCT/images/branding/logo.png';
+  parkThumb.src =
+    'https://www.nps.gov/common/commonspot/templates/assetsCT/images/branding/logo.png';
   parkSection.classList.remove('hidden');
-}
-const smartyUpdateUIError = function(error) {
+};
+const smartyUpdateUIError = function (error) {
   console.log(error);
 };
-const parkUpdateUIError = function(error) {
+const parkUpdateUIError = function (error) {
   console.log(error);
 };
 
@@ -61,31 +64,42 @@ const parkUpdateUIError = function(error) {
 //   httpRequest.send();
 // };
 
-const handleErrors = function(response) {
-  if(!response.ok) {
-    throw (response.status + ': ' + response.statusText);
+const handleErrors = function (response) {
+  if (!response.ok) {
+    throw response.status + ': ' + response.statusText;
   }
   return response.json();
-}
+};
 
-const createRequest = function(url, succeed, fail, init) {
+const createRequest = function (url, succeed, fail, init) {
   fetch(url, init)
     .then((response) => handleErrors(response))
     .then((data) => succeed(data))
     .catch((error) => fail(error));
 };
 
-const checkCompletion = function() {
-  if (addressField.value !== '' &&
-      cityField.value !== '' &&
-      stateField.value !== '') {
-        const requestUrl = smartyUrl + 
-          '&street=' + addressField.value + 
-          '&city=' + cityField.value + 
-          '&state=' + stateField.value;
-        createRequest(requestUrl, smartyUpdateUISuccess, smartyUpdateUIError, smartyInit);
-      }
-}
+const checkCompletion = function () {
+  if (
+    addressField.value !== '' &&
+    cityField.value !== '' &&
+    stateField.value !== ''
+  ) {
+    const requestUrl =
+      smartyUrl +
+      '&street=' +
+      addressField.value +
+      '&city=' +
+      cityField.value +
+      '&state=' +
+      stateField.value;
+    createRequest(
+      requestUrl,
+      smartyUpdateUISuccess,
+      smartyUpdateUIError,
+      smartyInit
+    );
+  }
+};
 //createRequest(smartyUrl);
 //createRequest(parksUrl, parkUpdateUISuccess, parkUpdateUIError);
 
@@ -94,4 +108,4 @@ cityField.addEventListener('blur', checkCompletion);
 stateField.addEventListener('blur', checkCompletion);
 window.addEventListener('DOMContentLoaded', () => {
   createRequest(parksUrl, parkUpdateUISuccess, parkUpdateUIError);
-})
+});

@@ -1,7 +1,4 @@
-ESLint: Customizing Styles
-======================================================
-Whizlabs: Microsoft Azure Exam AZ-900 Certification 
-Practice Test 8
+Vanilla JavaScript: Ajax and Fetch
 ======================================================
 1. LinkedIn Learning    -
 2. LMS Practice Tests   -
