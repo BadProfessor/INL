@@ -1,6 +1,6 @@
 Vanilla JavaScript: Ajax and Fetch
 ======================================================
-1. LinkedIn Learning    -
+1. LinkedIn Learning    +
 2. LMS Practice Tests   -
 3. Jira B2C Docs        -
 4. Microsoft B2C Docs   -
