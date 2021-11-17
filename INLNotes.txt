@@ -1,8 +1,8 @@
 AWS and React: Creating Full-Stack Apps
 ======================================================
-1. LinkedIn Learning    -
-2. Microsoft AZ104      -
-3. Jira B2C Docs        -
+1. LinkedIn Learning    +
+2. Microsoft AZ104      +
+3. Jira B2C Docs        +
 4. Microsoft B2C Docs   -
 5. Create B2C React App -
 ======================================================

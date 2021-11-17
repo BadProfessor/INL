@@ -1,26 +1,26 @@
 {
-    "todo": {
-        "awscloudformation": {
-            "AuthRoleName": "todo-todo-20190910111432-authRole",
-            "UnauthRoleArn": "arn:aws:iam::946947244681:role/todo-todo-20190910111432-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::946947244681:role/todo-todo-20190910111432-authRole",
-            "Region": "us-east-2",
-            "DeploymentBucketName": "todo-todo-20190910111432-deployment",
-            "UnauthRoleName": "todo-todo-20190910111432-unauthRole",
-            "StackName": "todo-todo-20190910111432",
-            "StackId": "arn:aws:cloudformation:us-east-2:946947244681:stack/todo-todo-20190910111432/d6bc48f0-d3f6-11e9-ad50-0285144e27ac"
-        },
-        "categories": {
-            "function": {
-                "todod2955b53CustomMessage": {
-                    "REDIRECTURL": "http://www.google.com",
-                    "EMAILSUBJECT": "Confirmation",
-                    "EMAILMESSAGE": "Confirm..."
-                }
-            },
-            "auth": {
-                "todod2955b53": {}
-            }
+  "todo": {
+    "awscloudformation": {
+      "AuthRoleName": "todo-todo-20190910111432-authRole",
+      "UnauthRoleArn": "arn:aws:iam::946947244681:role/todo-todo-20190910111432-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::946947244681:role/todo-todo-20190910111432-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "todo-todo-20190910111432-deployment",
+      "UnauthRoleName": "todo-todo-20190910111432-unauthRole",
+      "StackName": "todo-todo-20190910111432",
+      "StackId": "arn:aws:cloudformation:us-east-2:946947244681:stack/todo-todo-20190910111432/d6bc48f0-d3f6-11e9-ad50-0285144e27ac"
+    },
+    "categories": {
+      "function": {
+        "todod2955b53CustomMessage": {
+          "REDIRECTURL": "http://www.google.com",
+          "EMAILSUBJECT": "Confirmation",
+          "EMAILMESSAGE": "Confirm..."
         }
+      },
+      "auth": {
+        "todod2955b53": {}
+      }
     }
+  }
 }
