@@ -11,19 +11,24 @@ API.configure(awsconfig);
 
 function updateTodo(todo, newDesc) {
   todo['description'] = newDesc;
-  API.graphql(graphqlOperation(mutations.updateTodo, {input:todo}));
+  API.graphql(graphqlOperation(mutations.updateTodo, { input: todo }));
 }
 
 function deleteTodo(todo) {
-  API.graphql(graphqlOperation(mutations.deleteTodo, {input:{'id':todo['id']}}));
+  API.graphql(
+    graphqlOperation(mutations.deleteTodo, { input: { id: todo['id'] } })
+  );
 }
 
 function App() {
-
   const allTodos = API.graphql(graphqlOperation(queries.listTodos));
   console.log(allTodos);
 
-  const oneTodo = API.graphql(graphqlOperation(queries.getTodo, {id:"79f419b2-edd8-4a7a-b67f-c9aebc3b75c8"})).then(function(todo) {
+  const oneTodo = API.graphql(
+    graphqlOperation(queries.getTodo, {
+      id: '79f419b2-edd8-4a7a-b67f-c9aebc3b75c8',
+    })
+  ).then(function (todo) {
     // updateTodo(todo['data']['getTodo'], "new desc");
     // deleteTodo(todo['data']['getTodo']);
   });

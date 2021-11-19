@@ -10,20 +10,27 @@ Auth.configure(awsconfig);
 API.configure(awsconfig);
 
 function App() {
-
   const allTodos = API.graphql(graphqlOperation(queries.listTodos));
   console.log(allTodos);
 
-  const oneTodo = API.graphql(graphqlOperation(queries.getTodo, {id:"79f419b2-edd8-4a7a-b67f-c9aebc3b75c8"}));
+  const oneTodo = API.graphql(
+    graphqlOperation(queries.getTodo, {
+      id: '79f419b2-edd8-4a7a-b67f-c9aebc3b75c8',
+    })
+  );
   console.log(oneTodo);
 
   Auth.currentAuthenticatedUser({
-    bypassCache: false
-  }).then(function(user) {
-    console.log("User: " + JSON.stringify(user));
-    const todo = {name: user['username'], description: "new todo"};
-    const newTodo = API.graphql(graphqlOperation(mutations.createTodo, {input: todo}));
-    }).catch(err => console.log(err));
+    bypassCache: false,
+  })
+    .then(function (user) {
+      console.log('User: ' + JSON.stringify(user));
+      const todo = { name: user['username'], description: 'new todo' };
+      const newTodo = API.graphql(
+        graphqlOperation(mutations.createTodo, { input: todo })
+      );
+    })
+    .catch((err) => console.log(err));
 
   return (
     <div className="App">
