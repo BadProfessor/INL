@@ -1,5 +1,3 @@
-AWS and React: Creating Full-Stack Apps
-======================================================
 1. Jira B2C Docs        -
 2. Microsoft B2C Docs   -
 3. Create B2C React App -
