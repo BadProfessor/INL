@@ -1,10 +1,8 @@
-The Better Together
-======================================================
+0. Azure DevOps Story   -
 1. Jira B2C Docs        -
 2. Microsoft B2C Docs   -
-3. Create B2C React App -
-4. LinkedIn Learning    -
-5. Microsoft AZ104      -
+3. LinkedIn Learning    -
+4. Azure AZ104          -
 ======================================================
 Developer Stream:
 AZ-104
