@@ -1,4 +1,3 @@
-University
 0. Azure DevOps Story   -
 1. Jira B2C Docs        -
 2. Microsoft B2C Docs   -
