@@ -1,4 +1,5 @@
-const queue = '[{"id":"394","title":"Eat your veggies"},{"id":"378","title":"Every step counts"},{"id":"406","title":"Giving Back"}]';
+const queue =
+  '[{"id":"394","title":"Eat your veggies"},{"id":"378","title":"Every step counts"},{"id":"406","title":"Giving Back"}]';
 
 let queueParsed = JSON.parse(queue);
 
