@@ -1,8 +1,9 @@
+0. Azure DevOps Story   -
 1. LinkedIn Learning    -
 2. Azure AZ104          -
 3. Jira B2C Docs        -
 4. Microsoft B2C Docs   -
-5. Azure DevOps Story   -
+5. Azure B2C YouTube    -
 ======================================================
 Developer Stream:
 AZ-104
