@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Testing for an empty object</title>
-</head>
-<body>
-  <script>
-    const emptyObject = {};
-    const nonEmptyObject = { apples: "red" };
-    const stringContent = "banana";
-    const numberContent = 5;
-    const arrayContent = [ "asparagus", "lettuce", "kale" ];
-    const dateContent = new Date();
+  </head>
+  <body>
+    <script>
+      const emptyObject = {};
+      const nonEmptyObject = { apples: 'red' };
+      const stringContent = 'banana';
+      const numberContent = 5;
+      const arrayContent = ['asparagus', 'lettuce', 'kale'];
+      const dateContent = new Date();
 
-    const testData = (data) => {
-      for (prop in data) {
+      const testData = (data) => {
+        for (prop in data) {
           if (hasOwnProperty === true) {
-              console.log('Not an empty object:');
-              return data; 
+            console.log('Not an empty object:');
+            return data;
           }
-      }
-      if (JSON.stringify(data) === JSON.stringify({})) {
+        }
+        if (JSON.stringify(data) === JSON.stringify({})) {
           console.log('Empty Object:');
-          return data;                
-      } else { 
+          return data;
+        } else {
           console.log('Not an empty object:');
           return data;
-      }
+        }
 
-/*
+        /*
       if (Object.keys(data).length === 0 && data.constructor === Object) { 
           console.log('Empty Object:');
           return data;
@@ -36,7 +36,7 @@
           return data;
       }
 */
-    }
-  </script>
-</body>
+      };
+    </script>
+  </body>
 </html>
