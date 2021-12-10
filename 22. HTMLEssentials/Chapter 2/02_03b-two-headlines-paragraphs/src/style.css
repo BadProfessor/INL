@@ -1,0 +1,27 @@
+html {
+  font-size: 160%;
+}
+
+
+html {
+  font-family: Avenir, 'Open Sans', Helvetica; 
+  color: black;
+}
+body {
+  margin: 4em;
+}
+h1, h2 {
+  margin: 0;
+  line-height: 1.2;
+  color: SteelBlue;
+  font-weight: 100;
+}
+h1 {
+  font-size: 300%;
+}
+h2 {
+  font-size: 120%;
+  border-bottom: 2px solid;
+  padding-bottom: 1rem;
+}
+* { box-sizing: border-box; }

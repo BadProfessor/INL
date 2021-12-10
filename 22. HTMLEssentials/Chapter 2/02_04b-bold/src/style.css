@@ -1,0 +1,20 @@
+html {
+  font-size: 180%;
+}
+h1, h2 {
+  font-weight: normal;
+  margin-bottom: 2em;
+}
+/*
+*/
+html {
+  font-family: avenir;
+  margin: 2em;
+}
+strong {
+  text-transform: uppercase;
+}
+p {
+  margin-top: 12em;
+  margin-bottom: 6em;
+}

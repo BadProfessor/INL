@@ -1,0 +1,29 @@
+
+blockquote {
+  font-family: georgia, serif;
+  font-size: 100%;
+  font-style: italic;
+  line-height: 1.3;
+  color: teal;
+  border-left: 4px solid #5cb6b6;
+  padding-left: 1rem;
+  margin: 2rem 0.5rem;
+}
+cite {
+  font-style: normal;
+  text-align: right;
+  display: block;
+  margin-right: 5rem;
+}
+cite::before{
+  content: '— ';
+}
+
+
+
+/* ----------- */
+html {
+  font-family: Avenir, Roboto, Helvetica, Arial, sans-serif; 
+  margin: 2em;
+  font-size: 150%;
+}

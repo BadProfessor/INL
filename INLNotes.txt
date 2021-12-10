@@ -1,17 +1,40 @@
-0. Azure DevOps Story   -
-1. LinkedIn Learning    -
-2. Azure AZ104 YT       -
-3. Jira B2C Docs        -
-4. Microsoft B2C Docs   -
-5. Azure B2C YouTube    -
+1. Azure DevOps Story   -
+2. Jira B2C Docs        -
+3. LinkedIn Learning    -
+4. Azure AZ104          -
 ======================================================
-Developer Stream:
+Azure Administrator Certification (AZ-104)
+https://www.youtube.com/watch?v=10PbGbTUSAg
+41:30
+======================================================
 AZ-104
+======================================================
+SC-900
+SC-300
+SC-200
+SC-400
+======================================================
 AZ-204
 AZ-500
-AZ-303
-AZ-304
+AZ-305
 AZ-400
+======================================================
+======================================================AAZ-120
+AZ-140
+AZ-220
+AZ-600
+AZ-700
+AZ-800
+AZ-801
+======================================================
+DP-900
+DP-100
+DP-203
+DP-300
+DP-420
+======================================================
+AI-900
+AI-102
 ======================================================
 Microsoft Azure
 JavaScript (MongoDB, Express.js, React.js, Node.js)

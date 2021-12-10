@@ -1,0 +1,15 @@
+
+/* ----------- */
+html {
+  font-family: Avenir, Roboto, Helvetica, Arial, sans-serif; 
+  margin: 2em;
+  font-size: 180%;
+  color: #133;
+}
+code { 
+  color: black;
+  font-size: 130%;
+  padding: 0.05em 0.1em;
+  margin: 0 0.2em;
+  background: #eee;
+}

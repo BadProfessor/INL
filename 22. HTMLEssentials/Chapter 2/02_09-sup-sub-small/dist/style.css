@@ -1,0 +1,19 @@
+sub {
+  font-size: 65%;
+}
+sup {
+  font-size: 55%;
+}
+
+
+
+
+/* ----------- */
+html {
+  font-family: Avenir, Roboto, Helvetica, Arial, sans-serif; 
+  margin: 2em;
+  font-size: 200%;
+}
+p, small {
+  margin: 2rem 0;
+}
