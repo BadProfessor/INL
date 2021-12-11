@@ -1,0 +1,64 @@
+.page-title {
+  font-family: Roboto, Avenir;
+}
+.subheadline {
+  font-family: Roboto, Avenir;
+  margin-top: 2em;
+}
+.page-title + .subheadline {
+  margin-top: 0;
+}
+.footnote {
+  font-size: 70%;
+}
+.poem-title,
+.toc-title {
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#toc ol {
+  margin: 0;
+  list-style: upper-roman;
+}
+#toc a {
+  color: black;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 3px;
+}
+.byline {
+  display: block;
+  margin-top: 0;
+  font-style: italic;
+}
+.poem {
+  font-family: Lora, Georgia, serif;
+}
+.quote {
+  border-left: 1px solid black;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+.quote .byline {
+  margin-left: 50%;
+}
+.quote .byline::before {
+  content:'— ';
+}
+ul li {
+  padding-inline-start: 0.5em;
+}
+ul li::marker {
+  content: "🐝";
+}
+
+* {box-sizing: border-box;}
+html {
+  font-family: Lora, Georgia, serif; 
+  margin: 2em;
+  font-size: 120%;
+  line-height: 1.5;
+}
+body {
+  margin: 2rem 1rem 4rem;
+}

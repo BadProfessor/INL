@@ -1,0 +1,13 @@
+* {box-sizing: border-box;}
+html {
+  font-family: Lora, Georgia, serif; 
+  margin: 2em;
+  font-size: 180%;
+  line-height: 1.5;
+}
+body {
+  margin: 2rem 1rem 4rem;
+}
+p {
+  margin: 3rem 0;
+}
