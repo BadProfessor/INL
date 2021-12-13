@@ -1,13 +1,10 @@
 1. Azure DevOps Story   -
-2. Jira B2C Docs        -
-3. LinkedIn Learning    -
-4. Azure AZ104          -
+2. LinkedIn Learning    -
+3. Azure AZ104          -
 ======================================================
 Azure Administrator Certification (AZ-104)
 https://www.youtube.com/watch?v=10PbGbTUSAg
 41:30
-======================================================
-AZ-104
 ======================================================
 SC-900
 SC-300

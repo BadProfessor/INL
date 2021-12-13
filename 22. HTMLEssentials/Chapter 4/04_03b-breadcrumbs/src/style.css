@@ -1,0 +1,58 @@
+html {
+  font-family: avenir;
+  margin: 2em;
+  font-size: 180%;
+  line-height: 1.5;
+}
+
+ 
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: max-content;
+  gap: 1rem;
+  border: 4px solid rebeccapurple;
+  margin: 4em 0;
+  padding: 0.25em 1em;
+}
+.navbar li {
+  display: block; 
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.breadcrumbs {
+  padding: 0;
+  font-size: 84%;
+}
+.breadcrumbs li {
+  display: inline-block; 
+}
+.breadcrumbs li::after {
+  content: '>';
+  font-size: 70%;
+  padding: 0 0.5em;
+  font-family: georgia, serif;
+}
+.breadcrumbs li:last-child::after {
+  content:'';
+}
+.breadcrumbs a {
+  color: black;
+  text-underline-offset: 3px;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 1.1em;
+  text-underline-offset: -0.9em;
+  text-decoration-skip-ink: none;
+}

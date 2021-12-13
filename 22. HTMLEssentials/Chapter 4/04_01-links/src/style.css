@@ -1,0 +1,24 @@
+
+/* ----------- */
+html {
+  font-family: Lora, Georgia, serif; 
+  margin: 2em;
+  font-size: 170%;
+  line-height: 1.5;
+}
+
+article {
+  font-size: 70%;
+  padding: .8rem;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  border: 1px solid #ddd;
+  width: min-content;
+  margin: 10rem 0;
+}
+article h2 {
+  margin: 0;
+  font-family: Avenir, Helvetica;
+}
+article p {
+  margin: 0;
+}
