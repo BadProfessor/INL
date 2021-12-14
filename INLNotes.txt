@@ -1,10 +1,10 @@
-1. Azure DevOps Story   -
-2. LinkedIn Learning    -
+1. Azure DevOps Story   +
+2. LinkedIn Learning    +
 3. Azure AZ104          -
 ======================================================
 Azure Administrator Certification (AZ-104)
 https://www.youtube.com/watch?v=10PbGbTUSAg
-1:35:00
+3:10:00
 ======================================================
 SC-900
 SC-300

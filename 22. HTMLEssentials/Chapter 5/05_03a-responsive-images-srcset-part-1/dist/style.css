@@ -1,0 +1,19 @@
+/* ----------- */
+html {
+  margin: 0 4em;
+}
+
+img {
+	display: block;
+	margin: 4rem 0;
+  width: 100%;
+	height: auto;
+}
+@media (max-width: 500px) {
+  html {
+    margin: 0 2em;
+  }
+  img {
+    margin: 2rem 0;
+  }  
+}
