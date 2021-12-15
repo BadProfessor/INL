@@ -1,0 +1,10 @@
+html {
+  font-family: Lora, Georgia, serif; 
+  margin: 2rem 4em;
+  font-size: 170%;
+}
+audio {
+  display: block;
+  margin-bottom: 3rem;
+  width: 100%;
+}

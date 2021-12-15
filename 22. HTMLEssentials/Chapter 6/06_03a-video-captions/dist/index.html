@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 06_03A — Video Captions</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<video controls>
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
+    type="video/webm">
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
+    type="video/mp4">
+  
+  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.vtt"
+         kind="captions"
+         label="English"
+         srclang="en"
+         default>
+  
+   <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.es-la.es.vtt"
+         kind="subtitles"
+         label="Español"
+         srclang="es">
+  
+  <p>This would be a video of a moonwalk, if your device supported playing this video.</p>
+</video>
+
+
+
+
+
+
+
+
+
+<!-- This doesn't work in Chrome or Firefox. Use Safari. -->
+
+<!--
+
+
+  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.vtt"
+         kind="captions" 
+         label="English"
+         srclang="en"
+         default>
+
+  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.es-la.es.vtt"
+         kind="subtitles"
+         label="Español"
+         srclang="es">
+-->
+<!-- partial -->
+  
+</body>
+</html>
