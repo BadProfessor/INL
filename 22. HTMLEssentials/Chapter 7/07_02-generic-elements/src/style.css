@@ -1,0 +1,16 @@
+
+/* ----------- */
+html {
+  font-family: Lora, Georgia, serif; 
+  margin: 2em;
+  font-size: 170%;
+  line-height: 1.5;
+  background-color: #dcdcd1;
+}
+.box {
+  background-color: white;
+  padding: 0.1em 1em;
+}
+.bilingual {
+  font-style: italic;
+}
