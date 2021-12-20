@@ -4,7 +4,7 @@
 ======================================================
 Azure Administrator Certification (AZ-104)
 https://www.youtube.com/watch?v=10PbGbTUSAg
-04:12:15
+04:17:26
 ======================================================
 SC-900
 SC-300
