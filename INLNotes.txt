@@ -1,10 +1,10 @@
-1. Azure DevOps Story   +
-2. LinkedIn Learning    +
-3. Azure AZ104          +
+1. Azure DevOps Story   -
+2. LinkedIn Learning    -
+3. Azure AZ104          -
 ======================================================
 Azure Administrator Certification (AZ-104)
 https://www.youtube.com/watch?v=10PbGbTUSAg
-4:33:23
+4:38:53
 ======================================================
 SC-900
 SC-300
@@ -33,5 +33,5 @@ DP-420
 AI-900
 AI-102
 ======================================================
-Microsoft Azure
 JavaScript (MongoDB, Express.js, React.js, Node.js)
+Microsoft Azure
