@@ -1,0 +1,43 @@
+Alcohol:
+Red Wine
+Whiskey
+
+Condiments:
+Cocoa Powder
+Coconut Flour
+Hot Sauce
+Ketchup
+Mayonnaise
+Olive Oil
+Vinegar
+
+Dairy:
+Yogurt
+
+Drink:
+Coffee
+Tea
+Water
+
+Nuts and Seeds:
+Almonds
+Cashew Nuts
+Hazel Nuts
+Peanuts
+Pumpkin Seeds
+
+Protein:
+Chicken
+Eggs
+Salmon
+Shrimp
+
+Vegetables:
+Cucumber
+Lettuce
+Mushrooms
+Peppers
+Pickles
+Rocket
+Tomatoes
+Veggie Soup

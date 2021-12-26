@@ -2,10 +2,6 @@
 2. LinkedIn Learning    -
 3. Azure AZ104          -
 ======================================================
-Azure Administrator Certification (AZ-104)
-https://www.youtube.com/watch?v=10PbGbTUSAg
-4:38:53
-======================================================
 SC-900
 SC-300
 SC-200
