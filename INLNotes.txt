@@ -1,6 +1,6 @@
-1. Azure DevOps Story   _
-2. LinkedIn Learning    _
-3. Azure AZ104          _
+1. Azure DevOps Story   -
+2. LinkedIn Learning    -
+3. Azure AZ104          -
 ======================================================
 SC-900
 SC-300
