@@ -1,6 +1,6 @@
 Power Half Hour
 1,2,3,4,5,6,7/Week 1 - 8 reps/Weights - 4 sets
-8,/Week 2 - 9 reps/Weights - 5 sets
+8,9,/Week 2 - 9 reps/Weights - 5 sets
 
 Day 1 - Arm Toner
 Day 2 - Ab Burner
