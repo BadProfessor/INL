@@ -8,13 +8,14 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - blue light
 */
 
-
 /* Global styles
 ------------------------------------*/
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -30,7 +31,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #ffe66d;
 }
 a:hover {
   text-decoration: none;
@@ -42,7 +43,8 @@ h1 {
 h2 {
   font-size: 45px;
 }
-h1, h2 {
+h1,
+h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
   margin: 0;
@@ -53,28 +55,25 @@ h1, h2 {
   padding: 60px 0;
 }
 
-
-
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #2f3061;
+  color: #f7fff7;
   text-align: center;
 }
-
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #f7fff7;
 }
 .projects a {
-  color: #2F3061;
+  color: #2f3061;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #f7fff7;
+  background: #2f3061;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -96,11 +95,10 @@ header {
   margin-top: 0;
 }
 
-
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #a1c6d7;
 }
 .job-item {
   display: grid;
@@ -108,17 +106,14 @@ header {
   column-gap: 20px;
 }
 
-
 /* Education
 ------------------------------------*/
-
-
 
 /* Contact Info
 ------------------------------------*/
 footer {
   background: #343434;
-  color: #F7FFF7;
+  color: #f7fff7;
   text-align: center;
 }
 .contact-list {
