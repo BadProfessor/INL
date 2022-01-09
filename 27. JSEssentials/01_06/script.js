@@ -8,15 +8,15 @@
 See! this line is also commented out! */
 
 const updateBackpack = (update) => {
-  let main = document.querySelector("main"); // main is an element
+  let main = document.querySelector('main'); // main is an element
   main.innerHTML = markup(backpack);
   console.info(update);
 };
 
 const backpack = {
-  name: "Everyday Backpack",
+  name: 'Everyday Backpack',
   volume: 30,
-  color: "grey",
+  color: 'grey',
   pocketNum: 15,
   strapLength: {
     left: 26,
@@ -45,12 +45,12 @@ const markup = (backpack) => {
 	  <li>Strap lengths: L: ${backpack.strapLength.left}, R: ${
     backpack.strapLength.right
   } </li>
-	  <li>Top lid: ${backpack.lidOpen ? "Open" : "Closed"}</li>
+	  <li>Top lid: ${backpack.lidOpen ? 'Open' : 'Closed'}</li>
 	</ul>
   </div>
 `;
 };
 
-const main = document.createElement("main");
+const main = document.createElement('main');
 main.innerHTML = markup(backpack);
 document.body.appendChild(main);
