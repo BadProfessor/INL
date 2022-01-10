@@ -1,6 +1,7 @@
 # Breaking down the helloworld app
 
 ## Chapter Goals
+
 1. Understand the basics of the deployment and service
 2. Understand what we created
 3. Create a simple single yaml file for deployment and service
@@ -22,6 +23,7 @@ The Kubernetes service also comprises YAMLs. Let's take a look at that by runnin
 If we were going to recreate our deployment and service as YAMLs, they would look like the following:
 
 Deployment:
+
 ```
 apiVersion: apps/v1
 kind: Deployment
@@ -45,6 +47,7 @@ spec:
 ```
 
 Service:
+
 ```
 apiVersion: v1
 kind: Service
@@ -61,7 +64,6 @@ spec:
   selector:
     app: helloworld
 ```
-
 
 ### Execute our deployment using YAML
 
@@ -118,6 +120,7 @@ spec:
 Notice the `---` that marks the end of one section and starts another.
 
 ### Verify that the application is working as expected
+
 Finally, to see this new helloworld working as expected, we will run the minikube command to expose the service in the browser with the following command:
 
 ```
@@ -125,5 +128,3 @@ karthik$ minikube service helloworld-service
 Opening kubernetes service default/helloworld-service in default browser...
 karthik$
 ```
-
-
