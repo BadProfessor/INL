@@ -3,16 +3,14 @@ Red Wine
 Whiskey
 
 Condiments:
-Cocoa Powder
-Coconut Flour
 Hot Sauce
-Ketchup
-Mayonnaise
+Ketchup (low sugar)
 Olive Oil
 Vinegar
 
 Dairy:
 Yogurt
+Cottage Cheese
 
 Drink:
 Coffee
@@ -28,16 +26,28 @@ Pumpkin Seeds
 
 Protein:
 Chicken
-Eggs
-Salmon
-Shrimp
+Cod
+
+Fruits:
+Apples
+Bananas
+Berries
+Grapefruit
+Lemon
+Limes
+Mango
+Oranges
 
 Vegetables:
+Aubergine
+Beans
+Carrots
 Cucumber
+Courgette
+Garlic
 Lettuce
 Mushrooms
 Peppers
 Pickles
-Rocket
 Tomatoes
 Veggie Soup
