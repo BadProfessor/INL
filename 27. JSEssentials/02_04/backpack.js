@@ -1,13 +1,13 @@
 const updateBackpack = (update) => {
-  let main = document.querySelector("main");
+  let main = document.querySelector('main');
   main.innerHTML = markup(backpack);
   console.info(update);
 };
 
 const backpack = {
-  name: "Everyday Backpack",
+  name: 'Everyday Backpack',
   volume: 30,
-  color: "grey",
+  color: 'grey',
   pocketNum: 15,
   strapLength: {
     left: 26,
