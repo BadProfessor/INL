@@ -7,11 +7,11 @@ metadata:
     dev-lead: karthik
     team: web
     application_type: ui
-    release-version: "12.0"
+    release-version: '12.0'
 spec:
   containers:
-  - name: helloworld
-    image: karthequian/helloworld:latest
+    - name: helloworld
+      image: karthequian/helloworld:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -22,11 +22,11 @@ metadata:
     team: web
     dev-lead: karthik
     application_type: ui
-    release-version: "12.0"
+    release-version: '12.0'
 spec:
   containers:
-  - name: helloworld
-    image: karthequian/helloworld:latest
+    - name: helloworld
+      image: karthequian/helloworld:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -37,11 +37,11 @@ metadata:
     team: web
     dev-lead: karthik
     application_type: ui
-    release-version: "12.0"
+    release-version: '12.0'
 spec:
   containers:
-  - name: helloworld
-    image: karthequian/helloworld:latest
+    - name: helloworld
+      image: karthequian/helloworld:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -52,11 +52,11 @@ metadata:
     team: auth
     dev-lead: jim
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: login
-    image: karthequian/ruby:latest
+    - name: login
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -67,11 +67,11 @@ metadata:
     team: auth
     dev-lead: jim
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: login
-    image: karthequian/ruby:latest
+    - name: login
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -82,11 +82,11 @@ metadata:
     team: auth
     dev-lead: jim
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: login
-    image: karthequian/ruby:latest
+    - name: login
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -97,11 +97,11 @@ metadata:
     team: ecommerce
     dev-lead: carisa
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: cart
-    image: karthequian/ruby:latest
+    - name: cart
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -112,11 +112,11 @@ metadata:
     team: ecommerce
     dev-lead: carisa
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: cart
-    image: karthequian/ruby:latest
+    - name: cart
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -127,13 +127,12 @@ metadata:
     team: ecommerce
     dev-lead: carisa
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: cart
-    image: karthequian/ruby:latest
+    - name: cart
+      image: karthequian/ruby:latest
 ---
-
 apiVersion: v1
 kind: Pod
 metadata:
@@ -143,11 +142,11 @@ metadata:
     team: marketing
     dev-lead: carisa
     application_type: api
-    release-version: "2.0"
+    release-version: '2.0'
 spec:
   containers:
-  - name: social
-    image: karthequian/ruby:latest
+    - name: social
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -158,11 +157,11 @@ metadata:
     team: marketing
     dev-lead: marketing
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: social
-    image: karthequian/ruby:latest
+    - name: social
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -173,11 +172,11 @@ metadata:
     team: marketing
     dev-lead: marketing
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: social
-    image: karthequian/ruby:latest
+    - name: social
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -188,11 +187,11 @@ metadata:
     team: ecommerce
     dev-lead: daniel
     application_type: api
-    release-version: "4.0"
+    release-version: '4.0'
 spec:
   containers:
-  - name: catalog
-    image: karthequian/ruby:latest
+    - name: catalog
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -203,11 +202,11 @@ metadata:
     team: ecommerce
     dev-lead: daniel
     application_type: api
-    release-version: "4.0"
+    release-version: '4.0'
 spec:
   containers:
-  - name: catalog
-    image: karthequian/ruby:latest
+    - name: catalog
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -218,11 +217,11 @@ metadata:
     team: ecommerce
     dev-lead: daniel
     application_type: api
-    release-version: "4.0"
+    release-version: '4.0'
 spec:
   containers:
-  - name: catalog
-    image: karthequian/ruby:latest
+    - name: catalog
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -233,11 +232,11 @@ metadata:
     team: ecommerce
     dev-lead: amy
     application_type: api
-    release-version: "2.0"
+    release-version: '2.0'
 spec:
   containers:
-  - name: quote
-    image: karthequian/ruby:latest
+    - name: quote
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -248,11 +247,11 @@ metadata:
     team: ecommerce
     dev-lead: amy
     application_type: api
-    release-version: "2.0"
+    release-version: '2.0'
 spec:
   containers:
-  - name: quote
-    image: karthequian/ruby:latest
+    - name: quote
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -263,11 +262,11 @@ metadata:
     team: ecommerce
     dev-lead: amy
     application_type: api
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: quote
-    image: karthequian/ruby:latest
+    - name: quote
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -278,11 +277,11 @@ metadata:
     team: purchasing
     dev-lead: chen
     application_type: backend
-    release-version: "2.0"
+    release-version: '2.0'
 spec:
   containers:
-  - name: ordering
-    image: karthequian/ruby:latest
+    - name: ordering
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -293,11 +292,11 @@ metadata:
     team: purchasing
     dev-lead: chen
     application_type: backend
-    release-version: "2.0"
+    release-version: '2.0'
 spec:
   containers:
-  - name: ordering
-    image: karthequian/ruby:latest
+    - name: ordering
+      image: karthequian/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -308,9 +307,10 @@ metadata:
     team: purchasing
     dev-lead: chen
     application_type: backend
-    release-version: "2.0"
+    release-version: '2.0'
 spec:
   containers:
-  - name: ordering
-    image: karthequian/ruby:latest
+    - name: ordering
+      image: karthequian/ruby:latest
 ---
+

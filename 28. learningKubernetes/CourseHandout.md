@@ -3,18 +3,19 @@
 Here are the links for the different sections that were covered during the course.
 
 # Chapter 01_02
+
 [What is K8s] https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english
 
 K8s pronounciation: https://twitter.com/gregde/status/487456224368410624
 
-
 # Chapter 01_02
+
 What is K8s: https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english
 
 K8s pronounciation: https://twitter.com/gregde/status/487456224368410624
 
-
 # Chapter 01_03
+
 Joe Beda: https://www.crunchbase.com/person/joe-beda
 
 Addon list: https://kubernetes.io/docs/concepts/cluster-administration/addons/
@@ -29,8 +30,8 @@ K8s v/s openshift: https://www.openshift.com/container-platform/kubernetes.html
 
 K8s HA: https://kubernetes.io/docs/admin/high-availability/
 
-
 # Chapter 01_04
+
 Bitnami survey: http://blog.bitnami.com/2017/08/container-trends-part2.html
 
 Rancher: https://github.com/rancher/rancher#installation
@@ -51,8 +52,8 @@ Azure container service: https://azure.microsoft.com/en-us/blog/introducing-azur
 
 Azure Container service + Kubernetes: https://azure.microsoft.com/en-us/services/container-service/
 
-
 # Chapter 02_02
+
 Cluster info [1] : https://kubernetes.io/docs/tutorials/kubernetes-basics/cluster-intro/
 
 Minikube: https://github.com/kubernetes/minikube
@@ -62,7 +63,6 @@ Minkube logo: https://raw.githubusercontent.com/kubernetes/minikube/master/logo/
 Pods: https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
 
 K8s blog: http://blog.kubernetes.io/
-
 
 # Chapter 02_04
 
@@ -86,17 +86,17 @@ Connecting applications with services : https://kubernetes.io/docs/concepts/serv
 
 Kubernetes intro: https://www.slideshare.net/RohitJnagal/kubernetes-intro-public-kubernetes-meetup-4212015
 
-
 # Chapter 02_05
+
 Kubelet: https://kubernetes.io/docs/admin/kubelet/
 
 Kube-proxy: https://kubernetes.io/docs/admin/kube-proxy/
 
 Service networking: https://kubernetes.io/docs/concepts/services-networking/service/#the-gory-details-of-virtual-ips
 
-
 # Chapter 06_01
-Kubernetes the hard way: https://github.com/kelseyhightower/kubernetes-the-hard-way 
+
+Kubernetes the hard way: https://github.com/kelseyhightower/kubernetes-the-hard-way
 
 Hard to install k8s: https://groups.google.com/forum/#!topic/kubernetes-users/9ix65M13NNA
 
@@ -112,13 +112,13 @@ Azure container service: https://docs.microsoft.com/en-us/azure/container-servic
 
 Oracle Container Engine: https://blogs.oracle.com/developers/announcing-oracle-container-engine-and-oracle-container-registry-service
 
-
 # Chapter 06_02
+
 Links for handout doc: http://blog.kubernetes.io/2016/08/kubernetes-namespaces-use-cases-insights.html
 https://kubernetes.io/docs/tasks/administer-cluster/namespaces/
 
-
 # Chapter 06_03
+
 Logging: https://theagileadmin.com/2010/08/20/logging-for-success/
 
 Logging with kibana and elasticsearch: https://kubernetes.io/docs/tasks/debug-application-cluster/logging-elasticsearch-kibana/
@@ -145,8 +145,8 @@ Heapster: https://deis.com/blog/2016/monitoring-kubernetes-with-heapster/
 
 Helm charts: https://github.com/kubernetes/charts/tree/master/stable
 
-
 # Chapter 06_04
+
 Kubernetes authentication: https://kubernetes.io/docs/admin/authentication/
 
 RBAC+ABAC: http://blog.kubernetes.io/2017/04/rbac-support-in-kubernetes.html
@@ -158,7 +158,6 @@ RBAC config: https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-k
 Kubernetes slack: kubernetes.slack.com
 
 Kubernetes slack channel for auth: sig-auth
-
 
 # Chapter 07_01
 

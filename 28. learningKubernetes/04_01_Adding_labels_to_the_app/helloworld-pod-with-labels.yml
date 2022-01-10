@@ -6,8 +6,8 @@ metadata:
     env: production
     author: karthequian
     application_type: ui
-    release-version: "1.0"
+    release-version: '1.0'
 spec:
   containers:
-  - name: helloworld
-    image: karthequian/helloworld:latest
+    - name: helloworld
+      image: karthequian/helloworld:latest

@@ -13,7 +13,7 @@ spec:
         app: helloworld
     spec:
       containers:
-      - name: helloworld
-        image: karthequian/helloworld:latest
-        ports:
-        - containerPort: 80
+        - name: helloworld
+          image: karthequian/helloworld:latest
+          ports:
+            - containerPort: 80

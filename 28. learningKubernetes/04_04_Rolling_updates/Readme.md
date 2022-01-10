@@ -1,6 +1,7 @@
 # Handling application upgrades
 
 ## Chapter Goals
+
 1. Upgrade a deployment from 1 version to another
 2. Rollback the deployment to the 1st version
 
@@ -21,6 +22,7 @@ Let's take a look at what happened here. When the deployment was edited, a new r
 We can also take a look at the rollout history by typing `kubectl rollout history deployment/navbar-deployment`.
 
 ### Rollback the deployment to the 1st version
+
 To rollback the deployment, we use the rollout undo command `kubectl rollout undo deployment/navbar-deployment`. This will revert our changes back to the previous version.
 
 Our webpage will be back to the Lionel version of the deployment.

@@ -1,6 +1,7 @@
 # Application health checks
 
 ## Chapter Goal
+
 1. Add HTTP health checks to the helloworld deployment
 2. Simulate a failing deployment that fails a readiness probe
 3. Simulate a failing deployment that fails a liveness probe
@@ -34,6 +35,7 @@ spec:
 A readiness probe is used to know when a container is ready to start accepting traffic.
 
 The yaml has the following parameters:
+
 ```
 readinessProbe:
   # length of time to wait for a pod to initialize
@@ -119,8 +121,8 @@ spec:
 
 We run this yaml the same as we had done before: `kubectl create -f helloworld-deployment-with-probes`
 
-
 ### Simulate a failing deployment that fails a readiness probe
+
 We will now try to simulate a bad helloworld pod that fails a readiness probe. Instead of checking port 80 like the last example, we will run a readiness check on port 90 to simulate a failing scenario. Thus, our yaml now is:
 
 ```
@@ -166,6 +168,7 @@ helloworld-deployment-with-bad-readiness-probe-8664db7448-pv4fm   0/1       Runn
 ```
 
 Describing the pod will show that the pod failed readiness:
+
 ```
 MacbookHome:04_02 Application health checks karthik$ kubectl describe po helloworld-deployment-with-bad-readiness-probe-8664db7448-pv4fm
 Name:   helloworld-deployment-with-bad-readiness-probe-8664db7448-pv4fm
@@ -260,7 +263,6 @@ spec:
             port: 90
 ```
 
-
 We will run this yaml with the command `kubectl create -f helloworld-with-bad-liveness-probe.yaml`. After about a minute, we will notice that our pod is still not in a read state when we run the `kubectl get pods` command.
 
 ```
@@ -350,6 +352,7 @@ MacbookHome:04_02 Application health checks karthik$
 ```
 
 And finally, when we check the deployment, we notice that deployment is not available as well.
+
 ```
 MacbookHome:04_02 Application health checks karthik$ kubectl get deployments
 NAME                                            DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
