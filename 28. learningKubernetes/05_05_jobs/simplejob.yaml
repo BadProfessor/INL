@@ -8,10 +8,10 @@ spec:
       name: finalcountdown
     spec:
       containers:
-      - name: counter
-        image: busybox
-        command:
-         - bin/sh
-         - -c
-         - "for i in 9 8 7 6 5 4 3 2 1 ; do echo $i ; done"
+        - name: counter
+          image: busybox
+          command:
+            - bin/sh
+            - -c
+            - 'for i in 9 8 7 6 5 4 3 2 1 ; do echo $i ; done'
       restartPolicy: Never #could also be Always or OnFailure

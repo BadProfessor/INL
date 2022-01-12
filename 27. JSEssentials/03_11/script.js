@@ -31,9 +31,9 @@ function Backpack(
 }
 
 const everydayPack = new Backpack(
-  "Everyday Backpack",
+  'Everyday Backpack',
   30,
-  "grey",
+  'grey',
   15,
   26,
   26,

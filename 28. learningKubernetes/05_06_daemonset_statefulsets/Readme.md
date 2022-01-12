@@ -1,6 +1,7 @@
 # Daemonsets and Statefulsets
 
 ## Chapter Goals
+
 1. How to run daemonsets
 2. How to run statefulsets
 
@@ -13,10 +14,9 @@ First, you'll want to make sure you tag minikube with a label of `kubectl label 
 In the example, I will just run a simple busybox image as a daemonset, and then run daemonset examples to show how you can tag things to run on specific nodes
 `kubectl create -f daemonset.yaml` will run on the nodes
 
-`kubectl create -f daemonset-infra-development.yaml`  will only run on nodes labeled `infra=development` (as shown above in the label)
+`kubectl create -f daemonset-infra-development.yaml` will only run on nodes labeled `infra=development` (as shown above in the label)
 
-`kubectl create -f daemonset-infra-prod.yaml`  will only run on nodes labeled `infra=production`
-
+`kubectl create -f daemonset-infra-prod.yaml` will only run on nodes labeled `infra=production`
 
 ## Statefulsets
 

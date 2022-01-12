@@ -3,9 +3,9 @@
  */
 
 const backpack = {
-  name: "Everyday Backpack",
+  name: 'Everyday Backpack',
   volume: 30,
-  color: "grey",
+  color: 'grey',
   pocketNum: 15,
   strapLength: {
     left: 26,
@@ -21,4 +21,4 @@ const backpack = {
   },
 };
 
-console.log("The backpack object:", backpack);
+console.log('The backpack object:', backpack);

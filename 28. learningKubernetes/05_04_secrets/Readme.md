@@ -1,10 +1,12 @@
 # Working with secrets
 
 ## Chapter Goals
+
 1. Learn how to declare a secret
 2. Understand how to add a secret to a deployment
 
 ### Learn how to declare a secret
+
 Just like configuration data, applications might also require other data that might be of more sensitive in nature- for example database passwords, or API tokens. Passing these in the yaml for a deployment or pod would make them visible to everyone.
 
 In these usecases, use a secret to encapsulate sensitive data.

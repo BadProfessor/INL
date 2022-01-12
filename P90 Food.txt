@@ -3,6 +3,7 @@ Red Wine
 Whiskey
 
 Condiments:
+Coconut Flakes
 Hot Sauce
 Ketchup (low sugar)
 Olive Oil
@@ -17,6 +18,10 @@ Coffee
 Tea
 Water
 
+Grains:
+Oatmeal
+Rice
+
 Nuts and Seeds:
 Almonds
 Cashew Nuts
@@ -27,9 +32,11 @@ Pumpkin Seeds
 Protein:
 Chicken
 Cod
+Tuna
 
 Fruits:
 Apples
+Avocado
 Bananas
 Berries
 Grapefruit
@@ -37,6 +44,7 @@ Lemon
 Limes
 Mango
 Oranges
+Pineapple
 
 Vegetables:
 Aubergine
@@ -48,6 +56,5 @@ Garlic
 Lettuce
 Mushrooms
 Peppers
-Pickles
 Tomatoes
 Veggie Soup

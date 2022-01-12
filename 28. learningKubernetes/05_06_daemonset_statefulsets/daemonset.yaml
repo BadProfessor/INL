@@ -16,16 +16,16 @@ spec:
     spec:
       #nodeSelector: minikube # Specify if you want to run on specific nodes
       containers:
-      - name: example-daemonset
-        image: busybox
-        args:
-        - /bin/sh
-        - -c
-        - date; sleep 1000
-        resources:
-          limits:
-            memory: 200Mi
-          requests:
-            cpu: 100m
-            memory: 200Mi
+        - name: example-daemonset
+          image: busybox
+          args:
+            - /bin/sh
+            - -c
+            - date; sleep 1000
+          resources:
+            limits:
+              memory: 200Mi
+            requests:
+              cpu: 100m
+              memory: 200Mi
       terminationGracePeriodSeconds: 30

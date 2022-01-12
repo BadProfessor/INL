@@ -17,6 +17,7 @@ service/frontend created
 ```
 
 Load up the guestbook by running the command `minikube service frontend`. The output would look like this:
+
 ```
 $ minikube service frontend
 |-----------|----------|-------------|---------------------------|
