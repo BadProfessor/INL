@@ -1,25 +1,25 @@
 /**
  * Solution: Add a new element
  * - In JavaScript, create a new element to hold a navigation menu
- * - Add an unordered list and a series of no less than five links to the list 
+ * - Add an unordered list and a series of no less than five links to the list
  * - Use single words like “home”, “about”, etc for the list items and set the src attribute to # for simplicity
  * - Add the new navigation element to the DOM directly after the header
- * - Write basic CSS and add classes as necessary to create a horizontal layout for the menu. 
+ * - Write basic CSS and add classes as necessary to create a horizontal layout for the menu.
  * - A tip: Use either display flex or display grid to create the horizontal menu.
  */
 
-import Backpack from "./Backpack.js";
+import Backpack from './Backpack.js';
 
 const everydayPack = new Backpack(
-  "Everyday Backpack",
+  'Everyday Backpack',
   30,
-  "grey",
+  'grey',
   15,
   26,
   26,
   false,
-  "December 5, 2018 15:00:00 PST",
-  "../assets/images/everyday.svg"
+  'December 5, 2018 15:00:00 PST',
+  '../assets/images/everyday.svg'
 );
 
 const content = `
@@ -52,11 +52,11 @@ const content = `
   
 `;
 
-const main = document.querySelector(".maincontent");
+const main = document.querySelector('.maincontent');
 
-const newArticle = document.createElement("article");
-newArticle.classList.add("backpack");
-newArticle.setAttribute("id", "everyday");
+const newArticle = document.createElement('article');
+newArticle.classList.add('backpack');
+newArticle.setAttribute('id', 'everyday');
 newArticle.innerHTML = content;
 
 main.append(newArticle);
@@ -72,10 +72,10 @@ const navContent = `
       <li><a href="#">Contact</a></li>
 `;
 
-const mainNav = document.createElement("nav")
-mainNav.classList.add("main-navigation");
-const navList = document.createElement("ul")
-navList.innerHTML = navContent
-mainNav.append(navList)
+const mainNav = document.createElement('nav');
+mainNav.classList.add('main-navigation');
+const navList = document.createElement('ul');
+navList.innerHTML = navContent;
+mainNav.append(navList);
 
-document.querySelector(".siteheader").append(mainNav)
+document.querySelector('.siteheader').append(mainNav);

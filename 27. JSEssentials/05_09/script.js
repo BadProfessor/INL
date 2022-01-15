@@ -4,18 +4,18 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll
  */
 
-import Backpack from "./Backpack.js";
+import Backpack from './Backpack.js';
 
 const everydayPack = new Backpack(
-  "Everyday Backpack",
+  'Everyday Backpack',
   30,
-  "grey",
+  'grey',
   15,
   26,
   26,
   false,
-  "December 5, 2018 15:00:00 PST",
-  "../assets/images/everyday.svg"
+  'December 5, 2018 15:00:00 PST',
+  '../assets/images/everyday.svg'
 );
 
 const content = `
@@ -48,6 +48,6 @@ const content = `
   </article>
 `;
 
-const main = document.querySelector(".maincontent");
+const main = document.querySelector('.maincontent');
 
 main.innerHTML = content;
