@@ -5,57 +5,60 @@ Whiskey
 Condiments:
 Coconut Flakes
 Hot Sauce
-Ketchup (low sugar)
 Olive Oil
 Vinegar
 
 Dairy:
 Yogurt
 Cottage Cheese
+Ricotta
 
 Drink:
 Coffee
 Tea
 Water
 
-Grains:
-Oatmeal
-Rice
-
 Nuts and Seeds:
 Almonds
 Cashew Nuts
+Chia Seeds
 Hazel Nuts
-Peanuts
 Pumpkin Seeds
 
 Protein:
 Chicken
 Cod
+Mackerel
+Salmon
 Shrimp
 Tuna
+Turkey
 
 Fruits:
-Apples
 Avocado
-Bananas
-Berries
+Blackberries
 Grapefruit
 Lemon
 Limes
-Mango
-Oranges
-Pineapple
+Olives
+Raspberries
+Strawberries
 
 Vegetables:
+Asparagus
 Aubergine
-Beans
+Broccoli
+Cabbage
 Carrots
 Cucumber
 Courgette
 Garlic
+Green Beans
+Leek
 Lettuce
 Mushrooms
+Onion
 Peppers
+Pumpkin
+Raddish
 Tomatoes
-Veggie Soup
