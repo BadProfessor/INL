@@ -30,7 +30,6 @@ Chicken
 Cod
 Mackerel
 Salmon
-Shrimp
 Tuna
 Turkey
 
