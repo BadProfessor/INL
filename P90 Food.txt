@@ -11,7 +11,6 @@ Vinegar
 Dairy:
 Yogurt
 Cottage Cheese
-Ricotta
 
 Drink:
 Coffee
@@ -28,36 +27,25 @@ Pumpkin Seeds
 Protein:
 Chicken
 Cod
-Mackerel
 Salmon
 Tuna
-Turkey
 
 Fruits:
-Avocado
 Blackberries
-Grapefruit
+Coconut
 Lemon
 Limes
-Olives
 Raspberries
 Strawberries
 
 Vegetables:
-Asparagus
-Aubergine
 Broccoli
-Cabbage
-Carrots
+Celery
 Cucumber
-Courgette
-Garlic
 Green Beans
-Leek
 Lettuce
 Mushrooms
-Onion
+Olives
 Peppers
-Pumpkin
 Raddish
 Tomatoes

@@ -9,15 +9,15 @@
  */
 
 const deskArray = [
-  "pen",
-  "camera",
-  "phone",
-  "notebook",
-  "headphones",
-  "lightbulb",
-  "usb drive",
+  'pen',
+  'camera',
+  'phone',
+  'notebook',
+  'headphones',
+  'lightbulb',
+  'usb drive',
 ];
-console.log("Original array:", deskArray);
+console.log('Original array:', deskArray);
 
 // Remove the last item:
 // @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop

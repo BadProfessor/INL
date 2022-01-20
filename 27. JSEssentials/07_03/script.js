@@ -3,7 +3,7 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods
  */
 
-let backpackContents = ["piggy", "headlamp", "pen"];
+let backpackContents = ['piggy', 'headlamp', 'pen'];
 
 console.log(backpackContents);
 
