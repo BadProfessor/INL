@@ -3,12 +3,12 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
  * @link https://developer.mozilla.org/en-US/docs/Web/Events
  */
-import backpackObjectArray from "./components/data.js";
+import backpackObjectArray from './components/data.js';
 
 const backpackList = backpackObjectArray.map((backpack) => {
-  let backpackArticle = document.createElement("article");
-  backpackArticle.classList.add("backpack");
-  backpackArticle.setAttribute("id", backpack.id);
+  let backpackArticle = document.createElement('article');
+  backpackArticle.classList.add('backpack');
+  backpackArticle.setAttribute('id', backpack.id);
 
   backpackArticle.innerHTML = `
     <figure class="backpack__image">
@@ -33,7 +33,7 @@ const backpackList = backpackObjectArray.map((backpack) => {
         backpack.strapLength.right
       } inches</span></li>
       <li class="feature backpack__lid">Lid status: <span>${
-        backpack.lidOpen ? "open" : "closed"
+        backpack.lidOpen ? 'open' : 'closed'
       }</span></li>
     </ul>
     <button class="lid-toggle">Open lid</button>
@@ -42,7 +42,7 @@ const backpackList = backpackObjectArray.map((backpack) => {
   return backpackArticle;
 });
 
-const main = document.querySelector(".maincontent");
+const main = document.querySelector('.maincontent');
 
 backpackList.forEach((backpack) => {
   main.append(backpack);
