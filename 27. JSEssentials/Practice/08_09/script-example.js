@@ -14,18 +14,18 @@
  */
 
 const frogpack = {
-  name: "Frog Backpack",
+  name: 'Frog Backpack',
   volume: 8,
-  color: "green",
+  color: 'green',
   pocketNum: 3,
   strapLength: {
     left: 10,
     right: 10,
   },
   lidOpen: false,
-  image: "../../assets/images/frog.svg",
+  image: '../../assets/images/frog.svg',
   description:
-    "A green kids backpack designed to make the lid look like the face of a frog sticking out its tongue.",
+    'A green kids backpack designed to make the lid look like the face of a frog sticking out its tongue.',
   toggleLid: function (lidStatus) {
     this.lidOpen = lidStatus;
   },
@@ -55,7 +55,7 @@ const content = `
         frogpack.strapLength.right
       } inches</span></li>
       <li class="feature backpack__lid">Lid status:<span> ${
-        frogpack.lidOpen ? "open" : "closed"
+        frogpack.lidOpen ? 'open' : 'closed'
       }</span></li>
     </ul>  
 `;
@@ -67,11 +67,11 @@ const content = `
  * - Returns <figure>
  */
 const addFigure = (dataObj) => {
-  let newFigure = document.createElement("figure");
-  let newImg = document.createElement("img");
-  newImg.setAttribute("src", dataObj.image);
-  newImg.setAttribute("alt", "");
-  let newDesc = document.createElement("figcaption");
+  let newFigure = document.createElement('figure');
+  let newImg = document.createElement('img');
+  newImg.setAttribute('src', dataObj.image);
+  newImg.setAttribute('alt', '');
+  let newDesc = document.createElement('figcaption');
   newDesc.innerText = dataObj.description;
   newFigure.append(newImg, newDesc);
   return newFigure;
@@ -85,10 +85,10 @@ const addFigure = (dataObj) => {
  * - Returns <article>
  */
 const createArticle = (frogpack) => {
-  let newArticle = document.createElement("article");
+  let newArticle = document.createElement('article');
   newArticle.innerHTML = content;
   newArticle.prepend(addFigure(frogpack));
   return newArticle;
 };
 
-document.querySelector("main").append(createArticle(frogpack));
+document.querySelector('main').append(createArticle(frogpack));

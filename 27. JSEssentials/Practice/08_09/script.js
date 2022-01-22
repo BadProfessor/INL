@@ -14,16 +14,16 @@
  */
 
 const frogpack = {
-  name: "Frog Backpack",
+  name: 'Frog Backpack',
   volume: 8,
-  color: "green",
+  color: 'green',
   pocketNum: 3,
   strapLength: {
     left: 10,
     right: 10,
   },
   lidOpen: false,
-  image: "../../assets/images/frog.svg",
+  image: '../../assets/images/frog.svg',
   toggleLid: function (lidStatus) {
     this.lidOpen = lidStatus;
   },
@@ -53,7 +53,7 @@ const content = `
         frogpack.strapLength.right
       } inches</span></li>
       <li class="feature backpack__lid">Lid status:<span> ${
-        frogpack.lidOpen ? "open" : "closed"
+        frogpack.lidOpen ? 'open' : 'closed'
       }</span></li>
     </ul>  
 `;
