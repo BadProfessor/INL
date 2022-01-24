@@ -12,5 +12,5 @@ AZ-500
 AZ-305
 AZ-400
 ======================================================
-JavaScript (MongoDB, Express.js, React.js, Node.js)
+JS (MongoDB, Express.js, React.js, Node.js)
 Microsoft Azure
