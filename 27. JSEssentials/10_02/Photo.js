@@ -6,10 +6,10 @@
  * Copyright (c) 2015-2018 Sandra Gonzales
  */
 
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const imgWithClick = { cursor: "pointer" };
+const imgWithClick = { cursor: 'pointer' };
 
 const Photo = ({
   index,
@@ -21,9 +21,9 @@ const Photo = ({
   left,
   key,
 }) => {
-  const imgStyle = { margin: margin, display: "block" };
-  if (direction === "column") {
-    imgStyle.position = "absolute";
+  const imgStyle = { margin: margin, display: 'block' };
+  if (direction === 'column') {
+    imgStyle.position = 'absolute';
     imgStyle.left = left;
     imgStyle.top = top;
   }
@@ -59,16 +59,16 @@ Photo.propTypes = {
   photo: photoPropType.isRequired,
   margin: PropTypes.number,
   top: (props) => {
-    if (props.direction === "column" && typeof props.top !== "number") {
+    if (props.direction === 'column' && typeof props.top !== 'number') {
       return new Error(
-        "top is a required number when direction is set to `column`"
+        'top is a required number when direction is set to `column`'
       );
     }
   },
   left: (props) => {
-    if (props.direction === "column" && typeof props.left !== "number") {
+    if (props.direction === 'column' && typeof props.left !== 'number') {
       return new Error(
-        "left is a required number when direction is set to `column`"
+        'left is a required number when direction is set to `column`'
       );
     }
   },

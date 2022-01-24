@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 figure {
@@ -27,7 +27,7 @@ figure {
 .site-title {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 5rem;
   font-weight: 200;
 }
@@ -35,7 +35,7 @@ figure {
 .siteheader:after {
   display: block;
   margin: 4rem 0;
-  content: "⚍⚌⚍";
+  content: '⚍⚌⚍';
 }
 
 .maincontent {
@@ -56,7 +56,7 @@ figure {
 .page-header:after {
   margin: 4rem auto;
   display: block;
-  content: "";
+  content: '';
   border-bottom: 3px solid black;
   width: 4rem;
 }
@@ -75,7 +75,7 @@ figure {
   padding-top: 4rem;
   display: block;
   grid-column: span 2;
-  content: "";
+  content: '';
   border-bottom: 3px solid black;
   width: 4rem;
 }
