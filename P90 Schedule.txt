@@ -1,8 +1,19 @@
+P90 V1
+1, / Week 5 - 12 reps/Weights - 8 sets
+
+Day 1 - Sculpt
+Day 2 - Sweat + Abs
+Day 3 - Sculpt
+Day 4 - Sweat + Abs
+Day 5 - Sculpt
+Day 6 - Fat Burner Express + Abs
+Day 7 - Power Stretch
+
 Power Half Hour
-1,2,3,4,5,6,7/Week 1 1- 8 reps/Weights - 4 sets
-8,9,10,11,12,13,14/Week 2 - 9 reps/Weights - 5 sets
-15,16,17,18,19,20,21/Week 3 - 10 reps/Weights - 6 sets
-22,23,24,25,26,/Week 4 - 11 reps/Weights - 7 sets
+1,2,3,4,5,6,7 / Week 1 - 8 reps/Weights - 4 sets
+8,9,10,11,12,13,14 / Week 2 - 9 reps/Weights - 5 sets
+15,16,17,18,19,20,21 / Week 3 - 10 reps/Weights - 6 sets
+22,23,24,25,26,27,28 / Week 4 - 11 reps/Weights - 7 sets
 
 Day 1 - Arm Toner
 Day 2 - Ab Burner
