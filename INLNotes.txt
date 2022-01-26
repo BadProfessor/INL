@@ -2,6 +2,8 @@
 2. Azure AZ104          -
 3. DevOps Stories       -
 ======================================================
+Azure AZ104
+======================================================
 SC-900
 SC-300
 SC-200
@@ -12,4 +14,5 @@ AZ-500
 AZ-305
 AZ-400
 ======================================================
-JS (MongoDB, Express.js, React.js, Node.js) + Azure
+JS (MongoDB, Express.js, React.js, Node.js)
+Microsoft Azure
