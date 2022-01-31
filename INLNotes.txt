@@ -1,6 +1,6 @@
-1. DevOps Stories       -
-2. LinkedIn Learning    -
-3. Azure AZ104          -
+1. LinkedIn Learning    +
+2. Azure AZ104          +
+3. DevOps               -
 ======================================================
 Azure AZ104
 ======================================================
