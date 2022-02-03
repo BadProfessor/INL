@@ -3,6 +3,7 @@ function send_response($update) {
   // Keep track of which iteration of the loop you're in for $update->post_fields
   $i = 0;
   // Now go through the array and send each $method and $post_fields
+  // done
   foreach ($update->method as $method) {
     $curl = curl_init();
     curl_setopt_array($curl, array(
