@@ -1,4 +1,4 @@
-// This JavaScript program inserts today's and tomorrow's 
+// This JavaScript program inserts today's and tomorrow's
 // dates in the input form for user convenience.
 
 // Declare today's variables.
@@ -20,7 +20,7 @@ var todayYear = today.getFullYear();
 // From https://stackoverflow.com/questions/9444745/javascript-how-to-get-tomorrows-date-in-format-dd-mm-yy
 // The solution I used:
 // 86400000 = milliseconds in 24 hours (24 * 60 * 60 * 1000)
-var tomorrow = new Date(+today +86400000);
+var tomorrow = new Date(+today + 86400000);
 var tomorrowDate = tomorrow.getDate();
 var tomorrowMonth = tomorrow.getMonth() + 1;
 var tomorrowYear = tomorrow.getFullYear();
@@ -35,15 +35,15 @@ var tomorrowYear = tomorrow.getFullYear();
  */
 
 // Add leading zeroes to single-digit months & days
-if (todayDate < 10) todayDate = "0" + todayDate;
-if (todayMonth < 10) todayMonth = "0" + todayMonth;
-if (tomorrowDate < 10) tomorrowDate = "0" + tomorrowDate;
-if (tomorrowMonth < 10) tomorrowMonth = "0" + tomorrowMonth;
+if (todayDate < 10) todayDate = '0' + todayDate;
+if (todayMonth < 10) todayMonth = '0' + todayMonth;
+if (tomorrowDate < 10) tomorrowDate = '0' + tomorrowDate;
+if (tomorrowMonth < 10) tomorrowMonth = '0' + tomorrowMonth;
 
 // Put the values in the right format: YYYY-MM-DD
-var htmlToday = todayYear + "-" + todayMonth + "-" + todayDate;       
-var htmlTomorrow = tomorrowYear + "-" + tomorrowMonth + "-" + tomorrowDate;
+var htmlToday = todayYear + '-' + todayMonth + '-' + todayDate;
+var htmlTomorrow = tomorrowYear + '-' + tomorrowMonth + '-' + tomorrowDate;
 
 // Put the values onto the web page
 document.getElementById('startres').value = htmlToday;
-document.getElementById("endres").value = htmlTomorrow;
+document.getElementById('endres').value = htmlTomorrow;

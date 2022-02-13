@@ -6,7 +6,7 @@
 
 #reservations li {
   float: left;
-  color: #FFF;
+  color: #fff;
   padding: 20px 16px;
   font-size: 24px;
 }
@@ -25,10 +25,10 @@
 
 #weatherforecast weatherday {
   float: left;
-  color: #FFF;
+  color: #fff;
   padding: 20px 16px;
   font-size: 20px;
-  border-color: #FFF;
+  border-color: #fff;
   border-width: 1px;
   border-style: solid;
 }
