@@ -1,8 +1,3 @@
-// This JavaScript program inserts today's and tomorrow's
-// dates in the input form for user convenience.
-
-// Declare today's variables.
-// Months are +1 because getMonth() is zero-indexed
 var today = new Date();
 var todayDate = today.getDate();
 var todayMonth = today.getMonth() + 1;

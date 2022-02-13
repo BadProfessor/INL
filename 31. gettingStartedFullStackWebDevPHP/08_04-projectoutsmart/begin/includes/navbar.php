@@ -7,4 +7,4 @@
           <li><a class="icon events" href="index.php#events"><span>events</span></a></li>
           <li><a class="icon attractions" href="#attractions"><span>attractions</span></a></li>
         </ul>
-      </div><!-- navbar -->
+      </div>

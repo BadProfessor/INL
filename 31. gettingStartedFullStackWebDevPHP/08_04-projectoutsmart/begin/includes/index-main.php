@@ -10,15 +10,13 @@
       <h1>Welcome to the Landon&nbsp;Hotel</h1>
       <p>The original Landon perseveres after 50 years in the heart of West London. The West End neighborhood has something for everyone&mdash;from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, and good&nbsp;conversation.</p>
     </article>
-  </div><!-- welcome -->
+  </div>
   <div class="scene" id="hotelinfo">
     <article class="heading">
-      <!-- Begin weather info -->
       <?php
         include 'php/weather.php';
         show_forecast();
-      ?>  
-      <!-- End weather info -->
+      ?>
       <h1>Essential Info</h1>
     </article>
     <article id="usefulinfo">
@@ -144,29 +142,29 @@
         <img src="images/hotel/dining_lattes.jpg" alt="Dining">
         <p>Our traditional breakfast and coffee bar, located adjacent to our lounge, are the perfect way to start your morning. We offer a wide selection of seasonal fresh fruit, a variety of cereals, croissants, crusty sourdough bread, cook-to-order eggs and omelettes, fresh juice, coffee, and teas. Breakfast is served from 7:00 am to 10:00 am daily. Our coffee bar is open until 6:30 pm daily.</p>
       </section>
-    </article><!-- inhotel -->
+    </article>
     <article id="roomservice">
       <h1>Room Service</h1>
       <p>If you’d rather stay in your room and enjoy a quiet evening in, or a relaxing breakfast in bed, room service options are available for all of our dining choices.</p>
     </article>
-  </div><!-- dining -->
+  </div>
   <div class="scene" id="events">
       <article class="event fullheight" id="businessmeetings">
         <div class="content">
           <h2>Business Meetings</h2>
           <p>Our hotel boasts wireless Internet in every common room, and guest room, including the dining area and lobby. And, we have a state-of-the-art meeting room with video projectors, high definition video screens, and advanced sound technology.</p>
-        </div><!-- content -->
-      </article><!-- article -->
+        </div>
+      </article>
       <article class="event fullheight" id="weddings">
         <div class="content">
           <h2>Weddings &amp; Social Events</h2>
           <p> When you entrust us to handle your wedding, or other event, you’re putting your faith in our professional reputation – and that’s not a responsibility we take lightly. </p>
-        </div><!-- content -->
-      </article><!-- article -->
-  </div><!-- events -->
+        </div>
+      </article>
+  </div>
   <div class="scene fullheight" id="attractions">
     <article class="content">
       <h1>Local Attractions</h1>
         <p>Whether you’re a theater enthusiast, enjoy epic shopping, or love to stroll and people watch, London’s West End has an endless opportunity to partake. The heart of London’s "Theatreland" offering the best in drama, comedy, and musical productions.</p>
     </article>
-  </div><!-- attractions -->
+  </div>

@@ -1,5 +1,3 @@
-/* This is the script that came with the original Landon Hotel site. We don't touch it in the Getting Started as a Full-Stack Web Developer course. --Tom */
-
 (function e(t, n, r) {
   function s(o, u) {
     if (!n[o]) {
