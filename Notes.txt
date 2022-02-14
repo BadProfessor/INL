@@ -16,3 +16,16 @@ AZ-400
 ======================================================
 JS (MongoDB, Express.js, React.js, Node.js)
 Microsoft Azure
+======================================================
+Extensions:
+DotENV
+ES7+ React/Redux/React-Native snippets
+ESLint
+HTML CSS Support
+Image preview
+Indenticator
+Path Intellisense
+Prettier - Code formatter
+Tabnine AI Autocomplete
+Theme - Oceanic Next
+TODO Highlight
