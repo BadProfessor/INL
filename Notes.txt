@@ -17,7 +17,7 @@ AZ-400
 JS (MongoDB, Express.js, React.js, Node.js)
 Microsoft Azure
 ======================================================
-Extensions:
+Check Extensions:
 DotENV
 ES7+ React/Redux/React-Native snippets
 ESLint
@@ -29,3 +29,5 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 TODO Highlight
+
+Check settings.json
