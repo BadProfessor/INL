@@ -1,7 +1,7 @@
 P90 V1
 1,2,3,4,5,6,7 / Week 5 - 12 reps/Weights - 8 sets
-8,9,10,11, / Week 6 - 13 reps/Weights - 9 sets
-15,/ Week 7 - 14 reps - 10 sets - 7 min cardio
+8,9,10,11,12,13,14 / Week 6 - 13 reps/Weights - 9 sets
+15,16,17,18,/ Week 7 - 14 reps - 10 sets - 7 min cardio
 
 Day 1 - Sculpt
 Day 2 - Sweat + Abs
