@@ -20,7 +20,6 @@ Water
 Nuts and Seeds:
 Almonds
 Cashew Nuts
-Chia Seeds
 Hazel Nuts
 Pumpkin Seeds
 
@@ -32,7 +31,6 @@ Tuna
 
 Fruits:
 Blackberries
-Lemon
 Limes
 Raspberries
 Strawberries
@@ -41,10 +39,7 @@ Vegetables:
 Broccoli
 Celery
 Cucumber
-Green Beans
 Lettuce
-Mushrooms
-Olives
 Peppers
 Raddish
 Tomatoes
