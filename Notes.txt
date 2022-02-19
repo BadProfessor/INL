@@ -17,8 +17,9 @@ AZ-400
 JS (MongoDB, Express.js, React.js, Node.js)
 Microsoft Azure
 ======================================================
-Check Extensions:
-Bracket Pair Colorizer 2 - Missing from Windows
+
+Extensions:
+----Remove from work: Bracket Pair Colorizer 2
 DotENV
 ES7+ React/Redux/React-Native snippets
 ESLint
@@ -31,4 +32,4 @@ Tabnine AI Autocomplete
 Theme - Oceanic Next
 TODO Highlight
 
-Check settings.json
+Copy settings.json into Work

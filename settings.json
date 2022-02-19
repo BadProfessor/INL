@@ -1,61 +1,78 @@
 {
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-  "files.autoSave": "onFocusChange",
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "editor.wordWrap": "on",
-  "editor.trimAutoWhitespace": false,
-  "eslint.run": "onSave",
-
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#333333",
-    "statusBar.noFolderBackground": "#333333",
-    "statusBar.debuggingBackground": "#263238"
-  },
   "css.validate": false,
-  "window.zoomLevel": 3,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.accessibilitySupport": "off",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "tabnine.experimentalAutoImports": false,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.suggestSelection": "first",
-  "explorer.confirmDragAndDrop": false,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "explorer.confirmDelete": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.codeLens": false,
-  "merge-conflict.codeLens.enabled": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.hover.delay": 2000,
+  // "editor.hover.enabled": false, // disable hover
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.trimAutoWhitespace": false,
+  "editor.wordWrap": "on",
+
   "emmet.excludeLanguages": ["markdown"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.parameterHints.enabled": false,
-  "editor.hover.delay": 2000,
-  // "editor.hover.enabled": false, // to completely disable the hover
-  // "editor.codeActionsOnSave": null,
-  "security.workspace.trust.untrustedFiles": "open",
-  "settingsSync.ignoredExtensions": [],
+
+  "eslint.run": "onSave",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "files.autoSave": "onFocusChange",
+
+  "git.confirmSync": false,
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "json.schemas": [
     {
       "fileMatch": ["/myfile"],
       "url": "schemaURL"
     }
   ],
-  "git.confirmSync": false,
-  "explorer.compactFolders": false,
-  "bracket-pair-colorizer-2.depreciation-notice": false
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "merge-conflict.codeLens.enabled": false,
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "settingsSync.ignoredExtensions": [],
+
+  "tabnine.experimentalAutoImports": false,
+
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+
+  "window.zoomLevel": 3
 }
