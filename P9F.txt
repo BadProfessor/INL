@@ -3,14 +3,13 @@ Red Wine
 Whiskey
 
 Condiments:
-Coconut Flakes
-Low Cholesterol Margarine
+Margarine - Low Cholesterol
 Olive Oil
 Vinegar
 
 Dairy:
+Mozzarella - Skimmed
 Yogurt
-Skimmed Mozzarella
 
 Drink:
 Coffee
@@ -24,10 +23,10 @@ Hazel Nuts
 Pumpkin Seeds
 
 Protein:
+Beef - Lean
 Chicken
 Cod
 Salmon
-Tuna
 
 Fruits:
 Blackberries
@@ -36,8 +35,8 @@ Raspberries
 Strawberries
 
 Vegetables:
-Broccoli
 Celery
+Carrots
 Cucumber
 Lettuce
 Peppers
