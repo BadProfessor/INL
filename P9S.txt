@@ -4,7 +4,7 @@ P90 V1
 15,16,17,18,19,20,21/Week 7-14 reps-10 sets-7 min cardio
 22,23,24,25,26,27,28/Week 8-15 reps-11 sets-8 min cardio
 
-29,30,/Week 9-16 reps-12 sets-9 min cardio
+/Week 9-16 reps-12 sets-9 min cardio
 
 Day 1 - Sculpt
 Day 2 - Sweat + Abs
@@ -26,4 +26,4 @@ Day 3 - Arm Toner
 Day 4 - Thigh Trimmer
 Day 5 - Arm Toner
 Day 6 - Bun Shaper
-Day 7 - Power Stretch
+Day 7 - Power Stretch`
