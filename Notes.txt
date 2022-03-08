@@ -1,10 +1,8 @@
-1. B2C                  -
-2. Mobile               -
-3. NG                   -
-4. Web Dev              -
-5. Android Dev          -
-6. iOS Dev              -
-7. AZ104                -
+1. DevOps               +
+2. Web Dev              +
+3. Android Dev          +
+4. iOS Dev              -
+5. AZ104                -
 ======================================================
 Azure AZ104
 ======================================================
@@ -33,3 +31,7 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 TODO Highlight
+
+Unable to install Intel® HAXM
+HAXM can only be installed on Windows or Mac.
+Please file a bug against Android Studio.
