@@ -1,6 +1,6 @@
-1. DevOps               +
-2. Web Dev              +
-3. Android Dev          +
+1. DevOps               -
+2. Web Dev              -
+3. Android Dev          -
 4. iOS Dev              -
 5. AZ104                -
 ======================================================

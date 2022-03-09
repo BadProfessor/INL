@@ -29,6 +29,10 @@
 
   "files.autoSave": "onFocusChange",
 
+  "files.exclude": {
+    "**/.git": false
+  },
+
   "git.confirmSync": false,
 
   "[html]": {
