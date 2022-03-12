@@ -8,7 +8,6 @@ Olive Oil
 Vinegar
 
 Dairy:
-Mozzarella - Skimmed
 Yogurt
 
 Drink:
@@ -25,8 +24,6 @@ Pumpkin Seeds
 Protein:
 Beef - Lean
 Chicken
-Cod
-Salmon
 
 Fruits:
 Blackberries
@@ -35,7 +32,6 @@ Raspberries
 Strawberries
 
 Vegetables:
-Celery
 Carrots
 Cucumber
 Lettuce
