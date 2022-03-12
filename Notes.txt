@@ -31,7 +31,3 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 TODO Highlight
-
-Unable to install Intel® HAXM
-HAXM can only be installed on Windows or Mac.
-Please file a bug against Android Studio.
