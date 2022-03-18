@@ -38,4 +38,3 @@ Deployments in resources
 Azure files
 Scale Set
 Application Gateway
-
