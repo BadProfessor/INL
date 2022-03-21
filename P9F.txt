@@ -3,7 +3,6 @@ Red Wine
 Whiskey
 
 Condiments:
-Margarine - Low Cholesterol
 Olive Oil
 Vinegar
 
@@ -22,7 +21,6 @@ Hazel Nuts
 Pumpkin Seeds
 
 Protein:
-Beef - Lean
 Chicken
 
 Fruits:
