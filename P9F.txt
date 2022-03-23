@@ -14,6 +14,16 @@ Coffee
 Tea
 Water
 
+Grains:
+Oats
+Rice
+
+Legumes:
+Black beans
+Kidney Beans
+Peas
+Red Beans
+
 Nuts and Seeds:
 Almonds
 Cashew Nuts
