@@ -31,6 +31,3 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 TODO Highlight
-
-Promo Recording: 14:00
-27dyw9l10wq2ax
