@@ -5,11 +5,7 @@ P90 V1
 22,23,24,25,26,27,28/Week 8-15 reps-11 sets-8 min cardio
 
 29,30,31,32,33,34,35/Week 9-16 reps-12 sets-9 min cardio
-<<<<<<< HEAD
-/Week 10-17 reps-13 sets-10 min cardio
-=======
 36,37,38,/Week 10 - 8/16 reps - 13 sets - 10 min cardio
->>>>>>> 26525d1abd86aad4f9560e5bb80d41d7d04033a4
 
 Day 1 - Sculpt
 Day 2 - Sweat + Abs
