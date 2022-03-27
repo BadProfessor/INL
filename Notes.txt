@@ -1,8 +1,8 @@
+1. DevOps               -
 1. Web Dev              -
 2. Android Dev          -
 3. iOS Dev              -
 4. AZ104                -
-5. DevOps               -
 ======================================================
 Azure AZ104
 ======================================================
@@ -31,6 +31,3 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 TODO Highlight
-
-Promo Recording: 13:00
-ac7o0p9l0sc76f6

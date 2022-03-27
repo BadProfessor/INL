@@ -3,17 +3,27 @@ Red Wine
 Whiskey
 
 Condiments:
-Margarine - Low Cholesterol
 Olive Oil
 Vinegar
 
 Dairy:
+Cottage Cheese
 Yogurt
 
 Drink:
 Coffee
 Tea
 Water
+
+Grains:
+Oats
+Rice
+
+Legumes:
+Black beans
+Kidney Beans
+Peas
+Red Beans
 
 Nuts and Seeds:
 Almonds
@@ -22,7 +32,6 @@ Hazel Nuts
 Pumpkin Seeds
 
 Protein:
-Beef - Lean
 Chicken
 
 Fruits:
