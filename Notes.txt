@@ -1,8 +1,9 @@
-1. DevOps               -
-1. Web Dev              -
-2. Android Dev          -
-3. iOS Dev              -
-4. AZ104                -
+1. NGPS                 -
+2. Mobile               -
+3. Web Learn            -
+4. Android Learn        -
+5. iOS Learn            -
+6. AZ104 Learn          -
 ======================================================
 Azure AZ104
 ======================================================
