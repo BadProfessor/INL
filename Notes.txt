@@ -1,11 +1,9 @@
-1. NGPS                 -
-2. Mobile               +
+1. Mobile               -
+2. NGPS                 -
 3. Web Learn            -
 4. Android Learn        -
 5. iOS Learn            -
 6. AZ104 Learn          -
-======================================================
-Azure AZ104
 ======================================================
 SC-900
 SC-300
@@ -19,6 +17,8 @@ AZ-400
 ======================================================
 JS (MongoDB, Express.js, React.js, Node.js)
 Microsoft Azure
+Android
+iOS
 ======================================================
 Extensions:
 DotENV
