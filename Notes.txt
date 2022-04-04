@@ -22,13 +22,17 @@ iOS
 ======================================================
 Extensions:
 DotENV
+EditorConfig for VS Code
 ES7+ React/Redux/React-Native snippets
 ESLint
+GitHub Pull Requests and Issues
 HTML CSS Support
 Image preview
 Indenticator
+JavaScript Debugger (Nightly)
 Path Intellisense
 Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
+Thunder Client
 TODO Highlight
