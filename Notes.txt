@@ -1,6 +1,6 @@
-1. Mobile               +
-2. NGPS                 +
-3. Web Learn            +
+1. Mobile               -
+2. NGPS                 -
+3. Web Learn            -
 4. Android Learn        -
 5. iOS Learn            -
 6. AZ104 Learn          -
@@ -36,3 +36,5 @@ Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
 TODO Highlight
+
+Change Mac Keys from Control to Command
