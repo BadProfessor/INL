@@ -1,3 +1,23 @@
+P90 V2 P90M
+/Week 13 - 11/19 reps - 16 sets - 13 min cardio
+
+Day 1 - Sculpt 5/6 - Ab Ripper 200
+Day 2 - Sweat 5/6
+Day 3 - UML - Ab Ripper 200
+Day 4 - Cardio Intervals
+Day 5 - Plyometrics - Ab Ripper 200
+Day 6 - Core Cardio
+Day 7 - Power Stretch
+
+General:
+Day 1 - Chest
+Day 2 - Back
+Day 3 - Shoulders
+Day 4 - Biceps
+Day 5 - Triceps
+Day 6 - Legs
+Day 7 - Cardio
+
 P90 V1
 1,2,3,4,5,6,7/Week 5-12 reps/Weights-8 sets
 8,9,10,11,12,13,14/Week 6-13 reps/Weights-9 sets
@@ -6,8 +26,8 @@ P90 V1
 
 29,30,31,32,33,34,35/Week 9-16 reps-12 sets-9 min cardio
 36,37,38,39,40,41,42/Week 10 - 8/16 reps - 13 sets - 10 min cardio
-33,34,35,36,37,38,39/Week 11 - 9/17 reps - 14 sets - 11 min cardio
-40,41,43,/Week 12 - 10/18 reps - 15 sets - 12 min cardio
+43,44,45,46,47,48,49/Week 11 - 9/17 reps - 14 sets - 11 min cardio
+50,51,52,53,54,55,56/Week 12 - 10/18 reps - 15 sets - 12 min cardio
 
 Day 1 - Sculpt
 Day 2 - Sweat + Abs
@@ -15,8 +35,7 @@ Day 3 - Sculpt
 Day 4 - Sweat + Abs
 Day 5 - Sculpt
 Day 6 - Fat Burner Express + Abs
-Day 7 - Power Stre
-tch
+Day 7 - Power Stretch
 
 Power Half Hour
 1,2,3,4,5,6,7 / Week 1 - 8 reps/Weights - 4 sets

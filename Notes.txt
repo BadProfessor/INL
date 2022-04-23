@@ -1,19 +1,9 @@
 1. Mobile               -
 2. NGPS                 -
-3. Web Learn            -
+3. JS Learn             -
 4. Android Learn        -
 5. iOS Learn            -
 6. AZ104 Learn          -
-======================================================
-SC-900
-SC-300
-SC-200
-SC-400
-======================================================
-AZ-204
-AZ-500
-AZ-305
-AZ-400
 ======================================================
 JS (MongoDB, Express.js, React.js, Node.js)
 Microsoft Azure
