@@ -5,8 +5,8 @@
 5. iOS Learn            -
 6. AZ104 Learn          -
 ======================================================
-JS (MongoDB, Express.js, React.js, Node.js)
-Microsoft Azure
+JS (MERN)
+Azure
 Android
 iOS
 ======================================================
