@@ -27,4 +27,5 @@ Theme - Oceanic Next
 Thunder Client
 TODO Highlight
 
-Change Mac Keys from Control to Command
+Change Mac Keys from Control to Command in VS Code
+Remove the Mac Disk from Desktop
