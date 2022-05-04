@@ -17,10 +17,10 @@ Water
 
 Grains:
 Oats
-Rice
 
 Legumes:
 Black beans
+Chickpeas
 Kidney Beans
 Peas
 Red Beans
@@ -35,8 +35,11 @@ Protein:
 Chicken
 
 Fruits:
+Avocado
+Bananas
 Blackberries
 Limes
+Oranges
 Raspberries
 Strawberries
 
