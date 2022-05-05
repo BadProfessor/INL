@@ -1,12 +1,12 @@
-1. Mobile               -
-2. NGPS                 -
-3. Android Learn        -
-4. iOS Learn            -
+1. Mobile               +
+2. NGPS                 +
+3. Android Learn        +
+4. iOS Learn            +
 5. AZ104 Learn          -
 6. JS Learn             -
 ======================================================
 JS (MERN)
-Azure
+AWS/Azure
 Android
 iOS
 ======================================================
