@@ -7,7 +7,7 @@ Olive Oil
 Vinegar
 
 Dairy:
-Cottage Cheese
+Mozzarella
 Yogurt
 
 Drink:
@@ -45,6 +45,7 @@ Strawberries
 
 Vegetables:
 Carrots
+Celery
 Cucumber
 Lettuce
 Peppers

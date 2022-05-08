@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         // find files etc
         // editor window
         // shortcuts editor
+        // inspect and refactor code
 
     }
 }

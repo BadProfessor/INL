@@ -14,7 +14,11 @@
 
  */
 // Test variables
-
+var activeQuests: Set<String> = ["Fetch Gemstones, Big Boss", "The Undertaker", "Granny Needs Firewood"]
+var completedQuests: Set = ["Big Boss", "All-4-One", "The Hereafter"]
 
 // Set operations
+var commonQuests = activeQuests.intersection(completedQuests)
+var differentQuests = activeQuests.symmetricDifference(completedQuests)
+var allQuests = activeQuests.union(completedQuests)
 
