@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         // editor window
         // shortcuts editor
         // inspect and refactor code
-
+        // create and use live templates
+        // layouts
     }
 }

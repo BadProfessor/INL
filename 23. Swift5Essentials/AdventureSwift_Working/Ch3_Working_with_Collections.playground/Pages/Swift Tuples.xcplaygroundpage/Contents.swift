@@ -17,12 +17,20 @@
 
  */
 // Simple tuple
+var uppercutAttack: (String, Int, Bool) = ("Uppercut Smash", 25, true)
+uppercutAttack.0
+uppercutAttack.1
+uppercutAttack.2
 
-
-
+var (attack, damage, rechargeable) = uppercutAttack
+attack
+damage
+rechargeable
 
 // Naming tuple values
-
+var planetSmash = (name: "Planet Smash", damage: 45, rechargeable: true)
+planetSmash.rechargeable
 
 // Naming values with type annotation
-
+var shieldStomp: (name: String, damage: Int, rechargeable: Bool)
+shieldStomp.damage = 100

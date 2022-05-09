@@ -5,6 +5,7 @@
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeLens": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontLigatures": false,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
@@ -15,6 +16,8 @@
   "editor.suggestSelection": "first",
   "editor.trimAutoWhitespace": false,
   "editor.wordWrap": "on",
+
+  "editorconfig.generateAuto": false,
 
   "emmet.excludeLanguages": ["markdown"],
   "emmet.includeLanguages": {
@@ -43,10 +46,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "javascript.format.enable": false,
+
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
 
   "json.schemas": [
@@ -78,5 +83,5 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
 
-  "window.zoomLevel": 3
+  "window.zoomLevel": 4
 }

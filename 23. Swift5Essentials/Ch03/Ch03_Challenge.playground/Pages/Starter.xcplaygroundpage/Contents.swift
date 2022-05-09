@@ -15,18 +15,29 @@
  
  */
 // 1
+var shopItemsArray = ["Stone Shield", "Bronze Hammer", "Gold Helm"]
+var shopItemsDictionary = ["Stone Shield": 15, "Bronze Hammer": 25, "Gold Helm": 35, "Diamond Longsword": 100]
 
 // 2
+var longswordInStock = shopItemsArray.contains("Diamond Longsword")
 
 // 3
+shopItemsArray.insert("Diamond Longsword", at: 3)
 
 // 4
+var selectedItem = shopItemsArray[2]
 
 // 5
+var selectedItemPrice = shopItemsDictionary[selectedItem]
 
 // 6
+var fullArmor: Set = ["Diamond Helm", "Diamond Armor", "Diamond Greaves", "Diamond Braces"]
+var currentArmor: Set = ["Diamond Helm", "Diamond Braces"]
 
 // 7
+var missingPieces = fullArmor.subtracting(currentArmor)
 
 // 8
-
+var armorPiece = (name: "Diamond Braces", cost: 55, canEquip: true)
+armorPiece.canEquip
+armorPiece.cost
