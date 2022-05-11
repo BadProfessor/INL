@@ -1,14 +1,10 @@
-1. Mobile               -
-2. NGPS                 -
-3. Android Learn        -
-4. iOS Learn            -
-5. AZ104 Learn          -
-6. JS Learn             -
+1. Mobile               +
+2. NGPS                 +
+4. Azure Learn          -
+3. JS Learn             +
 ======================================================
-JS (MERN)
+JS(MERN)
 AWS/Azure
-Android
-iOS
 ======================================================
 Extensions:
 DotENV
@@ -27,5 +23,4 @@ Theme - Oceanic Next
 Thunder Client
 TODO Highlight
 
-Change Mac Keys from Control to Command in VS Code
 Remove the Mac Disk from Desktop
