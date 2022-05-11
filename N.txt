@@ -1,10 +1,14 @@
 1. Mobile               -
 2. NGPS                 -
-4. Azure Learn          -
+3. Android Learn        -
+5. iOS Learn            -
+4. AWS Learn            -
 3. JS Learn             -
 ======================================================
-JS(MERN)
-AWS/Azure
+JS
+AWS
+Android
+iOS
 ======================================================
 Extensions:
 DotENV
