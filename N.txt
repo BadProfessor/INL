@@ -1,7 +1,7 @@
-1. Mobile               +
-2. NGPS                 +
+1. Mobile               -
+2. NGPS                 -
 4. Azure Learn          -
-3. JS Learn             +
+3. JS Learn             -
 ======================================================
 JS(MERN)
 AWS/Azure
