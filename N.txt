@@ -1,14 +1,11 @@
-1. Mobile               -
-2. NGPS                 -
-3. Android Learn        -
-5. iOS Learn            -
-4. AWS Learn            -
-3. JS Learn             -
+1. Android              -
+2. iOS                  -
+3. AWS                  -
+4. JS                   -
 ======================================================
 JS
-AWS
-Android
-iOS
+AWS/Azure
+Android/iOS
 ======================================================
 Extensions:
 DotENV

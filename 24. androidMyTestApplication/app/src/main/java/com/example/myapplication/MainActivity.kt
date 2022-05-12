@@ -20,5 +20,6 @@ class MainActivity : AppCompatActivity() {
         // inspect and refactor code
         // create and use live templates
         // layouts
+        // motion editor layout
     }
 }
