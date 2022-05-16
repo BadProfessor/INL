@@ -17,7 +17,7 @@ Water
 
 Legumes:
 Beans
-Chickpease
+Chickpeas
 Peas
 
 Nuts and Seeds:
@@ -33,10 +33,10 @@ Fruits:
 Avocado
 Bananas
 Blackberries
+Blueberries
 Limes
 Oranges
 Raspberries
-Strawberries
 
 Vegetables:
 Carrots
