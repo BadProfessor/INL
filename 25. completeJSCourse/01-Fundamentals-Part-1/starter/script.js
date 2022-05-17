@@ -217,22 +217,24 @@ Block comment
 // Truthy and Falsy values
 
 // 5 falsy vales: 0, '', undefined, null, NaN
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log('Jonas');
-console.log(Boolean({}));
-console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log('Jonas');
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
-const money = 100;
-if (money) {
-  console.log(`Don't spend it all`);
-} else {
-  console.log(`You should get a job`);
-}
+// const money = 100;
+// if (money) {
+//   console.log(`Don't spend it all`);
+// } else {
+//   console.log(`You should get a job`);
+// }
 
-let height = 0;
-if (height) {
-  console.log(`Yay! Height is defined!`);
-} else {
-  console.log(`Height is undefined!`);
-}
+// let height = 0;
+// if (height) {
+//   console.log(`Yay! Height is defined!`);
+// } else {
+//   console.log(`Height is undefined!`);
+// }
+
+// Equality operators: == vs. ===
