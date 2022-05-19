@@ -39,10 +39,10 @@ Oranges
 Raspberries
 
 Vegetables:
+Beets
 Carrots
 Celery
 Cucumber
-Lettuce
 Peppers
-Raddish
+Spinach
 Tomatoes
