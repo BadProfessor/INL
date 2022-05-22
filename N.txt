@@ -2,12 +2,11 @@ Remove the Mac Disk from Desktop
 1. Android              -
 2. iOS                  -
 3. AWS                  -
-4. Azure                -
-5. JS                   -
+4. JS                   -
 ======================================================
 JS
+AWS
 Android/iOS
-AWS/Azure
 ======================================================
 Extensions:
 DotENV
