@@ -8,8 +8,6 @@ JS
 AWS
 Android/iOS
 ======================================================
-Feedback for N.
-======================================================
 Extensions:
 DotENV
 EditorConfig for VS Code
