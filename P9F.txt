@@ -27,6 +27,7 @@ Hazel Nuts
 Pumpkin Seeds
 
 Meat:
+Cod
 Chicken
 
 Fruits:
@@ -40,9 +41,9 @@ Raspberries
 
 Vegetables:
 Beets
-Carrots
 Celery
 Cucumber
+Green Beans
 Peppers
 Spinach
 Tomatoes
