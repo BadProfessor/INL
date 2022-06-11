@@ -8,7 +8,7 @@ Vinegar
 
 Dairy:
 Mozzarella
-Yogurt
+Yoghurt
 
 Drink:
 Coffee
@@ -19,6 +19,9 @@ Legumes:
 Beans
 Chickpeas
 Peas
+
+Meat:
+Chicken
 
 Nuts and Seeds:
 Almonds
@@ -36,10 +39,10 @@ Oranges
 Raspberries
 
 Vegetables:
-Beets
+Beetroot
 Celery
 Cucumber
-Green Beans
 Peppers
+Rhubarb
 Spinach
 Tomatoes
