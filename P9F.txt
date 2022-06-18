@@ -28,7 +28,6 @@ Fruits:
 Bananas
 Berries
 Limes
-Oranges
 
 Vegetables:
 Beetroot
