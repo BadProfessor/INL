@@ -20,14 +20,8 @@ Red Kidney Beans
 Meat:
 Chicken
 Cod
-Salmon
-
-Nuts and Seeds:
-Almonds
-Pumpkin Seeds
 
 Fruits:
-Bananas
 Berries
 Limes
 
@@ -38,5 +32,6 @@ Cucumber
 Ginger
 Peppers
 Rhubarb
+Rocket
 Spinach
 Tomatoes
