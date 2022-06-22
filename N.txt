@@ -18,6 +18,7 @@ HTML CSS Support
 Image preview
 Indenticator
 JavaScript Debugger (Nightly)
+Live Server
 Path Intellisense
 Prettier - Code formatter
 Tabnine AI Autocomplete

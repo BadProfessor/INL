@@ -2,9 +2,9 @@ body {
   min-width: none;
   min-height: noneem;
   background-color: rgb(255, 255, 255);
-  font: 400 1.125em/1.38 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif;;
+  font: 400 1.125em/1.38 system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
   color: rgb(255, 255, 255);
   -webkit-transform: none;
   -moz-transform: none;
@@ -96,7 +96,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
   .items .item {
     padding: 0.889em;
   }

@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+  'use strict';
 
   // React DevTools don't show labels currently
   function useStateWithLabel(initialValue, name) {
@@ -40,10 +40,10 @@
               <ReactTransitionGroup.CSSTransition
                 key={person.id}
                 classNames={{
-                  enter: "animated",
-                  enterActive: "zoomIn",
-                  exit: "animated",
-                  exitActive: "zoomOut",
+                  enter: 'animated',
+                  enterActive: 'zoomIn',
+                  exit: 'animated',
+                  exitActive: 'zoomOut',
                 }}
                 timeout={1000}
               >
@@ -60,21 +60,21 @@
     var titles = window.LMDirectory.titles;
 
     function updateName(evt) {
-      props.updateFormState({ key: "currentName", value: evt.target.value });
+      props.updateFormState({ key: 'currentName', value: evt.target.value });
     }
 
     function updateTitle(evt) {
-      props.updateFormState({ key: "currentTitle", value: evt.target.value });
+      props.updateFormState({ key: 'currentTitle', value: evt.target.value });
     }
 
     function updateIntern(evt) {
-      props.updateFormState({ key: "isIntern", value: evt.target.checked });
+      props.updateFormState({ key: 'isIntern', value: evt.target.checked });
     }
 
     function resetFilters() {
-      props.updateFormState({ key: "currentName", value: "" });
-      props.updateFormState({ key: "currentTitle", value: "" });
-      props.updateFormState({ key: "isIntern", value: false });
+      props.updateFormState({ key: 'currentName', value: '' });
+      props.updateFormState({ key: 'currentTitle', value: '' });
+      props.updateFormState({ key: 'isIntern', value: false });
     }
 
     return (
@@ -130,20 +130,20 @@
   function Directory(props) {
     var [visiblePeople, setVisiblePeople] = useStateWithLabel(
       [],
-      "visiblePeople"
+      'visiblePeople'
     );
-    var [jobTitles, setJobTitles] = useStateWithLabel([], "jobTitles");
-    var [currentName, setCurrentName] = useStateWithLabel("", "currentName");
-    var [currentTitle, setCurrentTitle] = useStateWithLabel("", "currentTitle");
-    var [isIntern, setIsIntern] = useStateWithLabel(false, "isIntern");
-    var [isLoaded, setIsLoaded] = useStateWithLabel(false, "isLoaded");
+    var [jobTitles, setJobTitles] = useStateWithLabel([], 'jobTitles');
+    var [currentName, setCurrentName] = useStateWithLabel('', 'currentName');
+    var [currentTitle, setCurrentTitle] = useStateWithLabel('', 'currentTitle');
+    var [isIntern, setIsIntern] = useStateWithLabel(false, 'isIntern');
+    var [isLoaded, setIsLoaded] = useStateWithLabel(false, 'isLoaded');
 
     // cache all people so we don't have to keep querying the data
     var [allPeople, setAllPeople] = React.useState([]);
 
     // Fetch the data we need on initial render
     React.useEffect(function () {
-      axios.get("./directory-data.json").then(function (response) {
+      axios.get('./directory-data.json').then(function (response) {
         setAllPeople(response.data.people);
         setVisiblePeople(response.data.people);
         setJobTitles(response.data.titles);
@@ -157,10 +157,10 @@
       var filteredPeople = allPeople.filter(function (person) {
         return (
           person.intern === isIntern &&
-          (currentName === "" ||
+          (currentName === '' ||
             person.name.toLowerCase().indexOf(currentName.toLowerCase()) !==
               -1) &&
-          (currentTitle === "" || person.title_cat === currentTitle)
+          (currentTitle === '' || person.title_cat === currentTitle)
         );
       });
 
@@ -169,13 +169,13 @@
 
     function updateFormState({ key, value }) {
       switch (key) {
-        case "currentName":
+        case 'currentName':
           setCurrentName(value);
           break;
-        case "currentTitle":
+        case 'currentTitle':
           setCurrentTitle(value);
           break;
-        case "isIntern":
+        case 'isIntern':
           setIsIntern(value);
           break;
       }
@@ -216,5 +216,5 @@
     );
   }
 
-  ReactDOM.render(<Directory />, document.getElementById("directory-root"));
+  ReactDOM.render(<Directory />, document.getElementById('directory-root'));
 })();
