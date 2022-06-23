@@ -8,6 +8,7 @@ Vinegar
 
 Dairy:
 Yoghurt
+Mozzarella
 
 Drink:
 Coffee
@@ -19,14 +20,13 @@ Red Kidney Beans
 
 Meat:
 Chicken
-Cod
+Salmon
 
 Fruits:
 Berries
 Limes
 
 Vegetables:
-Beetroot
 Celery
 Cucumber
 Ginger
