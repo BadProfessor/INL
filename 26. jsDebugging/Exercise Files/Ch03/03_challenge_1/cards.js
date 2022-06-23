@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+  'use strict';
 
   // Dealing a regular hand of cribbage, assuming two players
   var cribbageHandSize = 6;
@@ -10,7 +10,7 @@
    * Props: suit, rank
    */
   function Card(props) {
-    var color = props.suit === "h" || props.suit === "d" ? "red" : "black";
+    var color = props.suit === 'h' || props.suit === 'd' ? 'red' : 'black';
     var pip = getPip(props.suit);
 
     return (
@@ -40,7 +40,7 @@
     function redeal(evt) {
       evt.preventDefault();
 
-      const newHand = shuffleAndDeal(cribbageHandSize);
+      const newHand = shuffleAndDeal(handSize);
 
       setHand(newHand);
     }
@@ -93,7 +93,7 @@
   }
 
   // Render the Table on screen
-  ReactDOM.render(<Table />, document.getElementById("root"));
+  ReactDOM.render(<Table />, document.getElementById('root'));
 
   /*******************
    * Helper functions
@@ -105,8 +105,8 @@
    * Each object is a card with `rank` and `suit` properties
    */
   function getDeck() {
-    var ranks = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
-    var suits = ["h", "s", "d", "c"];
+    var ranks = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K'];
+    var suits = ['h', 's', 'd', 'c'];
 
     var deck = [];
 
@@ -130,15 +130,15 @@
    */
   function getPip(suit) {
     switch (suit) {
-      case "h":
-        return "♥";
-      case "d":
-        return "♦";
-      case "c":
-        return "♣";
-      case "s":
+      case 'h':
+        return '♥';
+      case 'd':
+        return '♦';
+      case 'c':
+        return '♣';
+      case 's':
       default:
-        return "♠";
+        return '♠';
     }
   }
 
@@ -154,7 +154,7 @@
 
     deck = shuffle(deck);
 
-    return deck.slice(handSize);
+    return deck.slice(0, handSize);
   }
 
   /**
