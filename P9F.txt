@@ -1,10 +1,10 @@
 Alcohol:
-Red Wine
+Rose Wine
 Whiskey
 
 Condiments:
 Olive Oil
-Vinegar
+Balsamic Vinegar
 
 Dairy:
 Yoghurt
