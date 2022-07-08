@@ -1,9 +1,8 @@
-1. Android              -
-2. iOS                  -
-3. AWS                  -
-4. Azure                -
-5. AEM                  -
-6. JS                   -
+1. AZ-104               -
+2. AWS                  -
+3. Android              -
+4. iOS                  -
+5. JS                   -
 ======================================================
 JS
 AWS/Azure
@@ -11,7 +10,6 @@ Android/iOS
 ======================================================
 Extensions:
 DotENV
-EditorConfig for VS Code
 ES7+ React/Redux/React-Native snippets
 ESLint
 HTML CSS Support
