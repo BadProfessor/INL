@@ -33,5 +33,4 @@ Ginger
 Peppers
 Rhubarb
 Rocket
-Spinach
 Tomatoes
