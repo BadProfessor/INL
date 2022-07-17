@@ -23,14 +23,19 @@ Chicken
 Salmon
 
 Fruits:
+Avocados
+Bananas
 Berries
+Grapefruit
 Limes
+Oranges
+Rhubarb
 
 Vegetables:
 Celery
 Cucumber
 Ginger
 Peppers
-Rhubarb
 Rocket
+Sweet Potatoes
 Tomatoes
