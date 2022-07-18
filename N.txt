@@ -1,12 +1,7 @@
 1. AZ-104               -
-2. AWS                  -
-3. Android              -
-4. iOS                  -
-5. JS                   -  
+2. JS                   -  
 ======================================================
-JS
-AWS/Azure
-Android/iOS
+Azure/JS
 ======================================================
 Extensions:
 DotENV
@@ -15,7 +10,6 @@ ESLint
 HTML CSS Support
 Indenticator
 JavaScript Debugger (Nightly)
-Live Server
 Path Intellisense
 Prettier - Code formatter
 Tabnine AI Autocomplete

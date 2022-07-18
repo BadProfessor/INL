@@ -257,3 +257,30 @@
 //   `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`
 // );
 // Object Methods
+
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   birthYear: 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven'],
+//   hasDriversLicense: true,
+//   calcAge: function () {
+//     this.age = 2037 - this.birthYear;
+//     return this.age;
+//   },
+
+//   getSummary: function () {
+//     return `${this.firstName} is a ${this.calcAge()}-years old ${
+//       jonas.job
+//     }, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`;
+//   },
+// };
+
+// console.log(jonas.calcAge());
+
+// console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
+
+// console.log(jonas.getSummary());
