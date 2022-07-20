@@ -17,8 +17,6 @@
   "editor.trimAutoWhitespace": false,
   "editor.wordWrap": "on",
 
-  "editorconfig.generateAuto": false,
-
   "emmet.excludeLanguages": ["markdown"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -70,6 +68,7 @@
   "security.workspace.trust.untrustedFiles": "open",
 
   "settingsSync.ignoredExtensions": [],
+  "settingsSync.ignoredSettings": [],
 
   "tabnine.experimentalAutoImports": false,
 
