@@ -1,15 +1,16 @@
-1. AZ-104               -
-2. JS                   -  
-======================================================
-Azure/JS
+1. AWS                  -
+2. AZ-104*              -
+3. Android              -
+4. iOS                  -
+5. JS*                  -
 ======================================================
 Extensions:
 DotENV
-ES7+ React/Redux/React-Native snippets
 ESLint
 HTML CSS Support
 Indenticator
 JavaScript Debugger (Nightly)
+JavaScript (ES6) code snippets
 Path Intellisense
 Prettier - Code formatter
 Tabnine AI Autocomplete
