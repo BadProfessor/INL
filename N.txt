@@ -3,7 +3,7 @@
 3. Android              -
 4. iOS                  -
 5. JS*                  -
-======================================================
+==============================================
 Extensions:
 DotENV
 ESLint
@@ -11,6 +11,7 @@ HTML CSS Support
 Indenticator
 JavaScript Debugger (Nightly)
 JavaScript (ES6) code snippets
+Live Server
 Path Intellisense
 Prettier - Code formatter
 Tabnine AI Autocomplete
