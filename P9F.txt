@@ -15,21 +15,12 @@ Coffee
 Tea
 Water
 
-Legumes:
-Red Kidney Beans
-
-Meat:
-Chicken
-Salmon
-
 Fruits:
-Avocados
 Bananas
 Berries
-Grapefruit
 Limes
-Oranges
 Rhubarb
+Soup
 
 Vegetables:
 Celery
@@ -37,5 +28,4 @@ Cucumber
 Ginger
 Peppers
 Rocket
-Sweet Potatoes
 Tomatoes
