@@ -6,13 +6,16 @@
 ==============================================
 Extensions:
 DotENV
+EditorConfig
 ESLint
+GitHub Pull Requests and Issues
 HTML CSS Support
 Indenticator
-JavaScript Debugger (Nightly)
 JavaScript (ES6) code snippets
+JavaScript Debugger (Nightly)
 Live Server
 Path Intellisense
 Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
+Thunder Client

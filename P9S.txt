@@ -1,16 +1,6 @@
-P90 V2 P90M
-1,2,3,4,5,6,7/Week 13 - 11/19 reps - 16 sets - 13 min cardio
-8,9,10,11,12,13,14/Week 14 - 12/20 reps - 16 sets - 14 min cardio
-15,16,17,18,19,20,21/Week 15 - 13/21 reps - 16 sets - 15 min cardio
-22,23,24,25,26,27,28/Week 16 - 14/22 reps - 16 sets - 16 min cardio
+P90 V2
+1,/Week 1 - 15/23 reps - 16 sets- 30 min cardio
 
-Day 1 - Sculpt 5/6 - Ab Ripper 200
-Day 2 - Sweat 5/6
-Day 3 - UML - Ab Ripper 200
-Day 4 - Cardio Intervals
-Day 5 - Plyometrics - Ab Ripper 200
-Day 6 - Core Cardio
-Day 7 - Power Stretch
 
 General:
 Day 1 - Chest
@@ -19,7 +9,21 @@ Day 3 - Shoulders
 Day 4 - Biceps
 Day 5 - Triceps
 Day 6 - Legs
-Day 7 - Cardio
+Day 7 - Stretch
+
+Power Half Hour
+1,2,3,4,5,6,7 / Week 1 - 8 reps/Weights - 4 sets
+8,9,10,11,12,13,14 / Week 2 - 9 reps/Weights - 5 sets
+15,16,17,18,19,20,21 / Week 3 - 10 reps/Weights - 6 sets
+22,23,24,25,26,27,28 / Week 4 - 11 reps/Weights - 7 sets
+
+Day 1 - Arm Toner
+Day 2 - Ab Burner
+Day 3 - Arm Toner
+Day 4 - Thigh Trimmer
+Day 5 - Arm Toner
+Day 6 - Bun Shaper
+Day 7 - Power Stretch
 
 P90 V1
 1,2,3,4,5,6,7/Week 5-12 reps/Weights-8 sets
@@ -40,16 +44,16 @@ Day 5 - Sculpt
 Day 6 - Fat Burner Express + Abs
 Day 7 - Power Stretch
 
-Power Half Hour
-1,2,3,4,5,6,7 / Week 1 - 8 reps/Weights - 4 sets
-8,9,10,11,12,13,14 / Week 2 - 9 reps/Weights - 5 sets
-15,16,17,18,19,20,21 / Week 3 - 10 reps/Weights - 6 sets
-22,23,24,25,26,27,28 / Week 4 - 11 reps/Weights - 7 sets
+P90M
+1,2,3,4,5,6,7/Week 13 - 11/19 reps - 16 sets - 13 min cardio
+8,9,10,11,12,13,14/Week 14 - 12/20 reps - 16 sets - 14 min cardio
+15,16,17,18,19,20,21/Week 15 - 13/21 reps - 16 sets - 15 min cardio
+22,23,24,25,26,27,28/Week 16 - 14/22 reps - 16 sets - 16 min cardio
 
-Day 1 - Arm Toner
-Day 2 - Ab Burner
-Day 3 - Arm Toner
-Day 4 - Thigh Trimmer
-Day 5 - Arm Toner
-Day 6 - Bun Shaper
+Day 1 - Sculpt 5/6 - Ab Ripper 200
+Day 2 - Sweat 5/6
+Day 3 - UML - Ab Ripper 200
+Day 4 - Cardio Intervals
+Day 5 - Plyometrics - Ab Ripper 200
+Day 6 - Core Cardio
 Day 7 - Power Stretch

@@ -20,7 +20,9 @@ Bananas
 Berries
 Limes
 Rhubarb
-Soup
+
+Legumes:
+Red Kidney Beans
 
 Vegetables:
 Celery
@@ -28,4 +30,5 @@ Cucumber
 Ginger
 Peppers
 Rocket
+Soup
 Tomatoes
