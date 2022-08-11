@@ -25,6 +25,7 @@ Grains:
 Oats
 
 Legumes:
+Chickpeas
 Red Kidney Beans
 
 Vegetables:
@@ -33,5 +34,4 @@ Cucumber
 Ginger
 Peppers
 Rocket
-Soup
 Tomatoes
