@@ -33,6 +33,7 @@ Celery
 Cucumber
 Garlic
 Ginger
+Green Beans
 Onions
 Peppers
 Rocket
