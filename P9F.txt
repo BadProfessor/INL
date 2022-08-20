@@ -31,7 +31,9 @@ Red Kidney Beans
 Vegetables:
 Celery
 Cucumber
+Garlic
 Ginger
+Onions
 Peppers
 Rocket
 Tomatoes
