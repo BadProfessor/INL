@@ -1,20 +1,8 @@
-1. JS                   -
-2. AWS                  -
-3. Azure                -
-4. Android              -
-5. iOS                  -
-=========================
-AZ-104
-=========================
-SC-900
-SC-300
-SC-200
-SC-400
-=========================
-AZ-204
-AZ-500
-AZ-305
-AZ-400
+1. Android              -
+2. iOS                  -
+3. AWS                  -
+4. Azure AD B2C         -
+5. JS                   -
 =========================
 Extensions:
 DotENV
@@ -31,3 +19,16 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
+=========================
+AZ-104
+=========================
+SC-900
+SC-300
+SC-200
+SC-400
+=========================
+AZ-204
+AZ-500
+AZ-305
+AZ-400
+=========================
