@@ -1,7 +1,7 @@
 1. Android              -
 2. iOS                  -
 3. AWS                  -
-4. Azure AD B2C         -
+4. SC-900               -
 5. JS                   -
 =========================
 Extensions:
@@ -20,13 +20,13 @@ Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
 =========================
-AZ-104
-=========================
 SC-900
+=========================
 SC-300
 SC-200
 SC-400
 =========================
+AZ-104
 AZ-204
 AZ-500
 AZ-305
