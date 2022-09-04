@@ -16,8 +16,10 @@ Tea
 Water
 
 Fruits:
+Avocado
 Bananas
 Berries
+Ginger
 Limes
 Rhubarb
 
@@ -28,11 +30,13 @@ Legumes:
 Chickpeas
 Red Kidney Beans
 
+Meat:
+Chicken
+
 Vegetables:
-Celery
-Cucumber
+Asparagus
+Courgette
 Garlic
-Ginger
 Green Beans
 Onions
 Peppers
