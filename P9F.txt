@@ -36,7 +36,6 @@ Chicken
 
 Vegetables:
 Asparagus
-Courgette
 Garlic
 Green Beans
 Onions
