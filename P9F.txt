@@ -36,9 +36,11 @@ Chicken
 
 Vegetables:
 Asparagus
+Celery
 Garlic
 Green Beans
+Mushrooms
 Onions
 Peppers
-Rocket
+Salad
 Tomatoes
