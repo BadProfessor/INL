@@ -1,5 +1,5 @@
-1. SC-900               -
-2. JS                   -
+1. JS                   -
+2. AWS                  -
 =========================
 Extensions:
 DotENV
@@ -17,15 +17,5 @@ Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
 =========================
-SC-900
-=========================
-SC-300
-SC-200
-SC-400
-=========================
-AZ-104
-AZ-204
-AZ-500
-AZ-305
-AZ-400
-=========================
+SAA-C03
+SAP-C01
