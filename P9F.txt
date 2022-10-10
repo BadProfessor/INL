@@ -7,7 +7,7 @@ Balsamic Vinegar
 Olive Oil
 
 Dairy:
-Yoghurt
+Yogurt
 Mozzarella
 
 Drink:
@@ -39,7 +39,6 @@ Vegetables:
 Asparagus
 Celery
 Garlic
-Green Beans
 Mushrooms
 Onions
 Peppers
