@@ -13,10 +13,8 @@ Mozzarella
 Drink:
 Coffee
 Tea
-Water
 
 Fruits:
-Avocado
 Bananas
 Berries
 Ginger
@@ -32,16 +30,12 @@ Legumes:
 Chickpeas
 Red Kidney Beans
 
-Meat:
-Chicken
-
 Nuts and Seeds:
 Almonds
 Pumpkin seeds
 
 Vegetables:
 Celery
-Courgetes
 Garlic
 Mushrooms
 Onions
