@@ -1,0 +1,39 @@
+Manage Azure subscriptions
+--------------------------
+
+https://docs.microsoft.com/en-us/azure/billing/billing-add-change-azure-subscription-administrator
+
+https://docs.microsoft.com/en-us/azure/governance/policy/overview
+
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles
+
+Analyze resource utilization and consumption
+--------------------------------------------
+
+https://docs.microsoft.com/en-us/azure/azure-monitor/overview
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/platform/data-platform
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/platform/alerts-metric?toc=%2Fazure%2Fazure-monitor%2Ftoc.json
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/platform/alerts-dynamic-thresholds
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/platform/action-groups
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/platform/alerts-unified-log
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/log-query/log-query-overview
+
+https://docs.microsoft.com/de-de/azure/azure-monitor/platform/alert-management-solution
+
+
+Manage Resource Groups
+----------------------
+
+https://docs.microsoft.com/de-de/azure/governance/policy/tutorials/create-and-manage
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-move-resources
