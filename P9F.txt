@@ -18,13 +18,13 @@ Fruits:
 Bananas
 Berries
 Ginger
+Grapefruit
 Limes
 Oranges
 Rhubarb
 
 Grains:
 Oats
-Wholemeal tortillas
 
 Legumes:
 Chickpeas
