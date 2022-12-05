@@ -1,6 +1,3 @@
-1. JS                   -
-2. AWS                  +
-=========================
 Extensions:
 DotENV
 EditorConfig
@@ -17,5 +14,3 @@ Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
 =========================
-SAA-C03
-SAP-C01
