@@ -20,11 +20,11 @@ Berries
 Ginger
 Grapefruit
 Limes
-Oranges
 Rhubarb
 
 Grains:
 Oats
+Rice
 
 Legumes:
 Chickpeas
