@@ -15,6 +15,7 @@ Coffee
 Tea
 
 Fruits:
+Apples
 Bananas
 Berries
 Ginger
@@ -25,10 +26,14 @@ Rhubarb
 Grains:
 Oats
 Rice
+Tortilla
 
 Legumes:
 Chickpeas
 Red Kidney Beans
+
+Meat:
+Chicken
 
 Nuts and Seeds:
 Almonds
@@ -41,4 +46,5 @@ Mushrooms
 Onions
 Peppers
 Salad
+Spinach
 Tomatoes
