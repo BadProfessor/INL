@@ -7,7 +7,9 @@ P90 V2
 29,30,31,32,33,34,35/Week 5-12/28 reps-4 sets-30 min cardio
 36,37,38,39,40,41,42/Week 6-13/29 reps-4 sets-30 min cardio
 43,44,45,46,47,48,49/Week 7-14/30 reps-4 sets-90 min cardio
-50,51,52,53,54,/Week 8-15/31 reps-4 sets-90 min cardio
+50,51,52,53,54,55,56/Week 8-15/31 reps-4 sets-90 min cardio
+
+57/Week 9-16/32 reps-4 sets-90 min cardio
 
 Everyday Full-Body:
 Chest-Back-Shoulders-Biceps-Triceps-Abs-Legs

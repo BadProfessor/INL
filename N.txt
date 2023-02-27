@@ -14,6 +14,8 @@ Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
 =========================
+AZ-305
+=========================
 Azure
 AWS
 GCP
