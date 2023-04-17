@@ -18,8 +18,8 @@ Apples
 Bananas
 Berries
 Ginger
-Grapefruit
 Limes
+Oranges
 
 Grains:
 Oats
