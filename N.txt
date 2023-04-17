@@ -13,6 +13,7 @@ Prettier - Code formatter
 Tabnine AI Autocomplete
 Theme - Oceanic Next
 Thunder Client
+TODO Highlight
 =========================
 AZ-305
 =========================

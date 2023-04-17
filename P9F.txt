@@ -32,12 +32,9 @@ Legumes:
 Chickpeas
 Red Kidney Beans
 
-Meat:
-Chicken
-
 Nuts and Seeds:
 Almonds
-Pumpkin seeds
+Pumpkin seeds 
 
 Vegetables:
 Celery
