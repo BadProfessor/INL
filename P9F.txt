@@ -18,6 +18,7 @@ Apples
 Bananas
 Berries
 Limes
+Lemons
 Oranges
 
 Grains:
