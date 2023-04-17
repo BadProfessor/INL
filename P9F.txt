@@ -21,7 +21,6 @@ Berries
 Ginger
 Grapefruit
 Limes
-Rhubarb
 
 Grains:
 Oats
@@ -37,11 +36,9 @@ Almonds
 Pumpkin seeds 
 
 Vegetables:
-Celery
 Garlic
 Mushrooms
 Onions
 Peppers
-Salad
-Spinach
+Rocket
 Tomatoes
