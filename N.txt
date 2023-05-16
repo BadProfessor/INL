@@ -15,9 +15,5 @@ Theme - Oceanic Next
 Thunder Client
 TODO Highlight
 =========================
-AZ-305
+AZ-400
 =========================
-Azure
-AWS
-GCP
-Apple
