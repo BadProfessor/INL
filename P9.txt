@@ -1,9 +1,9 @@
 Everyday Full-Body:
-Chest-Back-Shoulders-Biceps-Triceps-Abs-Legs
+Chest-Abs-Legs-Back-Shoulders-Biceps-Triceps
 
 P90 V2
 1,2,3,4,5,6,7/ Week 1 - 8 reps - 4 sets
-/ Week 1 - 9 reps - 4 sets
+1,/ Week 2 - 9 reps - 4 sets
 
 Power Half Hour
 01,02,03,04,05,06,07 / Week 1 - 8 reps - 4 sets
