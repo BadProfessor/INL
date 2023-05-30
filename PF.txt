@@ -6,9 +6,6 @@ Condiments:
 Balsamic Vinegar
 Olive Oil
 
-Dairy:
-Yogurt
-
 Drink:
 Coffee
 Tea
@@ -26,10 +23,14 @@ Chickpeas
 Red Kidney Beans
 
 Vegetables:
+Aubergines
+Celery
+Courgettes
 Garlic
 Ginger
 Mushrooms
 Onions
 Peppers
 Rocket
+Salad
 Tomatoes
