@@ -1,7 +1,3 @@
-Alcohol:
-Rosé
-Whiskey
-
 Condiments:
 Balsamic Vinegar
 Olive Oil
@@ -14,13 +10,12 @@ Fruits:
 Apples
 Bananas
 Berries
+Grapefruit
 Limes
-Lemons
-Oranges
 
-Legumes:
-Chickpeas
-Red Kidney Beans
+Protein:
+Chicken
+Eggs
 
 Vegetables:
 Aubergines
