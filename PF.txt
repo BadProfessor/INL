@@ -12,20 +12,18 @@ Bananas
 Berries
 Grapefruit
 Limes
+Rhubarb
 
 Protein:
 Chicken
 Eggs
 
 Vegetables:
-Aubergines
 Celery
-Courgettes
 Garlic
 Ginger
 Mushrooms
 Onions
 Peppers
-Rocket
 Salad
 Tomatoes
