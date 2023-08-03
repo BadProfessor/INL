@@ -22,7 +22,6 @@ Vegetables:
 Celery
 Garlic
 Ginger
-Mushrooms
 Onions
 Peppers
 Salad
