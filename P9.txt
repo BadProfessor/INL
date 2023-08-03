@@ -7,7 +7,7 @@ P90 V2
 15,16,17,18,19,20,21/ Week 3 - 10 reps
 22,23,24,25,26,27,28/ Week 4 - 11 reps
 
-29,30,/ Week 5 - 12 reps
+29,30,31,/ Week 5 - 12 reps
 
 Power Half Hour
 01,02,03,04,05,06,07 / Week 1 - 8 reps - 4 sets
