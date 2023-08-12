@@ -7,19 +7,27 @@ Coffee
 Tea
 
 Fruits:
-Apples
-Bananas
-Berries
-Grapefruit
+Blackberries
+Lemon
 Limes
+Olives
+Raspberries
+Strawberries
 Rhubarb
 
 Protein:
 Chicken
 Eggs
 
+Snack:
+Almonds
+Hazelnuts
+Peanuts
+Pumpkin Seeds
+
 Vegetables:
 Celery
+Cucumber
 Garlic
 Ginger
 Onions
