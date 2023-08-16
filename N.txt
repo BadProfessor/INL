@@ -15,8 +15,12 @@ Theme - Oceanic Next
 Thunder Client
 TODO Highlight
 =========================
-AZ-400
+AWS CLF-C01
 =========================
+AWS SAA-C03
+AWS SAP-C02
+=========================
+AZ-400
 AZ-500
 SC-100
 AI-900
