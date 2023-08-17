@@ -18,6 +18,7 @@ Rhubarb
 Protein:
 Chicken
 Eggs
+Yogurt
 
 Snack:
 Almonds
