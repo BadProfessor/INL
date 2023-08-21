@@ -8,15 +8,12 @@ Tea
 
 Fruits:
 Blackberries
-Lemon
 Limes
 Olives
 Raspberries
-Strawberries
 Rhubarb
 
 Protein:
-Chicken
 Eggs
 Yogurt
 
