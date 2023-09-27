@@ -16,6 +16,7 @@ Rhubarb
 Protein:
 Eggs
 Yogurt
+Puddings
 
 Snack:
 Almonds
