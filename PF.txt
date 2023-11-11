@@ -1,6 +1,7 @@
 Condiments:
 Balsamic Vinegar
 Olive Oil
+Soya sauce
 
 Drink:
 Coffee
