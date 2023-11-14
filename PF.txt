@@ -1,7 +1,6 @@
 Condiments:
 Balsamic Vinegar
 Olive Oil
-Soya sauce
 
 Drink:
 Coffee
@@ -17,7 +16,6 @@ Rhubarb
 Protein:
 Eggs
 Yogurt
-Puddings
 
 Snack:
 Almonds
@@ -29,6 +27,6 @@ Celery
 Cucumber
 Ginger
 Peppers
-Salad
+Rocket
 Snap Peas
 Tomatoes
