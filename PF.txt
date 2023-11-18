@@ -26,6 +26,6 @@ Celery
 Cucumber
 Ginger
 Peppers
-Rocket
+Salat
 Snap Peas
 Tomatoes
