@@ -8,6 +8,7 @@ Tea
 
 Fruits:
 Blackberries
+Lemons
 Limes
 Olives
 Raspberries
