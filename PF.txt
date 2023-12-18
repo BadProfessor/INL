@@ -10,7 +10,6 @@ Fruits:
 Blackberries
 Lemons
 Limes
-Olives
 Raspberries
 
 Protein:
