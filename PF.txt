@@ -7,24 +7,26 @@ Coffee
 Tea
 
 Fruits:
+Blueberries
 Blackberries
+Grapefruit
 Lemons
 Limes
 Raspberries
+Strawberries
 
 Protein:
 Yogurt
-Pudding
 
 Snack:
 Almonds
 Pumpkin Seeds
 
 Vegetables:
-Carrots
 Celery
 Cucumber
 Ginger
+Green beans
+Lettuce
 Peppers
-Salad
 Tomatoes
