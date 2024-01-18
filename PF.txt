@@ -2,31 +2,62 @@ Condiments:
 Balsamic Vinegar
 Olive Oil
 
+Dessert:
+Cocoa
+Dark Chocolate
+
 Drink:
 Coffee
 Tea
+Red Wine
+Water
+
+Grains:
+Brown rice
+Low sugar Granola
+Oatmeal
+Wholegrain pasta
 
 Fruits:
-Blueberries
-Blackberries
+Apples
+Bananas
+Berries
 Grapefruit
 Lemons
 Limes
-Raspberries
-Strawberries
+Mangoes
+Oranges
+Pineapple
+Prunes
 
 Protein:
-Yogurt
+Chicken
+Egg Whites
+Herring
+Mackerel
+Salmon
+Sardines
+Tuna
+Yoghurt
 
 Snack:
 Almonds
 Pumpkin Seeds
 
 Vegetables:
+Avocados
+Beans
+Carrots
 Celery
 Cucumber
+Garlic
 Ginger
-Green beans
+Leeks
 Lettuce
+Mushrooms
+Olives
+Onions
 Peppers
+Sugar Snap
+Sweet Potatoes
 Tomatoes
