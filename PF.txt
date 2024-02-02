@@ -13,25 +13,21 @@ Red Wine
 Water
 
 Grains:
-Brown rice
-Granola
 Oatmeal
 Pasta
+Rice
 
 Fruits:
 Apples
 Bananas
 Berries
-Grapefruit
 Lemons
 Limes
 Mangoes
 Oranges
 Pineapple
-Prunes
 
 Protein:
-Chia Seeds
 Black Beans
 Chickpeas
 Kidney Beans
@@ -46,7 +42,6 @@ Hazelnuts
 Pumpkin Seeds
 
 Vegetables:
-Avocados
 Carrots
 Celery
 Cucumber
@@ -58,6 +53,5 @@ Mushrooms
 Olives
 Onions
 Peppers
-Sugar Snap
 Sweet Potatoes
 Tomatoes
