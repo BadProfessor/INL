@@ -1,24 +1,8 @@
 Everyday Full-Body:
 Chest-Abs-Triceps-Legs-Back-Shoulders-Biceps
 
-P90 V2
-1,2,3,4,5,6,7        / Week 1 - 8 reps
-8,9,10,11,12,13,14   / Week 2 - 9 reps
-15,16,17,18,19,20,21 / Week 3 - 10 reps
-22,23,24,25,26,27,28 / Week 4 - 11 reps
-
-29,30,31,32,33,34,35 / Week 5 - 12 reps
-36,37,38,39,40,41,42 / Week 6 - 13 reps
-43,44,45,46,47,48,49 / Week 7 - 14 reps
-50,51,52,53,54,55,56 / Week 8 - 15 reps
-
- / Week 9 - 16 reps
-
 Power Half Hour
-01,02,03,04,05,06,07 / Week 1 - 8 reps - 4 sets
-08,09,10,11,12,13,14 / Week 2 - 9 reps - 5 sets
-15,16,17,18,19,20,21 / Week 3 - 10 reps - 6 sets
-22,23,24,25,26,27,28 / Week 4 - 11 reps - 7 sets
+0, / Week 1
 
 Day 1 - Arm Toner
 Day 2 - Ab Burner
@@ -29,15 +13,6 @@ Day 6 - Bun Shaper
 Day 7 - Power Stretch
 
 P90 V1
-1,2,3,4,5,6,7/Week 5-12 reps/Weights-8 sets
-8,9,10,11,12,13,14/Week 6-13 reps/Weights-9 sets
-15,16,17,18,19,20,21/Week 7-14 reps-10 sets-7 min cardio
-22,23,24,25,26,27,28/Week 8-15 reps-11 sets-8 min cardio
-
-29,30,31,32,33,34,35/Week 9-16 reps-12 sets-9 min cardio
-36,37,38,39,40,41,42/Week 10 - 8/16 reps - 13 sets - 10 min cardio
-43,44,45,46,47,48,49/Week 11 - 9/17 reps - 14 sets - 11 min cardio
-50,51,52,53,54,55,56/Week 12 - 10/18 reps - 15 sets - 12 min cardio
 
 Day 1 - Sculpt
 Day 2 - Sweat + Abs
@@ -48,10 +23,6 @@ Day 6 - Fat Burner Express + Abs
 Day 7 - Power Stretch
 
 P90M
-1,2,3,4,5,6,7/Week 13 - 11/19 reps - 16 sets - 13 min cardio
-8,9,10,11,12,13,14/Week 14 - 12/20 reps - 16 sets - 14 min cardio
-15,16,17,18,19,20,21/Week 15 - 13/21 reps - 16 sets - 15 min cardio
-22,23,24,25,26,27,28/Week 16 - 14/22 reps - 16 sets - 16 min cardio
 
 Day 1 - Sculpt 5/6 - Ab Ripper 200
 Day 2 - Sweat 5/6
@@ -60,3 +31,5 @@ Day 4 - Cardio Intervals
 Day 5 - Plyometrics - Ab Ripper 200
 Day 6 - Core Cardio
 Day 7 - Power Stretch
+
+P90 V2

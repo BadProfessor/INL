@@ -12,27 +12,16 @@ Tea
 Red Wine
 Water
 
-Grains:
-Oatmeal
-Pasta
-Rice
-
 Fruits:
 Apples
 Bananas
 Berries
 Lemons
 Limes
-Mangoes
 Oranges
-Pineapple
 
 Protein:
-Black Beans
-Chickpeas
-Kidney Beans
-Lentils
-Peas
+Legumes
 Yoghurt
 
 Snack:
@@ -42,16 +31,10 @@ Hazelnuts
 Pumpkin Seeds
 
 Vegetables:
-Carrots
 Celery
 Cucumber
-Garlic
 Ginger
-Leeks
 Lettuce
-Mushrooms
 Olives
-Onions
 Peppers
-Sweet Potatoes
 Tomatoes
