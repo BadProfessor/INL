@@ -19,6 +19,7 @@ Berries
 Lemons
 Limes
 Oranges
+Rhubbarb
 
 Protein:
 Legumes
