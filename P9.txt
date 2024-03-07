@@ -14,12 +14,12 @@ Day 7 - Power Stretch
 
 P90 V1
 
-Day 1 - Sculpt
-Day 2 - Sweat + Abs
-Day 3 - Sculpt
-Day 4 - Sweat + Abs
-Day 5 - Sculpt
-Day 6 - Fat Burner Express + Abs
+Day 1 - Sculpt + Abs
+Day 2 - Sweat
+Day 3 - Sculpt + Abs
+Day 4 - Sweat
+Day 5 - Sculpt + Abs
+Day 6 - Fat Burner Express
 Day 7 - Power Stretch
 
 P90M
@@ -33,3 +33,11 @@ Day 6 - Core Cardio
 Day 7 - Power Stretch
 
 P90 V2
+
+Day 1 - Sculpt + Abs
+Day 2 - Sweat
+Day 3 - Sculpt + Abs
+Day 4 - Sweat
+Day 5 - Sculpt + Abs
+Day 6 - Saturday Special
+Day 7 - Power Stretch
