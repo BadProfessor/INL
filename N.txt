@@ -1,4 +1,5 @@
 Extensions:
+
 DotENV
 EditorConfig
 ESLint
