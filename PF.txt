@@ -2,40 +2,40 @@ Condiments:
 Balsamic Vinegar
 Olive Oil
 
-Dessert:
-Cocoa
-Dark Chocolate
-
 Drink:
 Coffee
 Tea
-Red Wine
 Water
 
 Fruits:
-Apples
-Bananas
 Berries
 Lemons
 Limes
-Oranges
 Rhubbarb
 
 Protein:
-Legumes
+Fish
+Protein Bars
+Tofu
 Yoghurt
 
 Snack:
 Almonds
 Cashews
+Cocoa
+Dark Chocolate
 Hazelnuts
+Nut Butter
 Pumpkin Seeds
 
 Vegetables:
+Carrots
 Celery
 Cucumber
 Ginger
 Lettuce
 Olives
+Snap Peas
 Peppers
+Radishes
 Tomatoes
