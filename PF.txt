@@ -15,7 +15,6 @@ Rhubbarb
 
 Protein:
 Fish
-Protein Bars
 Tofu
 Yoghurt
 
