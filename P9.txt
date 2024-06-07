@@ -36,7 +36,7 @@ Day 6 - Core Cardio
 Day 7 - Power Stretch
 
 P90 V2
-1,/ Week 1
+1,2,3,4,/ Week 1
 
 Day 1 - Sculpt + Abs
 Day 2 - Sweat
