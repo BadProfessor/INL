@@ -17,10 +17,10 @@ Thunder Client
 TODO Highlight
 =========================
 AZ-400: Designing and Implementing Microsoft DevOps Solutions
-AZ-700: Designing and Implementing Microsoft Azure Networking Solutions
 AZ-800: Administering Windows Server Hybrid Core Infrastructure
 AZ-801: Configuring Windows Server Hybrid Advanced Services
+AZ-140: Configuring and Operating Microsoft Azure Virtual Desktop
+AZ-700: Designing and Implementing Microsoft Azure Networking Solutions
 AZ-500: Microsoft Azure Security Technologies
 AZ-204: Developing Solutions for Microsoft Azure
-AZ-120: Planning and Administering Azure for SAP Workloads
-AZ-140: Configuring and Operating Microsoft Azure Virtual Desktop
+AZ-120: Planning and Administering Azure for SAP Workloadse
