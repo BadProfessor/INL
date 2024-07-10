@@ -16,11 +16,18 @@ Theme - Oceanic Next
 Thunder Client
 TODO Highlight
 =========================
-AZ-400: Designing and Implementing Microsoft DevOps Solutions
+
+AZ-500: Azure Security Engineer Associate
+SC-100: Microsoft Cybersecurity Architect
+SC-900: Security, Compliance, and Identity Fundamentals
+SC-200: Security Operations Analyst Associate
+SC-300: Identity and Access Administrator Associate
+SC-400: Information Protection and Compliance Administrator Associate
+
+AZ-120: Azure for SAP Workloads Specialty
+AZ-140: Azure Virtual Desktop Specialty
+AZ-204: Azure Developer Associate
+AZ-700: Azure Network Engineer Associate
 AZ-800: Administering Windows Server Hybrid Core Infrastructure
 AZ-801: Configuring Windows Server Hybrid Advanced Services
-AZ-140: Configuring and Operating Microsoft Azure Virtual Desktop
-AZ-700: Designing and Implementing Microsoft Azure Networking Solutions
-AZ-500: Microsoft Azure Security Technologies
-AZ-204: Developing Solutions for Microsoft Azure
-AZ-120: Planning and Administering Azure for SAP Workloadse
+
