@@ -3,7 +3,7 @@ Extensions:
 DotENV
 EditorConfig
 ESLint
-GitHub Pull Requests and Issues
+GitHub Pull Requests
 HTML CSS Support
 Indenticator
 JavaScript (ES6) code snippets
