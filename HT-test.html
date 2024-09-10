@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Prototype</title>
+    <style>
+      body {
+        font-family: 'Roboto', Arial, sans-serif;
+        background-color: #121212;
+        color: #e0e0e0;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+        text-align: center;
+        padding: 1em;
+      }
+      nav a {
+        margin: 0 15px;
+        color: #e0e0e0;
+        text-decoration: none;
+      }
+      nav a.disabled {
+        color: #555555;
+        pointer-events: none;
+      }
+      .container {
+        padding: 20px;
+      }
+      .button {
+        background-color: #7ed321;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 10px 0;
+      }
+      .button:hover {
+        background-color: #6bc11e;
+      }
+      .card {
+        background-color: #1f1f1f;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .card h3 {
+        margin-top: 0;
+      }
+      .product-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Gaming Products Store</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="#" class="disabled">About Us</a>
+        <a href="#" class="disabled">Contact Us</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Homepage -->
+      <div id="homepage">
+        <h2>Featured Products</h2>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Product 1"
+            class="product-image"
+          />
+          <h3>Product 1</h3>
+          <p>Price: $100</p>
+          <a href="product.html" class="button">View Product</a>
+        </div>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Product 2"
+            class="product-image"
+          />
+          <h3>Product 2</h3>
+          <p>Price: $150</p>
+          <a href="product.html" class="button">View Product</a>
+        </div>
+      </div>
+
+      <!-- Product Page -->
+      <div id="productpage" style="display: none">
+        <h2>Product Details</h2>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Product 1"
+            class="product-image"
+          />
+          <h3>Product 1</h3>
+          <p>Price: $100</p>
+          <p>Description: This is a great product.</p>
+          <a href="checkout.html" class="button">Add to Cart</a>
+        </div>
+      </div>
+
+      <!-- Checkout Page -->
+      <div id="checkoutpage" style="display: none">
+        <h2>Checkout</h2>
+        <div class="card">
+          <h3>Product 1</h3>
+          <p>Price: $100</p>
+          <a href="index.html" class="button">Place Order</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 Gaming Products Store</p>
+    </footer>
+
+    <script>
+      // Simple navigation script
+      document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          document
+            .querySelectorAll('.container > div')
+            .forEach(div => (div.style.display = 'none'));
+          document.querySelector(
+            link.getAttribute('href').replace('.html', 'page')
+          ).style.display = 'block';
+        });
+      });
+
+      // Show homepage by default
+      document.getElementById('homepage').style.display = 'block';
+    </script>
+  </body>
+</html>

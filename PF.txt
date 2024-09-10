@@ -11,7 +11,8 @@ Berries
 
 Protein:
 Fish
-Pudding
+Mozzarella
+Quark
 Tofu
 
 Snack:
@@ -24,6 +25,6 @@ Celery
 Carrots
 Cucumber
 Lettuce
-Snap Peas
+Mushrooms
 Peppers
 Tomatoes
