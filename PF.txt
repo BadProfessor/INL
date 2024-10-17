@@ -4,12 +4,12 @@ Olive Oil
 
 Drink:
 Tea
-Water
 
 Fruits:
 Berries
 
 Protein:
+Eggs
 Fish
 Mozzarella
 Quark
@@ -21,7 +21,9 @@ Nuts
 Seeds
 
 Vegetables:
+Cabbage
 Carrots
+Conserved Veggies
 Cucumber
 Garlic
 Lettuce
