@@ -7,12 +7,14 @@ Tea
 
 Fruits:
 Berries
+Lemons
+Limes
 
 Protein:
+Cottage cheese
 Eggs
 Fish
-Mozzarella
-Quark
+Yoghurt
 Tofu
 
 Snack:
@@ -30,4 +32,5 @@ Lettuce
 Mushrooms
 Onions
 Peppers
+Soups
 Tomatoes
