@@ -11,10 +11,9 @@ Lemons
 Limes
 
 Protein:
-Cottage cheese
 Eggs
 Fish
-Yoghurt
+Pudding
 Tofu
 
 Snack:
@@ -23,10 +22,8 @@ Nuts
 Seeds
 
 Vegetables:
-Cabbage
 Carrots
 Conserved Veggies
-Cucumber
 Garlic
 Lettuce
 Mushrooms
