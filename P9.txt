@@ -1,7 +1,7 @@
 P90 V2
-1,                   Week 1
-              Week 2
-            Week 3
+Week 1
+Week 2
+Week 3
 
 
 Day 1 - Sculpt + Abs
